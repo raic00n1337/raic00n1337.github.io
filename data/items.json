@@ -81,7 +81,7 @@
    "core_terms": [
     "c-uas"
    ],
-   "score_raw": 51.99,
+   "score_raw": 51.98,
    "score": 58,
    "corroboration": 2,
    "also_in": [
@@ -333,7 +333,7 @@
    "core_terms": [
     "counter-uas"
    ],
-   "score_raw": 18.43,
+   "score_raw": 18.42,
    "score": 18,
    "corroboration": 1,
    "also_in": [],
@@ -366,7 +366,7 @@
    "core_terms": [
     "counter-drone"
    ],
-   "score_raw": 23.2,
+   "score_raw": 23.19,
    "score": 23,
    "corroboration": 1,
    "also_in": [],
@@ -722,7 +722,7 @@
    "core_terms": [
     "counter-uas"
    ],
-   "score_raw": 18.25,
+   "score_raw": 18.24,
    "score": 18,
    "corroboration": 1,
    "also_in": [],
@@ -1040,7 +1040,7 @@
    "core_terms": [
     "drohnenabwehr"
    ],
-   "score_raw": 44.04,
+   "score_raw": 44.03,
    "score": 44,
    "corroboration": 1,
    "also_in": [],
@@ -1166,7 +1166,7 @@
    "core_terms": [
     "counter-uas"
    ],
-   "score_raw": 42.77,
+   "score_raw": 42.76,
    "score": 61,
    "corroboration": 5,
    "also_in": [
@@ -1855,7 +1855,7 @@
    "core_terms": [
     "counter-drone"
    ],
-   "score_raw": 20.85,
+   "score_raw": 20.84,
    "score": 21,
    "corroboration": 1,
    "also_in": [],
@@ -2737,7 +2737,7 @@
    "core_terms": [
     "drohnenabwehr"
    ],
-   "score_raw": 16.2,
+   "score_raw": 16.19,
    "score": 22,
    "corroboration": 2,
    "also_in": [
@@ -3617,6 +3617,39 @@
    "ai_review": null,
    "verdict": {
     "kern": "Programme & Verbände – kein erkennbarer Bezug zu unseren Schutzobjekten; von 4 Quellen gemeldet.",
+    "bedeutung": "Kein Handlungsbedarf erkennbar.",
+    "einstufung": "beobachten",
+    "konfidenz": "regelbasiert"
+   }
+  },
+  {
+   "id": "a700ba99c8816ddc",
+   "title": "Deutschland braucht endlich eine wirksame Drohnenabwehr - gruene-bundestag.de",
+   "summary": "Deutschland braucht endlich eine wirksame Drohnenabwehr gruene-bundestag.de",
+   "link": "https://news.google.com/rss/articles/CBMiswFBVV95cUxQWks3TGlyNGJLdzVuUHVXdTZyM2ZtbjRlcnl2Q25EZkxOeUMwREJFRDdxTnU5UnR0RmtwOHFsSDRNeXlaZjVvNFFPVGJWV1RuMnByNFM3UFExLWZ0c1F2b3diTmh5SUt0R2ktWTdTc3gwZjdISkVjVi15Wm5GMU96NVczVGY1Q0YyRFFhT1FPQVpkVENQTjcwWFYzMkdvQlhGbG5rRjNDeElMN1BmSkM0SkVvUQ?oc=5",
+   "source": "Google News DE – Beschaffung/Recht",
+   "source_weight": 0.9,
+   "published": "2026-08-20T07:00:00+00:00",
+   "category": "Regulatorik & Recht",
+   "categories": [
+    "Regulatorik & Recht"
+   ],
+   "vendors": [],
+   "business_tags": [],
+   "signals": [
+    "bundestag"
+   ],
+   "core_terms": [
+    "drohnenabwehr"
+   ],
+   "score_raw": 22.17,
+   "score": 22,
+   "corroboration": 1,
+   "also_in": [],
+   "first_seen": "2026-09-04T12:50:25.924960+00:00",
+   "ai_review": null,
+   "verdict": {
+    "kern": "Regulatorik & Recht – kein erkennbarer Bezug zu unseren Schutzobjekten.",
     "bedeutung": "Kein Handlungsbedarf erkennbar.",
     "einstufung": "beobachten",
     "konfidenz": "regelbasiert"
@@ -4893,6 +4926,41 @@
    }
   },
   {
+   "id": "8ac0647f013b4c8f",
+   "title": "Drohnenabwehr: Moderne Technik muss jetzt beschafft werden - dpolg-bundespolizei.de",
+   "summary": "Drohnenabwehr: Moderne Technik muss jetzt beschafft werden dpolg-bundespolizei.de",
+   "link": "https://news.google.com/rss/articles/CBMirAFBVV95cUxNV2tGaC1YZG1BZ1d2Sm8wOWZMbGhKc0ZfSmFJa29hU3FBVzhzcGZPY1drQVJaSFVZWW90aXczbzMzTlZ2bU5aclA5WkMwZGt5ZkhqVkRrZjVDZ2V5RkM1MUE2c094Rm9WX1hIRUpjWVN3cVZNMGU4QWZxYmw2ajFNS3lPNTN5UkJnX3ZEXzdnYU1yWTNQdzNWaVRQTWJUNldzRV9KdGtRcFRPRnln?oc=5",
+   "source": "Google News DE – Beschaffung/Recht",
+   "source_weight": 0.9,
+   "published": "2026-08-11T15:03:38+00:00",
+   "category": "Programme & Verbände",
+   "categories": [
+    "Programme & Verbände"
+   ],
+   "vendors": [],
+   "business_tags": [],
+   "signals": [
+    "bundespolizei"
+   ],
+   "core_terms": [
+    "drohnenabwehr"
+   ],
+   "score_raw": 16.57,
+   "score": 23,
+   "corroboration": 2,
+   "also_in": [
+    "Google News DE – Drohnenabwehr"
+   ],
+   "first_seen": "2026-09-04T12:50:25.922803+00:00",
+   "ai_review": null,
+   "verdict": {
+    "kern": "Programme & Verbände – kein erkennbarer Bezug zu unseren Schutzobjekten; von 2 Quellen gemeldet.",
+    "bedeutung": "Kein Handlungsbedarf erkennbar.",
+    "einstufung": "beobachten",
+    "konfidenz": "regelbasiert"
+   }
+  },
+  {
    "id": "bc8e370ff161ee4b",
    "title": "Drohnenabwehr: Moderne Technik muss jetzt beschafft werden",
    "summary": "Drohnenabwehr: Moderne Technik muss jetzt beschafft werden DPolG Bundespolizeigewerkschaft",
@@ -5461,6 +5529,35 @@
    }
   },
   {
+   "id": "0fe428f2034f431c",
+   "title": "Drohnenabwehr wird zum Milliardenmarkt: Diese Aktien stehen dahinter - ms-aktuell.de",
+   "summary": "Drohnenabwehr wird zum Milliardenmarkt: Diese Aktien stehen dahinter ms-aktuell.de",
+   "link": "https://news.google.com/rss/articles/CBMib0FVX3lxTFA4dU9NWnVBMHVBMjhWUFVBUmJHWll2UTR1UEVUNG1Hc0NPeWhCTEJZRlFIMHJVVzA5cHJ0UFB4cTZzWUY5YXVDWVdyMER1d09mTVZTVG5tMmJ5MGExOHcyVDY4bFFvZzY4TEh2bDRFNA?oc=5",
+   "source": "Google News DE – Beschaffung/Recht",
+   "source_weight": 0.9,
+   "published": "2026-08-10T07:00:00+00:00",
+   "category": "Sonstiges",
+   "categories": [],
+   "vendors": [],
+   "business_tags": [],
+   "signals": [],
+   "core_terms": [
+    "drohnenabwehr"
+   ],
+   "score_raw": 12.96,
+   "score": 13,
+   "corroboration": 1,
+   "also_in": [],
+   "first_seen": "2026-09-04T12:50:25.993700+00:00",
+   "ai_review": null,
+   "verdict": {
+    "kern": "Sonstiges – kein erkennbarer Bezug zu unseren Schutzobjekten.",
+    "bedeutung": "Kein Handlungsbedarf erkennbar.",
+    "einstufung": "beobachten",
+    "konfidenz": "regelbasiert"
+   }
+  },
+  {
    "id": "6b1da1dd9e13dfad",
    "title": "Drohnenabwehr in Häfen: Hauptgeschäftsführer des Verbands stellt Zehn-Punkte-Plan vor",
    "summary": "Drohnenabwehr in Häfen: Hauptgeschäftsführer des Verbands stellt Zehn-Punkte-Plan vor FAZ",
@@ -5610,6 +5707,39 @@
    "ai_review": null,
    "verdict": {
     "kern": "Programme & Verbände – ziviler Objektbezug: flughafen.",
+    "bedeutung": "Kein Handlungsbedarf erkennbar.",
+    "einstufung": "beobachten",
+    "konfidenz": "regelbasiert"
+   }
+  },
+  {
+   "id": "6045f7d2b31f65ef",
+   "title": "Erneuter Drohnenvorfall in Deutschland – Sichtung über Kaserne",
+   "summary": "Erneuter Drohnenvorfall in Deutschland – Sichtung über Kaserne DiePresse.com",
+   "link": "https://news.google.com/rss/articles/CBMinAFBVV95cUxNMXYtZXNJNEk0QWN5RGNTVW5IS0tHYXo5VkVCZXdKcElCS1RDT3RfMk16cHMzaTB6aEV4algzdkp3cTE2OEpYZ0t6TExOZlFqa3VBckRYM3RLa2FMeXdIeXBkY2tOV3Y0WHdoNjhaYVV3eW1wc0RzTFNmUUN4X0tEanVuOG5XVXo4RHNnV2VORWF4VDF3TjhYN3hkMkU?oc=5",
+   "source": "Google News DE – Drohnensichtung KRITIS",
+   "source_weight": 0.85,
+   "published": "2026-08-08T07:00:00+00:00",
+   "category": "Vorfälle & Lagebild",
+   "categories": [
+    "Vorfälle & Lagebild"
+   ],
+   "vendors": [],
+   "business_tags": [],
+   "signals": [
+    "sichtung"
+   ],
+   "core_terms": [
+    "drohnenvorfall"
+   ],
+   "score_raw": 16.51,
+   "score": 17,
+   "corroboration": 1,
+   "also_in": [],
+   "first_seen": "2026-09-04T12:50:25.910557+00:00",
+   "ai_review": null,
+   "verdict": {
+    "kern": "Vorfälle & Lagebild – kein erkennbarer Bezug zu unseren Schutzobjekten.",
     "bedeutung": "Kein Handlungsbedarf erkennbar.",
     "einstufung": "beobachten",
     "konfidenz": "regelbasiert"
@@ -7652,41 +7782,6 @@
    }
   },
   {
-   "id": "98a1592ea3cfc10d",
-   "title": "Drohnensichtung! Flughafen komplett gesperrt",
-   "summary": "Drohnensichtung! Flughafen komplett gesperrt Heute",
-   "link": "https://news.google.com/rss/articles/CBMiggFBVV95cUxOanZ4Y3c2Q01tcTZBblNNZ3JzeGlzbVZ6azgzcWpOVXhRNlFQOTIxdUp1aXBrTXEzcnpZU0o2MUZ2QVg3Qnc0aHJlOERWeUJZRy1hTFVVRG9zMktzbGFrZHBqNV9OMTdGMXkyY3ZEQ2NMYjl2MzBiMWdFYU9iMFZ4MzNB?oc=5",
-   "source": "Google News DE – Drohnensichtung KRITIS",
-   "source_weight": 0.85,
-   "published": "2026-05-30T07:00:00+00:00",
-   "category": "Vorfälle & Lagebild",
-   "categories": [
-    "Vorfälle & Lagebild"
-   ],
-   "vendors": [],
-   "business_tags": [
-    "flughafen"
-   ],
-   "signals": [
-    "gesperrt"
-   ],
-   "core_terms": [
-    "drohnensichtung"
-   ],
-   "score_raw": 22.04,
-   "score": 40,
-   "corroboration": 4,
-   "also_in": [],
-   "first_seen": "2026-09-04T12:48:30.370931+00:00",
-   "ai_review": null,
-   "verdict": {
-    "kern": "Vorfälle & Lagebild – ziviler Objektbezug: flughafen; von 4 Quellen gemeldet.",
-    "bedeutung": "Kein Handlungsbedarf erkennbar.",
-    "einstufung": "beobachten",
-    "konfidenz": "regelbasiert"
-   }
-  },
-  {
    "id": "409d1505b181388f",
    "title": "Betrieb am Flughafen München läuft nach Drohnensichtung wieder",
    "summary": "Betrieb am Flughafen München läuft nach Drohnensichtung wieder FOCUS online",
@@ -7712,6 +7807,41 @@
    "ai_review": null,
    "verdict": {
     "kern": "Sonstiges – ziviler Objektbezug: flughafen; von 5 Quellen gemeldet.",
+    "bedeutung": "Kein Handlungsbedarf erkennbar.",
+    "einstufung": "beobachten",
+    "konfidenz": "regelbasiert"
+   }
+  },
+  {
+   "id": "98a1592ea3cfc10d",
+   "title": "Drohnensichtung! Flughafen komplett gesperrt",
+   "summary": "Drohnensichtung! Flughafen komplett gesperrt Heute",
+   "link": "https://news.google.com/rss/articles/CBMiggFBVV95cUxOanZ4Y3c2Q01tcTZBblNNZ3JzeGlzbVZ6azgzcWpOVXhRNlFQOTIxdUp1aXBrTXEzcnpZU0o2MUZ2QVg3Qnc0aHJlOERWeUJZRy1hTFVVRG9zMktzbGFrZHBqNV9OMTdGMXkyY3ZEQ2NMYjl2MzBiMWdFYU9iMFZ4MzNB?oc=5",
+   "source": "Google News DE – Drohnensichtung KRITIS",
+   "source_weight": 0.85,
+   "published": "2026-05-30T07:00:00+00:00",
+   "category": "Vorfälle & Lagebild",
+   "categories": [
+    "Vorfälle & Lagebild"
+   ],
+   "vendors": [],
+   "business_tags": [
+    "flughafen"
+   ],
+   "signals": [
+    "gesperrt"
+   ],
+   "core_terms": [
+    "drohnensichtung"
+   ],
+   "score_raw": 22.04,
+   "score": 28,
+   "corroboration": 4,
+   "also_in": [],
+   "first_seen": "2026-09-04T12:48:30.370931+00:00",
+   "ai_review": null,
+   "verdict": {
+    "kern": "Vorfälle & Lagebild – ziviler Objektbezug: flughafen; von 4 Quellen gemeldet.",
     "bedeutung": "Kein Handlungsbedarf erkennbar.",
     "einstufung": "beobachten",
     "konfidenz": "regelbasiert"
@@ -7802,6 +7932,37 @@
    "corroboration": 1,
    "also_in": [],
    "first_seen": "2026-09-04T12:48:30.366324+00:00",
+   "ai_review": null,
+   "verdict": {
+    "kern": "Sonstiges – ziviler Objektbezug: flughafen.",
+    "bedeutung": "Kein Handlungsbedarf erkennbar.",
+    "einstufung": "beobachten",
+    "konfidenz": "regelbasiert"
+   }
+  },
+  {
+   "id": "84653c6b5e268642",
+   "title": "Drohnensichtung! Flughafen München zeitweise komplett dicht",
+   "summary": "Drohnensichtung! Flughafen München zeitweise komplett dicht DerWesten",
+   "link": "https://news.google.com/rss/articles/CBMiogFBVV95cUxQLUhZTUlzXzA4ZjFDWjJpSTRWcmVWcERPc1FtQll2cnZaeko2ZnNTTWhnNEtJb3d4UkpQZERmUTMxd2xEc2x0VXB2dzRVYzBZd0pIYngwdmlYTl9hRkRFYWZmN1ZaVFV2R21vaHQxMlpmRVljYjlfTlZMOHlTQ1VmUjhwVTkxU3hESTNQZzcwYjJ0X3lwcE8wVFpqSWROY2dLaVE?oc=5",
+   "source": "Google News DE – Drohnensichtung KRITIS",
+   "source_weight": 0.85,
+   "published": "2026-05-30T07:00:00+00:00",
+   "category": "Sonstiges",
+   "categories": [],
+   "vendors": [],
+   "business_tags": [
+    "flughafen"
+   ],
+   "signals": [],
+   "core_terms": [
+    "drohnensichtung"
+   ],
+   "score_raw": 18.19,
+   "score": 18,
+   "corroboration": 1,
+   "also_in": [],
+   "first_seen": "2026-09-04T12:50:25.915063+00:00",
    "ai_review": null,
    "verdict": {
     "kern": "Sonstiges – ziviler Objektbezug: flughafen.",
@@ -8180,7 +8341,7 @@
     "drohnenalarm"
    ],
    "score_raw": 18.16,
-   "score": 24,
+   "score": 18,
    "corroboration": 2,
    "also_in": [],
    "first_seen": "2026-09-04T12:48:30.357990+00:00",
@@ -8298,10 +8459,19 @@
    "at": "2026-09-04T12:49:09.119067+00:00",
    "found": 264,
    "new": 0
+  },
+  {
+   "at": "2026-09-04T12:50:21.798171+00:00",
+   "found": 266,
+   "new": 5
   }
  ],
- "generated": "2026-09-04T12:49:09.119067+00:00",
+ "generated": "2026-09-04T12:50:21.798171+00:00",
  "problems": [
+  [
+   "Google News EN – Airport drone disruption",
+   "keine Einträge"
+  ],
   [
    "The Defense Post",
    "nicht lesbar (SAXParseException)"
