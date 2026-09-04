@@ -1,0 +1,340 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>DroneWatch – Marktbeobachtung Drohnenabwehr</title>
+<meta name="description" content="Laufende Auswertung von Meldungen zu Drohnenabwehr und Counter-UAS.">
+<link rel="alternate" type="application/rss+xml" title="DroneWatch" href="feed.xml">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Barlow:wght@400;500;600&family=Barlow+Condensed:wght@500;600&display=swap" rel="stylesheet">
+<style>
+:root{
+  --ink:#16262E; --ink-soft:#41565F; --ink-faint:#77898F;
+  --paper:#E8EBEA; --surface:#FFFFFF; --rule:#C4CDCE;
+  --signal:#1F6B4A; --alert:#A2352A; --watch:#8A6A15;
+  --focus:#0F5C8C;
+}
+*{box-sizing:border-box}
+html{-webkit-text-size-adjust:100%}
+body{
+  margin:0; background:var(--paper); color:var(--ink);
+  font-family:"Barlow",-apple-system,"Segoe UI",sans-serif;
+  font-size:16px; line-height:1.5; font-variant-numeric:tabular-nums;
+}
+a{color:inherit}
+:focus-visible{outline:2px solid var(--focus); outline-offset:2px}
+.wrap{max-width:1080px; margin:0 auto; padding:0 20px}
+
+/* Kopfband */
+.masthead{background:var(--ink); color:#EDF1F0; padding:22px 0 0}
+.mast-row{display:flex; align-items:baseline; gap:16px; flex-wrap:wrap}
+.mast-row>*+*{margin-left:16px}
+.mast-title{
+  font-family:"Barlow Condensed",sans-serif; font-weight:600;
+  font-size:34px; letter-spacing:.02em; margin:0; line-height:1;
+}
+.mast-sub{color:#9DB1B0; font-size:15px; margin:0}
+.mast-meta{margin-left:auto; font-size:14px; color:#9DB1B0; text-align:right}
+
+/* Aktivitätsstreifen */
+.pulse{display:flex; align-items:flex-end; gap:2px; height:52px; margin:18px 0 0}
+.pulse i{flex:1; min-height:2px; background:#3E5761; border-radius:1px 1px 0 0; display:block}
+.pulse i[data-hot="1"]{background:#C8846E}
+.pulse i[data-hot="2"]{background:#E0A03F}
+.pulse-legend{
+  display:flex; justify-content:space-between; font-size:12.5px;
+  color:#8CA1A2; padding:6px 0 16px; border-top:1px solid #2C4049; margin-top:4px;
+}
+
+/* Kennzahlen */
+.figures{display:flex; gap:0; border-top:1px solid var(--rule); background:var(--surface)}
+.figure{padding:14px 20px; border-right:1px solid var(--rule); flex:1}
+.figure:last-child{border-right:0}
+.figure b{display:block; font-size:26px; font-weight:600; line-height:1.1}
+.figure span{font-size:13px; color:var(--ink-soft)}
+
+/* Filterleiste */
+.controls{
+  position:sticky; top:0; z-index:5; background:var(--paper);
+  border-bottom:1px solid var(--rule); padding:12px 0;
+}
+.controls-inner{display:flex; gap:10px; flex-wrap:wrap; align-items:center}
+.search{
+  flex:1 1 220px; min-width:180px; padding:8px 11px; font:inherit; font-size:15px;
+  border:1px solid var(--rule); background:var(--surface); color:var(--ink); border-radius:2px;
+}
+.pill{
+  font:inherit; font-size:14px; padding:6px 11px; cursor:pointer; border-radius:2px;
+  border:1px solid var(--rule); background:var(--surface); color:var(--ink-soft);
+}
+.pill[aria-pressed="true"]{background:var(--ink); border-color:var(--ink); color:#fff}
+.pill em{font-style:normal; color:var(--ink-faint); margin-left:5px; font-size:12.5px}
+.pill[aria-pressed="true"] em{color:#9DB1B0}
+.count{font-size:14px; color:var(--ink-soft); padding:14px 0 4px}
+
+/* Meldungen */
+.feed{list-style:none; margin:0 0 40px; padding:0; background:var(--surface);
+      border:1px solid var(--rule); border-radius:2px}
+.entry{display:flex; gap:14px; padding:16px 18px; border-bottom:1px solid var(--rule)}
+.controls-inner>*+*{margin-left:0}
+.entry:last-child{border-bottom:0}
+.entry[hidden]{display:none}
+.gauge{width:44px; flex:0 0 44px; text-align:right; margin-right:14px}
+.gauge b{font-size:19px; font-weight:600; display:block; line-height:1.1}
+.gauge u{
+  display:block; height:3px; margin:4px 0 0 auto; background:var(--signal);
+  text-decoration:none; border-radius:2px;
+}
+.entry[data-band="hoch"] .gauge b{color:var(--alert)}
+.entry[data-band="hoch"] .gauge u{background:var(--alert)}
+.entry[data-band="mittel"] .gauge b{color:var(--watch)}
+.entry[data-band="mittel"] .gauge u{background:var(--watch)}
+.body{flex:1; min-width:0}
+.headline{font-size:17.5px; font-weight:500; line-height:1.35; margin:0 0 4px}
+.headline a{text-decoration:none}
+.headline a:hover{text-decoration:underline}
+.meta{font-size:13.5px; color:var(--ink-soft); margin:0 0 7px}
+.cat{
+  display:inline-block; padding:1px 7px; border-radius:2px; color:#fff;
+  font-size:12.5px; margin-right:7px; vertical-align:1px;
+}
+.excerpt{font-size:14.5px; color:var(--ink-soft); margin:0}
+.tags{margin:8px 0 0; font-size:13px; color:var(--ink-faint)}
+.tags b{font-weight:600; color:var(--ink-soft)}
+.verdict{
+  margin:10px 0 0; padding:10px 12px; background:#F4F6F5;
+  border-left:3px solid var(--signal); font-size:14.5px;
+}
+.verdict[data-stufe="handeln"]{border-left-color:var(--alert)}
+.verdict[data-stufe="prüfen"]{border-left-color:var(--watch)}
+.verdict strong{font-weight:600}
+.verdict p{margin:0 0 4px}
+.verdict p:last-child{margin:0}
+.verdict small{color:var(--ink-faint)}
+
+footer{padding:26px 0 46px; font-size:13.5px; color:var(--ink-soft)}
+footer p{margin:0 0 6px}
+.dead{color:var(--alert)}
+.empty{padding:34px 18px; color:var(--ink-soft)}
+
+@media (max-width:640px){
+  .mast-title{font-size:27px}
+  .mast-meta{margin-left:0; text-align:left; width:100%}
+  .figures{flex-wrap:wrap}
+  .figure{flex:1 0 50%; border-bottom:1px solid var(--rule)}
+  .entry{padding:14px}
+  .pulse{height:40px}
+}
+@media (prefers-reduced-motion:no-preference){
+  .entry{transition:background .12s ease}
+}
+</style>
+</head>
+<body>
+<header class="masthead">
+  <div class="wrap">
+    <div class="mast-row">
+      <h1 class="mast-title">DroneWatch</h1>
+      <p class="mast-sub">Drohnenabwehr und Counter-UAS, laufend ausgewertet</p>
+      <p class="mast-meta">Letzter Scan<br>4. September 2026, 12:24 UTC</p>
+    </div>
+    <div class="pulse" role="img" aria-label="Meldungsaufkommen der letzten 60 Tage"><i style="height:2%" data-hot="0" title="7. Juli: 0 Meldungen"></i><i style="height:2%" data-hot="0" title="8. Juli: 0 Meldungen"></i><i style="height:2%" data-hot="0" title="9. Juli: 0 Meldungen"></i><i style="height:2%" data-hot="0" title="10. Juli: 0 Meldungen"></i><i style="height:2%" data-hot="0" title="11. Juli: 0 Meldungen"></i><i style="height:2%" data-hot="0" title="12. Juli: 0 Meldungen"></i><i style="height:2%" data-hot="0" title="13. Juli: 0 Meldungen"></i><i style="height:2%" data-hot="0" title="14. Juli: 0 Meldungen"></i><i style="height:2%" data-hot="0" title="15. Juli: 0 Meldungen"></i><i style="height:2%" data-hot="0" title="16. Juli: 0 Meldungen"></i><i style="height:2%" data-hot="0" title="17. Juli: 0 Meldungen"></i><i style="height:2%" data-hot="0" title="18. Juli: 0 Meldungen"></i><i style="height:2%" data-hot="0" title="19. Juli: 0 Meldungen"></i><i style="height:2%" data-hot="0" title="20. Juli: 0 Meldungen"></i><i style="height:2%" data-hot="0" title="21. Juli: 0 Meldungen"></i><i style="height:2%" data-hot="0" title="22. Juli: 0 Meldungen"></i><i style="height:2%" data-hot="0" title="23. Juli: 0 Meldungen"></i><i style="height:2%" data-hot="0" title="24. Juli: 0 Meldungen"></i><i style="height:2%" data-hot="0" title="25. Juli: 0 Meldungen"></i><i style="height:2%" data-hot="0" title="26. Juli: 0 Meldungen"></i><i style="height:2%" data-hot="0" title="27. Juli: 0 Meldungen"></i><i style="height:2%" data-hot="0" title="28. Juli: 0 Meldungen"></i><i style="height:2%" data-hot="0" title="29. Juli: 0 Meldungen"></i><i style="height:2%" data-hot="0" title="30. Juli: 0 Meldungen"></i><i style="height:2%" data-hot="0" title="31. Juli: 0 Meldungen"></i><i style="height:2%" data-hot="0" title="1. August: 0 Meldungen"></i><i style="height:2%" data-hot="0" title="2. August: 0 Meldungen"></i><i style="height:2%" data-hot="0" title="3. August: 0 Meldungen"></i><i style="height:2%" data-hot="0" title="4. August: 0 Meldungen"></i><i style="height:2%" data-hot="0" title="5. August: 0 Meldungen"></i><i style="height:2%" data-hot="0" title="6. August: 0 Meldungen"></i><i style="height:2%" data-hot="0" title="7. August: 0 Meldungen"></i><i style="height:2%" data-hot="0" title="8. August: 0 Meldungen"></i><i style="height:2%" data-hot="0" title="9. August: 0 Meldungen"></i><i style="height:2%" data-hot="0" title="10. August: 0 Meldungen"></i><i style="height:2%" data-hot="0" title="11. August: 0 Meldungen"></i><i style="height:2%" data-hot="0" title="12. August: 0 Meldungen"></i><i style="height:2%" data-hot="0" title="13. August: 0 Meldungen"></i><i style="height:2%" data-hot="0" title="14. August: 0 Meldungen"></i><i style="height:2%" data-hot="0" title="15. August: 0 Meldungen"></i><i style="height:2%" data-hot="0" title="16. August: 0 Meldungen"></i><i style="height:2%" data-hot="0" title="17. August: 0 Meldungen"></i><i style="height:2%" data-hot="0" title="18. August: 0 Meldungen"></i><i style="height:2%" data-hot="0" title="19. August: 0 Meldungen"></i><i style="height:2%" data-hot="0" title="20. August: 0 Meldungen"></i><i style="height:2%" data-hot="0" title="21. August: 0 Meldungen"></i><i style="height:2%" data-hot="0" title="22. August: 0 Meldungen"></i><i style="height:50%" data-hot="1" title="23. August: 1 Meldungen"></i><i style="height:2%" data-hot="0" title="24. August: 0 Meldungen"></i><i style="height:2%" data-hot="0" title="25. August: 0 Meldungen"></i><i style="height:2%" data-hot="0" title="26. August: 0 Meldungen"></i><i style="height:2%" data-hot="0" title="27. August: 0 Meldungen"></i><i style="height:2%" data-hot="0" title="28. August: 0 Meldungen"></i><i style="height:50%" data-hot="2" title="29. August: 1 Meldungen"></i><i style="height:50%" data-hot="0" title="30. August: 1 Meldungen"></i><i style="height:50%" data-hot="2" title="31. August: 1 Meldungen"></i><i style="height:50%" data-hot="0" title="1. September: 1 Meldungen"></i><i style="height:100%" data-hot="2" title="2. September: 2 Meldungen"></i><i style="height:50%" data-hot="0" title="3. September: 1 Meldungen"></i><i style="height:2%" data-hot="0" title="4. September: 0 Meldungen"></i></div>
+    <p class="pulse-legend"><span>vor 60 Tagen</span><span>Meldungen pro Tag, eingefärbt nach höchster Bewertung</span><span>heute</span></p>
+  </div>
+</header>
+
+<div class="wrap">
+  <div class="figures">
+    <div class="figure"><b>7</b><span>neue Meldungen in 7 Tagen</span></div>
+    <div class="figure"><b>4</b><span>mit Bewertung ab 70</span></div>
+    <div class="figure"><b>8</b><span>im Bestand</span></div>
+    <div class="figure"><b>23</b><span>von 24 Quellen erreichbar</span></div>
+  </div>
+
+  <div class="controls">
+    <div class="controls-inner">
+      <input id="search" class="search" type="search" placeholder="Volltext durchsuchen, z. B. Flughafen oder Hensoldt" aria-label="Meldungen durchsuchen">
+      <button class="pill" data-days="7" aria-pressed="false">7 Tage</button>
+      <button class="pill" data-days="30" aria-pressed="false">30 Tage</button>
+      <button class="pill" id="nur-handlung" aria-pressed="false">Nur Handlungsbedarf</button>
+    </div>
+    <div class="controls-inner" style="margin-top:8px"><button class="pill" data-cat-filter="Beschaffung &amp; Aufträge" aria-pressed="false">Beschaffung &amp; Aufträge<em>4</em></button><button class="pill" data-cat-filter="Technologie &amp; Produkte" aria-pressed="false">Technologie &amp; Produkte<em>2</em></button><button class="pill" data-cat-filter="Regulatorik &amp; Recht" aria-pressed="false">Regulatorik &amp; Recht<em>1</em></button><button class="pill" data-cat-filter="Vorfälle &amp; Lagebild" aria-pressed="false">Vorfälle &amp; Lagebild<em>1</em></button></div>
+  </div>
+
+  <p class="count" id="counter">8 Meldungen</p>
+  <ul class="feed" id="feed">
+<li class="entry" data-cat="Beschaffung &amp; Aufträge" data-pub="2026-09-02T12:24:55+00:00"
+    data-score="100" data-band="hoch"
+    data-stufe="handeln"
+    data-hay="frankfurt airport awards counter-uas detection contract to dedrone the airport operator has signed a framework agreement for drone detection covering critical infrastructure perimeter surveillance and control room integration. unmanned airspace dedrone airport control room critical infrastructure integration perimeter">
+  <div class="gauge"><b>100</b><u style="width:100%"></u></div>
+  <div class="body">
+    <p class="headline"><a href="https://example.org/4865565917580355539" target="_blank" rel="noopener">Frankfurt Airport awards counter-UAS detection contract to Dedrone</a></p>
+    <p class="meta"><span class="cat" style="background:#1f5f4e">Beschaffung &amp; Aufträge</span>Unmanned Airspace · 2. September</p>
+    <p class="excerpt">The airport operator has signed a framework agreement for drone detection covering critical infrastructure perimeter surveillance and control room integration.</p>
+    <p class="tags"><b>Akteure</b> Dedrone &nbsp;|&nbsp; <b>Bezug</b> airport, control room, critical infrastructure, integration, perimeter</p>
+    <div class="verdict" data-stufe="handeln"><p>Beschaffung &amp; Aufträge – ziviler Objektbezug: airport, control room, critical infrastructure; Akteur genannt: Dedrone.</p><p><strong>Handeln.</strong> Vergabeunterlagen und Losschnitt ansehen, falls das Segment zu uns passt.</p><p><small>automatisch eingeordnet nach Regelwerk</small></p></div>
+  </div>
+</li>
+<li class="entry" data-cat="Beschaffung &amp; Aufträge" data-pub="2026-09-02T12:24:55+00:00"
+    data-score="91" data-band="hoch"
+    data-stufe="handeln"
+    data-hay="flughafen frankfurt beauftragt dedrone mit drohnendetektion rahmenvertrag für drohnenabwehr am flughafen, anbindung an die leitstelle vorgesehen. hartpunkt dedrone flughafen leitstelle">
+  <div class="gauge"><b>91</b><u style="width:91%"></u></div>
+  <div class="body">
+    <p class="headline"><a href="https://example.org/2906630367440874359" target="_blank" rel="noopener">Flughafen Frankfurt beauftragt Dedrone mit Drohnendetektion</a></p>
+    <p class="meta"><span class="cat" style="background:#1f5f4e">Beschaffung &amp; Aufträge</span>hartpunkt · 2. September · 2 Quellen</p>
+    <p class="excerpt">Rahmenvertrag für Drohnenabwehr am Flughafen, Anbindung an die Leitstelle vorgesehen.</p>
+    <p class="tags"><b>Akteure</b> Dedrone &nbsp;|&nbsp; <b>Bezug</b> flughafen, leitstelle</p>
+    <div class="verdict" data-stufe="handeln"><p>Beschaffung &amp; Aufträge – ziviler Objektbezug: flughafen, leitstelle; Akteur genannt: Dedrone; von 2 Quellen gemeldet.</p><p><strong>Handeln.</strong> Vergabeunterlagen und Losschnitt ansehen, falls das Segment zu uns passt.</p><p><small>automatisch eingeordnet nach Regelwerk</small></p></div>
+  </div>
+</li>
+<li class="entry" data-cat="Technologie &amp; Produkte" data-pub="2026-08-29T12:24:55+00:00"
+    data-score="84" data-band="hoch"
+    data-stufe="prüfen"
+    data-hay="hensoldt unveils new c-uas radar for critical infrastructure the sensor combines radar and rf detection with ai classification, aimed at data centre and power plant operators. unmanned airspace hensoldt critical infrastructure data cen power plant">
+  <div class="gauge"><b>84</b><u style="width:84%"></u></div>
+  <div class="body">
+    <p class="headline"><a href="https://example.org/805387537813285519" target="_blank" rel="noopener">Hensoldt unveils new C-UAS radar for critical infrastructure</a></p>
+    <p class="meta"><span class="cat" style="background:#1d5a7a">Technologie &amp; Produkte</span>Unmanned Airspace · 29. August</p>
+    <p class="excerpt">The sensor combines radar and RF detection with AI classification, aimed at data centre and power plant operators.</p>
+    <p class="tags"><b>Akteure</b> Hensoldt &nbsp;|&nbsp; <b>Bezug</b> critical infrastructure, data cen, power plant</p>
+    <div class="verdict" data-stufe="prüfen"><p>Technologie &amp; Produkte – ziviler Objektbezug: critical infrastructure, data cen, power plant; Akteur genannt: Hensoldt.</p><p><strong>Prüfen.</strong> Gegen unser Portfolio und die Integrierbarkeit halten.</p><p><small>automatisch eingeordnet nach Regelwerk</small></p></div>
+  </div>
+</li>
+<li class="entry" data-cat="Regulatorik &amp; Recht" data-pub="2026-08-31T12:24:55+00:00"
+    data-score="76" data-band="hoch"
+    data-stufe="handeln"
+    data-hay="bundestag berät novelle des luftsicherheitsgesetzes zur drohnenabwehr der gesetzentwurf regelt befugnisse der bundespolizei bei der abwehr von drohnen über kritischer infrastruktur. hartpunkt  kritis">
+  <div class="gauge"><b>76</b><u style="width:76%"></u></div>
+  <div class="body">
+    <p class="headline"><a href="https://example.org/1150228141238546335" target="_blank" rel="noopener">Bundestag berät Novelle des Luftsicherheitsgesetzes zur Drohnenabwehr</a></p>
+    <p class="meta"><span class="cat" style="background:#4a3d7a">Regulatorik &amp; Recht</span>hartpunkt · 31. August</p>
+    <p class="excerpt">Der Gesetzentwurf regelt Befugnisse der Bundespolizei bei der Abwehr von Drohnen über kritischer Infrastruktur.</p>
+    <p class="tags"><b>Bezug</b> kritis</p>
+    <div class="verdict" data-stufe="handeln"><p>Regulatorik &amp; Recht – ziviler Objektbezug: kritis.</p><p><strong>Handeln.</strong> Auf Auswirkungen für Betreiberpflichten und Leistungsbeschreibungen prüfen.</p><p><small>automatisch eingeordnet nach Regelwerk</small></p></div>
+  </div>
+</li>
+<li class="entry" data-cat="Beschaffung &amp; Aufträge" data-pub="2026-08-23T12:24:55+00:00"
+    data-score="55" data-band="mittel"
+    data-stufe="prüfen"
+    data-hay="droneshield reports record revenue amid european counter-drone demand the company expands manufacturing in the eu as procurement programmes accelerate. unmanned airspace droneshield ">
+  <div class="gauge"><b>55</b><u style="width:55%"></u></div>
+  <div class="body">
+    <p class="headline"><a href="https://example.org/1494947856851894535" target="_blank" rel="noopener">DroneShield reports record revenue amid European counter-drone demand</a></p>
+    <p class="meta"><span class="cat" style="background:#1f5f4e">Beschaffung &amp; Aufträge</span>Unmanned Airspace · 23. August</p>
+    <p class="excerpt">The company expands manufacturing in the EU as procurement programmes accelerate.</p>
+    <p class="tags"><b>Akteure</b> DroneShield</p>
+    <div class="verdict" data-stufe="prüfen"><p>Beschaffung &amp; Aufträge – kein erkennbarer Bezug zu unseren Schutzobjekten; Akteur genannt: DroneShield.</p><p><strong>Prüfen.</strong> Vergabeunterlagen und Losschnitt ansehen, falls das Segment zu uns passt.</p><p><small>automatisch eingeordnet nach Regelwerk</small></p></div>
+  </div>
+</li>
+<li class="entry" data-cat="Beschaffung &amp; Aufträge" data-pub="2026-08-30T12:24:55+00:00"
+    data-score="49" data-band="mittel"
+    data-stufe="prüfen"
+    data-hay="bericht: industrieanlage bestellt sensoren, drohnenabwehr im fokus ein industriebetrieb ordert radar für die freigeländeüberwachung. trial an einem standort läuft. google news de – drohnenabwehr  freigeländeüberwachung">
+  <div class="gauge"><b>49</b><u style="width:49%"></u></div>
+  <div class="body">
+    <p class="headline"><a href="https://example.org/2490438549673931637" target="_blank" rel="noopener">Bericht: Industrieanlage bestellt Sensoren, Drohnenabwehr im Fokus</a></p>
+    <p class="meta"><span class="cat" style="background:#1f5f4e">Beschaffung &amp; Aufträge</span>Google News DE – Drohnenabwehr · 30. August</p>
+    <p class="excerpt">Ein Industriebetrieb ordert Radar für die Freigeländeüberwachung. Trial an einem Standort läuft.</p>
+    <p class="tags"><b>Bezug</b> freigeländeüberwachung</p>
+    <div class="verdict" data-stufe="prüfen"><p>Beschaffung &amp; Aufträge – ziviler Objektbezug: freigeländeüberwachung.</p><p><strong>Prüfen.</strong> Vergabeunterlagen und Losschnitt ansehen, falls das Segment zu uns passt.</p><p><small>automatisch eingeordnet nach Regelwerk</small></p></div>
+  </div>
+</li>
+<li class="entry" data-cat="Vorfälle &amp; Lagebild" data-pub="2026-09-03T12:24:55+00:00"
+    data-score="42" data-band="niedrig"
+    data-stufe="beobachten"
+    data-hay="drohnensichtung über kraftwerk: flugbetrieb kurzzeitig gestört unbekannte drohne über dem gelände gesichtet, polizei ermittelt. drohnenabwehr war nicht im einsatz. google news de – drohnenabwehr  kraftwerk">
+  <div class="gauge"><b>42</b><u style="width:42%"></u></div>
+  <div class="body">
+    <p class="headline"><a href="https://example.org/1517671932133991871" target="_blank" rel="noopener">Drohnensichtung über Kraftwerk: Flugbetrieb kurzzeitig gestört</a></p>
+    <p class="meta"><span class="cat" style="background:#8a3b2a">Vorfälle &amp; Lagebild</span>Google News DE – Drohnenabwehr · 3. September</p>
+    <p class="excerpt">Unbekannte Drohne über dem Gelände gesichtet, Polizei ermittelt. Drohnenabwehr war nicht im Einsatz.</p>
+    <p class="tags"><b>Bezug</b> kraftwerk</p>
+    <div class="verdict" data-stufe="beobachten"><p>Vorfälle &amp; Lagebild – ziviler Objektbezug: kraftwerk.</p><p><strong>Beobachten.</strong> Kein Handlungsbedarf erkennbar.</p><p><small>automatisch eingeordnet nach Regelwerk</small></p></div>
+  </div>
+</li>
+<li class="entry" data-cat="Technologie &amp; Produkte" data-pub="2026-09-01T12:24:55+00:00"
+    data-score="3" data-band="niedrig"
+    data-stufe="beobachten"
+    data-hay="ukrainische einheiten melden abfangdrohne gegen shahed an der frontlinie im gefechtsfeld bei charkiw wurden interceptor-drohnen gegen kamikazedrohnen eingesetzt. hartpunkt  ">
+  <div class="gauge"><b>3</b><u style="width:8%"></u></div>
+  <div class="body">
+    <p class="headline"><a href="https://example.org/5575319821349085396" target="_blank" rel="noopener">Ukrainische Einheiten melden Abfangdrohne gegen Shahed an der Frontlinie</a></p>
+    <p class="meta"><span class="cat" style="background:#1d5a7a">Technologie &amp; Produkte</span>hartpunkt · 1. September</p>
+    <p class="excerpt">Im Gefechtsfeld bei Charkiw wurden Interceptor-Drohnen gegen Kamikazedrohnen eingesetzt.</p>
+    
+    <div class="verdict" data-stufe="beobachten"><p>Technologie &amp; Produkte – kein erkennbarer Bezug zu unseren Schutzobjekten.</p><p><strong>Beobachten.</strong> Kein Handlungsbedarf erkennbar.</p><p><small>automatisch eingeordnet nach Regelwerk</small></p></div>
+  </div>
+</li>
+  </ul>
+  <p class="empty" id="leer" hidden>Keine Meldung passt zu dieser Auswahl. Filter zurücksetzen oder Suchbegriff kürzen.</p>
+
+  <footer>
+    <p>Bewertung 0–100 aus Themenschärfe, Kategorie, Bezug zum eigenen Geschäft, genannten Akteuren, Quellengewicht und Aktualität. Mehrfach gemeldete Ereignisse werden zusammengefasst und höher gewichtet.</p>
+    <p>Quellen und Gewichte stehen in <code>config.py</code>. <a href="feed.xml">RSS-Feed</a> für Outlook oder Teams.</p>
+    <p class="dead">Quellen ohne Antwort in diesem Lauf: TED – EU-Ausschreibungen C-UAS (HTTP 404)</p>
+  </footer>
+</div>
+
+<script type="application/json" id="daten">{"total": 8}</script>
+<script>
+const DATA = JSON.parse(document.getElementById('daten').textContent);
+const feed = document.getElementById('feed');
+const counter = document.getElementById('counter');
+const search = document.getElementById('search');
+const state = {cats:new Set(), q:'', days:0, actionOnly:false};
+
+function apply(){
+  let shown = 0;
+  const now = Date.now();
+  for (const el of feed.children){
+    const d = el.dataset;
+    let ok = true;
+    if (state.cats.size && !state.cats.has(d.cat)) ok = false;
+    if (ok && state.days && (now - Date.parse(d.pub)) > state.days*86400000) ok = false;
+    if (ok && state.actionOnly && d.stufe !== 'handeln' && +d.score < 70) ok = false;
+    if (ok && state.q && !d.hay.includes(state.q)) ok = false;
+    el.hidden = !ok;
+    if (ok) shown++;
+  }
+  counter.textContent = shown === DATA.total
+    ? `${shown} Meldungen`
+    : `${shown} von ${DATA.total} Meldungen`;
+  document.getElementById('leer').hidden = shown > 0;
+}
+
+document.querySelectorAll('[data-cat-filter]').forEach(btn => {
+  btn.addEventListener('click', () => {
+    const cat = btn.dataset.catFilter;
+    state.cats.has(cat) ? state.cats.delete(cat) : state.cats.add(cat);
+    btn.setAttribute('aria-pressed', state.cats.has(cat));
+    apply();
+  });
+});
+document.querySelectorAll('[data-days]').forEach(btn => {
+  btn.addEventListener('click', () => {
+    const v = +btn.dataset.days;
+    state.days = state.days === v ? 0 : v;
+    document.querySelectorAll('[data-days]').forEach(b =>
+      b.setAttribute('aria-pressed', +b.dataset.days === state.days));
+    apply();
+  });
+});
+const actionBtn = document.getElementById('nur-handlung');
+actionBtn.addEventListener('click', () => {
+  state.actionOnly = !state.actionOnly;
+  actionBtn.setAttribute('aria-pressed', state.actionOnly);
+  apply();
+});
+let timer;
+search.addEventListener('input', () => {
+  clearTimeout(timer);
+  timer = setTimeout(() => { state.q = search.value.trim().toLowerCase(); apply(); }, 120);
+});
+apply();
+</script>
+</body>
+</html>
