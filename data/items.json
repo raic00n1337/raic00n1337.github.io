@@ -1952,7 +1952,7 @@
    "core_terms": [
     "counter-drone"
    ],
-   "score_raw": 16.94,
+   "score_raw": 16.93,
    "score": 35,
    "corroboration": 4,
    "also_in": [],
@@ -2261,7 +2261,7 @@
    "core_terms": [
     "drohnenabwehr"
    ],
-   "score_raw": 16.0,
+   "score_raw": 15.99,
    "score": 16,
    "corroboration": 1,
    "also_in": [],
@@ -2290,7 +2290,7 @@
    "core_terms": [
     "counter-drone"
    ],
-   "score_raw": 8.85,
+   "score_raw": 8.84,
    "score": 9,
    "corroboration": 1,
    "also_in": [],
@@ -3363,7 +3363,7 @@
     "counter-drone",
     "drone detection"
    ],
-   "score_raw": 28.98,
+   "score_raw": 28.97,
    "score": 35,
    "corroboration": 2,
    "also_in": [],
@@ -8293,9 +8293,14 @@
    "at": "2026-09-04T12:48:20.802702+00:00",
    "found": 264,
    "new": 264
+  },
+  {
+   "at": "2026-09-04T12:49:09.119067+00:00",
+   "found": 264,
+   "new": 0
   }
  ],
- "generated": "2026-09-04T12:48:20.802702+00:00",
+ "generated": "2026-09-04T12:49:09.119067+00:00",
  "problems": [
   [
    "The Defense Post",
@@ -8327,7 +8332,7 @@
   ],
   [
    "TED – EU-Ausschreibungen C-UAS",
-   "nicht lesbar (SAXParseException)"
+   "keine Einträge"
   ],
   [
    "service.bund.de – Ausschreibungen",
