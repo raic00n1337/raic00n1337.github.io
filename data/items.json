@@ -132,7 +132,7 @@
    "core_terms": [
     "drohnenabwehr"
    ],
-   "score_raw": 18.32,
+   "score_raw": 18.31,
    "score": 24,
    "corroboration": 2,
    "also_in": [],
@@ -355,7 +355,7 @@
     "counter-drone",
     "drone defense"
    ],
-   "score_raw": 32.38,
+   "score_raw": 32.37,
    "score": 32,
    "corroboration": 1,
    "also_in": [],
@@ -392,7 +392,7 @@
    "core_terms": [
     "c-uas"
    ],
-   "score_raw": 37.61,
+   "score_raw": 37.6,
    "score": 38,
    "corroboration": 1,
    "also_in": [],
@@ -488,7 +488,7 @@
     "counter-drone",
     "drone jammer"
    ],
-   "score_raw": 22.58,
+   "score_raw": 22.57,
    "score": 23,
    "corroboration": 1,
    "also_in": [],
@@ -522,7 +522,7 @@
     "counter-drone",
     "drone jammer"
    ],
-   "score_raw": 22.58,
+   "score_raw": 22.57,
    "score": 23,
    "corroboration": 1,
    "also_in": [],
@@ -582,7 +582,7 @@
    "core_terms": [
     "counter-drone"
    ],
-   "score_raw": 22.34,
+   "score_raw": 22.33,
    "score": 22,
    "corroboration": 1,
    "also_in": [],
@@ -679,7 +679,7 @@
    "core_terms": [
     "c-uas"
    ],
-   "score_raw": 38.91,
+   "score_raw": 38.9,
    "score": 39,
    "corroboration": 2,
    "also_in": [
@@ -2204,7 +2204,7 @@
    "core_terms": [
     "counter-drone"
    ],
-   "score_raw": 16.82,
+   "score_raw": 16.81,
    "score": 17,
    "corroboration": 2,
    "also_in": [],
@@ -2270,7 +2270,7 @@
    "core_terms": [
     "counter-uas"
    ],
-   "score_raw": 40.06,
+   "score_raw": 40.05,
    "score": 58,
    "corroboration": 5,
    "also_in": [
@@ -2854,7 +2854,7 @@
    "core_terms": [
     "drone detection"
    ],
-   "score_raw": 19.16,
+   "score_raw": 19.15,
    "score": 19,
    "corroboration": 1,
    "also_in": [],
@@ -4162,7 +4162,7 @@
    "core_terms": [
     "c-uas"
    ],
-   "score_raw": 15.0,
+   "score_raw": 14.99,
    "score": 15,
    "corroboration": 1,
    "also_in": [],
@@ -4820,7 +4820,7 @@
    "core_terms": [
     "counter-drone"
    ],
-   "score_raw": 17.99,
+   "score_raw": 17.98,
    "score": 18,
    "corroboration": 1,
    "also_in": [],
@@ -6993,7 +6993,7 @@
    "core_terms": [
     "drohnenabwehr"
    ],
-   "score_raw": 13.25,
+   "score_raw": 13.24,
    "score": 25,
    "corroboration": 3,
    "also_in": [
@@ -7087,7 +7087,7 @@
    "core_terms": [
     "drone defence"
    ],
-   "score_raw": 13.25,
+   "score_raw": 13.24,
    "score": 13,
    "corroboration": 1,
    "also_in": [],
@@ -13630,9 +13630,14 @@
    "at": "2026-09-07T07:48:01.630036+00:00",
    "found": 276,
    "new": 21
+  },
+  {
+   "at": "2026-09-07T07:52:30.578218+00:00",
+   "found": 276,
+   "new": 0
   }
  ],
- "generated": "2026-09-07T07:48:01.630036+00:00",
+ "generated": "2026-09-07T07:52:30.578218+00:00",
  "problems": [
   [
    "The Defense Post",
