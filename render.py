@@ -102,7 +102,7 @@ a{color:inherit}
 }
 .controls-inner{display:flex; gap:10px; flex-wrap:wrap; align-items:center}
 .search{
-  flex:1 1 220px; min-width:180px; padding:8px 11px; font:inherit; font-size:15px;
+  flex:1 1 320px; min-width:240px; padding:8px 11px; font:inherit; font-size:15px;
   border:1px solid var(--rule); background:var(--surface); color:var(--ink); border-radius:2px;
 }
 .pill{
@@ -144,7 +144,10 @@ a{color:inherit}
 .tags{margin:8px 0 0; font-size:13px; color:var(--ink-faint)}
 .rel{color:var(--ink-faint); margin-left:7px}
 .rel[data-frisch="1"]{color:var(--signal); font-weight:500}
-.sortlabel{font-size:13.5px; color:var(--ink-faint); margin-left:6px}
+.sortlabel{font-size:13.5px; color:var(--ink-faint); margin:0 8px 0 6px}
+.region{display:inline-block; margin-right:7px; padding:0 6px; font-size:12px;
+  border:1px solid var(--rule); border-radius:2px; color:var(--ink-faint);
+  letter-spacing:.04em}
 .tags b{font-weight:600; color:var(--ink-soft)}
 .verdict{
   margin:10px 0 0; padding:10px 12px; background:#F4F6F5;
@@ -180,7 +183,14 @@ const DATA = JSON.parse(document.getElementById('daten').textContent);
 const feed = document.getElementById('feed');
 const counter = document.getElementById('counter');
 const search = document.getElementById('search');
-const state = {cats:new Set(), q:'', days:0, actionOnly:false, sort:'datum'};
+const state = {cats:new Set(), q:'', days:0, actionOnly:false, sort:'datum', region:'World'};
+
+// Regionen sind ineinander verschachtelt: DACH liegt in EMEA, EMEA in World.
+const IN_REGION = {
+  'DACH':  r => r === 'DACH',
+  'EMEA':  r => r === 'DACH' || r === 'EMEA',
+  'World': () => true
+};
 
 // Relative Zeitangabe neben dem Datum, beim Laden berechnet
 function relativ(iso){
@@ -208,6 +218,14 @@ function sortieren(){
   rows.forEach(r => frag.appendChild(r));
   feed.appendChild(frag);
 }
+document.querySelectorAll('[data-region-filter]').forEach(btn => {
+  btn.addEventListener('click', () => {
+    state.region = btn.dataset.regionFilter;
+    document.querySelectorAll('[data-region-filter]').forEach(b =>
+      b.setAttribute('aria-pressed', b.dataset.regionFilter === state.region));
+    apply();
+  });
+});
 document.querySelectorAll('[data-sort]').forEach(btn => {
   btn.addEventListener('click', () => {
     state.sort = btn.dataset.sort;
@@ -223,7 +241,8 @@ function apply(){
   for (const el of Array.prototype.slice.call(feed.children)){
     const d = el.dataset;
     let ok = true;
-    if (state.cats.size && !state.cats.has(d.cat)) ok = false;
+    if (ok && !IN_REGION[state.region](d.region)) ok = false;
+    if (ok && state.cats.size && !state.cats.has(d.cat)) ok = false;
     if (ok && state.days && (now - Date.parse(d.pub)) > state.days*86400000) ok = false;
     if (ok && state.actionOnly && d.stufe !== 'handeln' && +d.score < 70) ok = false;
     if (ok && state.q && !d.hay.includes(state.q)) ok = false;
@@ -283,7 +302,7 @@ def render_entry(item):
     hay = " ".join([item["title"], item["summary"], item["source"],
                     " ".join(item["vendors"]), " ".join(item["business_tags"])]).lower()
 
-    meta = [esc(item["source"]),
+    meta = [f'<span class="region">{esc(item.get("region", "World"))}</span>' + esc(item["source"]),
             f'<time datetime="{item["published"]}">{de_full(item["published"])} Uhr</time>'
             f'<span class="rel" data-pub="{item["published"]}"></span>']
     if item["corroboration"] > 1:
@@ -311,6 +330,7 @@ def render_entry(item):
 
     return f"""<li class="entry" data-cat="{esc(item['category'])}" data-pub="{item['published']}"
     data-score="{item['score']}" data-band="{band(item['score'])}"
+    data-region="{esc(item.get('region', 'World'))}"
     data-stufe="{esc((item.get('ai_review') or item.get('verdict') or {}).get('einstufung', ''))}"
     data-hay="{esc(hay)}">
   <div class="gauge"><b>{item['score']}</b><u style="width:{max(8, item['score'])}%"></u></div>
@@ -393,6 +413,12 @@ def render_site(store, docs_dir):
   <div class="controls">
     <div class="controls-inner">
       <input id="search" class="search" type="search" placeholder="Volltext durchsuchen, z. B. Flughafen oder Hensoldt" aria-label="Meldungen durchsuchen">
+      <span class="sortlabel">Region</span>
+      <button class="pill" data-region-filter="DACH" aria-pressed="false">DACH</button>
+      <button class="pill" data-region-filter="EMEA" aria-pressed="false">EMEA</button>
+      <button class="pill" data-region-filter="World" aria-pressed="true">World</button>
+    </div>
+    <div class="controls-inner" style="margin-top:8px">
       <button class="pill" data-days="7" aria-pressed="false">7 Tage</button>
       <button class="pill" data-days="30" aria-pressed="false">30 Tage</button>
       <button class="pill" id="nur-handlung" aria-pressed="false">Nur Handlungsbedarf</button>
