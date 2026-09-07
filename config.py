@@ -221,3 +221,58 @@ AI_REVIEW = {
         "Wir sind kein Effektoren-Hersteller, sondern Systemintegrator und Dienstleister."
     ),
 }
+
+# ---------------------------------------------------------------------------
+# 7. REGIONEN
+# ---------------------------------------------------------------------------
+# DACH ist die Teilmenge von EMEA, EMEA die Teilmenge von World. Die Zuordnung
+# geschieht ueber Orts- und Behoerdennamen im Text. Findet sich nichts, greift
+# der Hinweis der Quelle (REGION_HINTS), sonst gilt "World".
+REGIONS = {
+    "DACH": [
+        "deutschland", "german", "bundesrepublik", "berlin", "münchen", "hamburg",
+        "frankfurt", "köln", "düsseldorf", "stuttgart", "hannover", "leipzig",
+        "dresden", "nürnberg", "bremen", "bayern", "sachsen", "brandenburg",
+        "nordrhein-westfalen", "baden-württemberg", "niedersachsen", "hessen",
+        "bundeswehr", "bundespolizei", "bundesinnenministerium", "bundestag",
+        "bundesrat", "luftwaffe", "luftsicherheitsgesetz", "luftverkehrsgesetz",
+        "bundesnetzagentur", "bmi", "bmvg", "dfs deutsche flugsicherung",
+        "österreich", "austria", "austrian", "wien", "vienna", "innsbruck",
+        "salzburg", "bundesheer", "austro control",
+        "schweiz", "switzerland", "swiss", "zürich", "genf", "geneva", "bern",
+        "basel", "skyguide",
+    ],
+    "EMEA": [
+        "europa", "europe", "european", "eu-kommission", "eu-staaten", "brüssel",
+        "brussels", "nato", "easa", "eurocontrol", "frontex", "schengen",
+        "großbritannien", "britain", "british", "london", "heathrow", "gatwick",
+        "frankreich", "france", "french", "paris", "polen", "poland", "warschau",
+        "niederlande", "netherlands", "dutch", "amsterdam", "schiphol",
+        "belgien", "belgium", "dänemark", "denmark", "kopenhagen", "copenhagen",
+        "norwegen", "norway", "oslo", "schweden", "sweden", "stockholm",
+        "finnland", "finland", "helsinki", "baltikum", "estland", "estonia",
+        "lettland", "latvia", "litauen", "lithuania", "tschechien", "czech",
+        "slowakei", "ungarn", "hungary", "rumänien", "romania", "bulgarien",
+        "italien", "italy", "italian", "rom", "mailand", "spanien", "spain",
+        "madrid", "portugal", "griechenland", "greece", "türkei", "turkey",
+        "ukraine", "ukrainian", "ukrainisch", "kiew", "kyiv", "charkiw",
+        "russland", "russia", "russian", "moskau", "belarus", "moldau",
+        "israel", "israeli", "iran", "iranisch", "saudi", "emirate", "uae",
+        "katar", "qatar", "kuwait", "jordanien", "libanon", "syrien", "irak",
+        "ägypten", "egypt", "afrika", "africa", "african", "nigeria", "kenia",
+        "marokko", "morocco", "tunesien", "algerien", "libyen", "südafrika",
+    ],
+}
+
+# Regionshinweis je Quelle, wenn im Text kein Ort erkennbar ist.
+REGION_HINTS = {
+    "hartpunkt": "DACH", "ESUT": "DACH", "Behörden Spiegel": "DACH",
+    "Protector (Sicherheitstechnik)": "DACH", "GIT Sicherheit": "DACH",
+    "Militär Aktuell": "DACH", "BMI Pressemitteilungen": "DACH",
+    "service.bund.de – Ausschreibungen": "DACH",
+    "Google News DE – Drohnenabwehr": "DACH",
+    "Google News DE – Drohnensichtung KRITIS": "DACH",
+    "Google News DE – Beschaffung/Recht": "DACH",
+    "EASA News": "EMEA", "EU Kommission – Home Affairs": "EMEA",
+    "TED – EU-Ausschreibungen C-UAS": "EMEA",
+}
