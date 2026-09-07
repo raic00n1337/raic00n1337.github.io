@@ -27,6 +27,12 @@ def de_date(iso):
     return f"{dt.day}. {MONTHS[dt.month - 1]}"
 
 
+def de_full(iso):
+    """Vollstaendiges Veroeffentlichungsdatum mit Uhrzeit."""
+    dt = datetime.fromisoformat(iso)
+    return f"{dt.day}. {MONTHS[dt.month - 1]} {dt.year}, {dt:%H:%M}"
+
+
 def activity_strip(items, days=60):
     """Ein Balken je Tag: Anzahl Meldungen, eingefärbt nach Höchstscore."""
     today = datetime.now(timezone.utc).date()
@@ -136,6 +142,9 @@ a{color:inherit}
 }
 .excerpt{font-size:14.5px; color:var(--ink-soft); margin:0}
 .tags{margin:8px 0 0; font-size:13px; color:var(--ink-faint)}
+.rel{color:var(--ink-faint); margin-left:7px}
+.rel[data-frisch="1"]{color:var(--signal); font-weight:500}
+.sortlabel{font-size:13.5px; color:var(--ink-faint); margin-left:6px}
 .tags b{font-weight:600; color:var(--ink-soft)}
 .verdict{
   margin:10px 0 0; padding:10px 12px; background:#F4F6F5;
@@ -171,12 +180,47 @@ const DATA = JSON.parse(document.getElementById('daten').textContent);
 const feed = document.getElementById('feed');
 const counter = document.getElementById('counter');
 const search = document.getElementById('search');
-const state = {cats:new Set(), q:'', days:0, actionOnly:false};
+const state = {cats:new Set(), q:'', days:0, actionOnly:false, sort:'datum'};
+
+// Relative Zeitangabe neben dem Datum, beim Laden berechnet
+function relativ(iso){
+  const min = Math.round((Date.now() - Date.parse(iso)) / 60000);
+  if (min < 60) return ['vor ' + Math.max(1, min) + ' Min.', 1];
+  const std = Math.round(min / 60);
+  if (std < 24) return ['vor ' + std + (std === 1 ? ' Stunde' : ' Stunden'), 1];
+  const tage = Math.round(std / 24);
+  if (tage < 31) return ['vor ' + tage + (tage === 1 ? ' Tag' : ' Tagen'), tage <= 2 ? 1 : 0];
+  return ['vor ' + Math.round(tage / 30) + ' Monaten', 0];
+}
+document.querySelectorAll('.rel').forEach(el => {
+  const [text, frisch] = relativ(el.dataset.pub);
+  el.textContent = '· ' + text;
+  el.dataset.frisch = frisch;
+});
+
+// Sortierung: Reihenfolge im DOM umhaengen
+function sortieren(){
+  const rows = Array.prototype.slice.call(feed.children);
+  rows.sort((a, b) => state.sort === 'datum'
+    ? Date.parse(b.dataset.pub) - Date.parse(a.dataset.pub)
+    : (+b.dataset.score) - (+a.dataset.score));
+  const frag = document.createDocumentFragment();
+  rows.forEach(r => frag.appendChild(r));
+  feed.appendChild(frag);
+}
+document.querySelectorAll('[data-sort]').forEach(btn => {
+  btn.addEventListener('click', () => {
+    state.sort = btn.dataset.sort;
+    document.querySelectorAll('[data-sort]').forEach(b =>
+      b.setAttribute('aria-pressed', b.dataset.sort === state.sort));
+    sortieren();
+  });
+});
 
 function apply(){
   let shown = 0;
   const now = Date.now();
-  for (const el of feed.children){
+  for (const el of Array.prototype.slice.call(feed.children)){
     const d = el.dataset;
     let ok = true;
     if (state.cats.size && !state.cats.has(d.cat)) ok = false;
@@ -220,6 +264,7 @@ search.addEventListener('input', () => {
   clearTimeout(timer);
   timer = setTimeout(() => { state.q = search.value.trim().toLowerCase(); apply(); }, 120);
 });
+sortieren();
 apply();
 """
 
@@ -238,7 +283,9 @@ def render_entry(item):
     hay = " ".join([item["title"], item["summary"], item["source"],
                     " ".join(item["vendors"]), " ".join(item["business_tags"])]).lower()
 
-    meta = [esc(item["source"]), de_date(item["published"])]
+    meta = [esc(item["source"]),
+            f'<time datetime="{item["published"]}">{de_full(item["published"])} Uhr</time>'
+            f'<span class="rel" data-pub="{item["published"]}"></span>']
     if item["corroboration"] > 1:
         meta.append(f"{item['corroboration']} Quellen")
 
@@ -349,6 +396,9 @@ def render_site(store, docs_dir):
       <button class="pill" data-days="7" aria-pressed="false">7 Tage</button>
       <button class="pill" data-days="30" aria-pressed="false">30 Tage</button>
       <button class="pill" id="nur-handlung" aria-pressed="false">Nur Handlungsbedarf</button>
+      <span class="sortlabel">Sortierung</span>
+      <button class="pill" data-sort="datum" aria-pressed="true">Neueste zuerst</button>
+      <button class="pill" data-sort="score" aria-pressed="false">Bewertung</button>
     </div>
     <div class="controls-inner" style="margin-top:8px">{cat_pills}</div>
   </div>
