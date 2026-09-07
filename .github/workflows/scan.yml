@@ -6,7 +6,7 @@ on:
     - cron: "17 8,16 * * 0,6"
   workflow_dispatch:
   push:
-    branches: [main, master]
+    branches: [main]
 
 permissions:
   contents: write
@@ -14,7 +14,7 @@ permissions:
   id-token: write
 
 concurrency:
-  group: dronewatch
+  group: pages
   cancel-in-progress: false
 
 jobs:
@@ -47,4 +47,14 @@ jobs:
       - uses: actions/upload-pages-artifact@v3
         with:
           path: docs
-      - uses: actions/deploy-pages@v4
+
+  deploy:
+    needs: scan
+    runs-on: ubuntu-latest
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+    steps:
+      - name: Deploy to GitHub Pages
+        id: deployment
+        uses: actions/deploy-pages@v4
