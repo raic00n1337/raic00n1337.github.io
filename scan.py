@@ -180,6 +180,20 @@ def fetch_all(sources):
 # 2./3. Filtern und bewerten
 # ---------------------------------------------------------------------------
 
+def detect_region(title, summary, source_name):
+    """
+    Ordnet eine Meldung DACH, EMEA oder World zu. Ausschlaggebend sind Orts-
+    und Behoerdennamen im Text; DACH hat Vorrang, weil es die engere Menge ist.
+    Ohne Ortsbezug entscheidet der Hinweis der Quelle.
+    """
+    lt, lb = title.lower(), summary.lower()
+    for region in ("DACH", "EMEA"):
+        hits, _ = count_hits(lt, lb, config.REGIONS[region])
+        if hits:
+            return region
+    return config.REGION_HINTS.get(source_name, "World")
+
+
 def evaluate(entry, source, now):
     """Prüft Themenrelevanz und berechnet den Score. None = verworfen."""
     title = clean(entry.get("title", ""))
@@ -255,6 +269,7 @@ def evaluate(entry, source, now):
         "source_weight": source["weight"],
         "published": published.isoformat(),
         "category": primary,
+        "region": detect_region(title, summary, source["name"]),
         "categories": sorted(cat_scores, key=cat_scores.get, reverse=True),
         "vendors": sorted(set(vendors)),
         "business_tags": sorted(set(business_tags))[:6],
@@ -546,6 +561,8 @@ def main():
     # Regelbasierte Einordnung: laeuft immer, kostet nichts, wird bei jedem
     # Lauf neu berechnet (Scores aendern sich mit dem Alter).
     for item in store["items"]:
+        item.setdefault("region", detect_region(item["title"], item["summary"],
+                                                item["source"]))
         item["verdict"] = local_verdict(item)
     print("Einordnung: " + ", ".join(
         f"{n}x {s}" for s, n in Counter(
