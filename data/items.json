@@ -267,8 +267,8 @@
    "core_terms": [
     "counter-drone"
    ],
-   "score_raw": 21.51,
-   "score": 28,
+   "score_raw": 21.37,
+   "score": 21,
    "corroboration": 2,
    "also_in": [
     "Google News EN – Counter-UAS"
@@ -404,8 +404,8 @@
    "core_terms": [
     "counter-uas"
    ],
-   "score_raw": 32.88,
-   "score": 51,
+   "score_raw": 32.68,
+   "score": 33,
    "corroboration": 4,
    "also_in": [
     "Google News EN – Counter-UAS"
@@ -442,8 +442,8 @@
    "core_terms": [
     "counter-uas"
    ],
-   "score_raw": 29.29,
-   "score": 35,
+   "score_raw": 29.1,
+   "score": 29,
    "corroboration": 2,
    "also_in": [
     "Google News EN – Counter-UAS"
@@ -474,8 +474,8 @@
    "core_terms": [
     "c-uas"
    ],
-   "score_raw": 27.81,
-   "score": 34,
+   "score_raw": 27.64,
+   "score": 28,
    "corroboration": 2,
    "also_in": [
     "Google News EN – Counter-UAS"
@@ -510,8 +510,8 @@
    "core_terms": [
     "c-uas"
    ],
-   "score_raw": 36.12,
-   "score": 42,
+   "score_raw": 35.89,
+   "score": 36,
    "corroboration": 2,
    "also_in": [
     "Google News EN – Counter-UAS"
@@ -542,8 +542,8 @@
    "core_terms": [
     "c-uas"
    ],
-   "score_raw": 27.79,
-   "score": 34,
+   "score_raw": 27.62,
+   "score": 28,
    "corroboration": 4,
    "also_in": [
     "Google News EN – Counter-UAS"
@@ -708,8 +708,8 @@
    "core_terms": [
     "drohnenabwehr"
    ],
-   "score_raw": 34.71,
-   "score": 41,
+   "score_raw": 34.5,
+   "score": 34,
    "corroboration": 2,
    "also_in": [
     "Google News DE – Drohnenabwehr"
@@ -2110,7 +2110,7 @@
    "core_terms": [
     "drone defense"
    ],
-   "score_raw": 15.9,
+   "score_raw": 15.81,
    "score": 16,
    "corroboration": 1,
    "also_in": [],
@@ -34438,10 +34438,39 @@
    "at": "2026-09-26T13:11:25.902926+00:00",
    "found": 275,
    "new": 11
+  },
+  {
+   "at": "2026-09-26T19:14:49.296394+00:00",
+   "found": 8,
+   "new": 0
   }
  ],
- "generated": "2026-09-26T13:11:25.902926+00:00",
+ "generated": "2026-09-26T19:14:49.296394+00:00",
  "problems": [
+  [
+   "Google News DE – Drohnenabwehr",
+   "nicht lesbar (SAXParseException)"
+  ],
+  [
+   "Google News DE – Drohnensichtung KRITIS",
+   "nicht lesbar (SAXParseException)"
+  ],
+  [
+   "Google News DE – Beschaffung/Recht",
+   "nicht lesbar (SAXParseException)"
+  ],
+  [
+   "Google News EN – Counter-UAS",
+   "nicht lesbar (SAXParseException)"
+  ],
+  [
+   "Google News EN – C-UAS contracts",
+   "nicht lesbar (SAXParseException)"
+  ],
+  [
+   "Google News EN – Airport drone disruption",
+   "nicht lesbar (SAXParseException)"
+  ],
   [
    "The Defense Post",
    "nicht lesbar (SAXParseException)"
