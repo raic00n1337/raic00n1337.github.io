@@ -1,6 +1,170 @@
 {
  "items": [
   {
+   "id": "e3cd7c2014e45b15",
+   "title": "PIT-RADWAR starts PLN 90M upgrade of Czernica plant for San counter-drone programme",
+   "summary": "PIT-RADWAR starts PLN 90M upgrade of Czernica plant for San counter-drone programme Dealroom",
+   "link": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxQcVNsalN0SzZXMHd1dk1xTjRVajJ2dFFibFRvZGhQNldTaVBpamo4R3BsY1BIVEJoUFVnZm82TzB5MjJGU2M3SHZ6WGFlMmE2dVpBeGJFZUVyNE9hLUxHOHhNellEQzF2REMzd2dJcjduYlBDZzM5bVVINmdPN1A0N3Q1WXdpLWNaSGVOWU1JWmFEMlRQb1EzWnpGTXRlNHF0elZQZzBDVDF3SFo0a2xHYjBINVJmQ20w?oc=5",
+   "source": "Google News EN – Counter-UAS",
+   "source_weight": 0.85,
+   "published": "2026-10-03T07:20:07+00:00",
+   "category": "Programme & Verbände",
+   "region": "World",
+   "categories": [
+    "Programme & Verbände"
+   ],
+   "vendors": [],
+   "business_tags": [],
+   "signals": [
+    "programm"
+   ],
+   "core_terms": [
+    "counter-drone"
+   ],
+   "score_raw": 23.45,
+   "score": 23,
+   "corroboration": 1,
+   "also_in": [],
+   "first_seen": "2026-10-03T13:29:19.436925+00:00",
+   "ai_review": null,
+   "verdict": {
+    "kern": "Programme & Verbände – kein erkennbarer Bezug zu unseren Schutzobjekten.",
+    "bedeutung": "Kein Handlungsbedarf erkennbar.",
+    "einstufung": "beobachten",
+    "konfidenz": "regelbasiert"
+   }
+  },
+  {
+   "id": "814001784db5502a",
+   "title": "Stocktwits Defense Watch: BA, RTX, LHX Score Major Deals As ONDS Expands Counter-Drone Push",
+   "summary": "Stocktwits Defense Watch: BA, RTX, LHX Score Major Deals As ONDS Expands Counter-Drone Push TradingView",
+   "link": "https://news.google.com/rss/articles/CBMi4wFBVV95cUxQTUFLWmNKbGdleEVhMG1xS2dibzVwMzM0UmRqREVxaklrSmh3RU15S09uRU0wMi1RVXpQa2dhalY2cEVzb2ZtYUJyVEhILTFXaU9FQnJPci1ybldTT3dSSTRzUU9oUDRmTDNNSUtKUmVKOUhZLXkxMHpMS183dndMU2pmeUVOYkphQWlOeWV4OTV6QkV0QnRhM0I3NThEMlB0Z2t4aXQyMjFzNk13cU9KSF9DYmdQZU5tOEpBYzh2WjItUmhPRUtkdDQ0V2hFWUxKSlhiQzlDUEM2amViblJQSHpxSQ?oc=5",
+   "source": "Google News EN – C-UAS contracts",
+   "source_weight": 0.9,
+   "published": "2026-10-03T01:26:00+00:00",
+   "category": "Markt & Unternehmen",
+   "region": "World",
+   "categories": [
+    "Markt & Unternehmen"
+   ],
+   "vendors": [],
+   "business_tags": [],
+   "signals": [
+    "expands"
+   ],
+   "core_terms": [
+    "counter-drone"
+   ],
+   "score_raw": 23.95,
+   "score": 36,
+   "corroboration": 3,
+   "also_in": [
+    "Google News EN – Counter-UAS"
+   ],
+   "first_seen": "2026-10-03T13:29:19.620490+00:00",
+   "ai_review": null,
+   "verdict": {
+    "kern": "Markt & Unternehmen – kein erkennbarer Bezug zu unseren Schutzobjekten; von 3 Quellen gemeldet.",
+    "bedeutung": "Kein Handlungsbedarf erkennbar.",
+    "einstufung": "beobachten",
+    "konfidenz": "regelbasiert"
+   }
+  },
+  {
+   "id": "2cf28e4335c9d8ca",
+   "title": "Drohnenabwehr: 150 Sensoren sollen an der Ostseeküste Flugobjekte erfassen",
+   "summary": "Drohnenabwehr: 150 Sensoren sollen an der Ostseeküste Flugobjekte erfassen AD HOC NEWS",
+   "link": "https://news.google.com/rss/articles/CBMisgFBVV95cUxQWnppaU1vSDhXaEV5d252VDlvY0VwT1VNY1ZKdHhxUjlCOWF2WFNwU1N6VmZ6YlZaRnJrbGk5SkxJNDNyb1VTcUFpSkN1MFI4QUF5dHQyVVdFWGFMR1BGSXVndmdLUnd0Sm1kRGUtOFM2aFBhNXNIcWxMbG54aEhzMVdETTY1aHJxUTk0QkhwX2xPSVpZMnBOVnBEWC1zdlBncUFsRnRha05UVHdpREo3N0FR?oc=5",
+   "source": "Google News DE – Drohnenabwehr",
+   "source_weight": 0.85,
+   "published": "2026-10-02T22:39:16+00:00",
+   "category": "Sonstiges",
+   "region": "DACH",
+   "categories": [],
+   "vendors": [],
+   "business_tags": [],
+   "signals": [],
+   "core_terms": [
+    "drohnenabwehr"
+   ],
+   "score_raw": 18.41,
+   "score": 18,
+   "corroboration": 1,
+   "also_in": [],
+   "first_seen": "2026-10-03T13:29:19.124663+00:00",
+   "ai_review": null,
+   "verdict": {
+    "kern": "Sonstiges – kein erkennbarer Bezug zu unseren Schutzobjekten.",
+    "bedeutung": "Kein Handlungsbedarf erkennbar.",
+    "einstufung": "beobachten",
+    "konfidenz": "regelbasiert"
+   }
+  },
+  {
+   "id": "8d522ea32590113b",
+   "title": "Hegseth Moves To Speed C-UAS Use In The Homeland, Expands JIATF’s Roles",
+   "summary": "Hegseth Moves To Speed C-UAS Use In The Homeland, Expands JIATF’s Roles Defense Daily",
+   "link": "https://news.google.com/rss/articles/CBMitwFBVV95cUxNS283b0ZYajNIVzB4SVJ1dV9zZ2VlMWo1R3ctcTMxTzdaTHhxTXpwZ21pbm5EenNRZW5wc0ZQU0wtbFp6T2hDWHVMNnZTcTZ1aEtrWlZYc3h4SUxmZ1piUGwwZmRjUmstLUh2Y3hSUkVaLXl5S3gxZk5fMXpvU0NDUzdvcUp5dzRPMnRiMXQ1VzdMM1NQSUtGSDh4RUh1YXhOQWlfMmNjdmE4NEx4STZqaVJETUpReGc?oc=5",
+   "source": "Google News EN – Counter-UAS",
+   "source_weight": 0.85,
+   "published": "2026-10-02T22:03:17+00:00",
+   "category": "Markt & Unternehmen",
+   "region": "World",
+   "categories": [
+    "Markt & Unternehmen"
+   ],
+   "vendors": [],
+   "business_tags": [],
+   "signals": [
+    "expands"
+   ],
+   "core_terms": [
+    "c-uas"
+   ],
+   "score_raw": 22.54,
+   "score": 23,
+   "corroboration": 1,
+   "also_in": [],
+   "first_seen": "2026-10-03T13:29:19.419672+00:00",
+   "ai_review": null,
+   "verdict": {
+    "kern": "Markt & Unternehmen – kein erkennbarer Bezug zu unseren Schutzobjekten.",
+    "bedeutung": "Kein Handlungsbedarf erkennbar.",
+    "einstufung": "beobachten",
+    "konfidenz": "regelbasiert"
+   }
+  },
+  {
+   "id": "b36d64f0c834b804",
+   "title": "New Hegseth counter-drone homeland security memo says ‘accept prudent risks’ but don’t ‘cut corners’",
+   "summary": "New Hegseth counter-drone homeland security memo says ‘accept prudent risks’ but don’t ‘cut corners’ Washington Examiner",
+   "link": "https://news.google.com/rss/articles/CBMi1gFBVV95cUxQQ2prLXk5MFRYcGNIQ3JqS1A4UUF6WS1rZWpsdGxvQlZvUGxUWWpYczZERnlSTTdwMnZpd2FDMUh1Z041U2RTVkV0dndlcWhhMWJ1bTNieDVlai1KTFoxVlRnZ3IySEhuNE40ME12ajZVdVAzYmNGOWlPOFZWd19kejA5WVhzQV96dDBvVjM2QnlMZEpmSXVZVlozQmhWUzNhNkpRR0FnNWV0eFdZUDJoZy1ublYwU1lfWFhOZ25IWVhQTThBWXVLOXpydTgwaGZDWVRTUS1B?oc=5",
+   "source": "Google News EN – Counter-UAS",
+   "source_weight": 0.85,
+   "published": "2026-10-02T21:18:00+00:00",
+   "category": "Sonstiges",
+   "region": "World",
+   "categories": [],
+   "vendors": [],
+   "business_tags": [],
+   "signals": [],
+   "core_terms": [
+    "counter-drone"
+   ],
+   "score_raw": 18.38,
+   "score": 18,
+   "corroboration": 1,
+   "also_in": [],
+   "first_seen": "2026-10-03T13:29:19.422274+00:00",
+   "ai_review": null,
+   "verdict": {
+    "kern": "Sonstiges – kein erkennbarer Bezug zu unseren Schutzobjekten.",
+    "bedeutung": "Kein Handlungsbedarf erkennbar.",
+    "einstufung": "beobachten",
+    "konfidenz": "regelbasiert"
+   }
+  },
+  {
    "id": "89bbaf35310ac322",
    "title": "Hegseth issues new directive to hasten U.S. military’s counter-drone pursuits",
    "summary": "Hegseth issues new directive to hasten U.S. military’s counter-drone pursuits DefenseScoop",
@@ -21,7 +185,7 @@
    "core_terms": [
     "counter-drone"
    ],
-   "score_raw": 28.42,
+   "score_raw": 27.93,
    "score": 28,
    "corroboration": 1,
    "also_in": [],
@@ -53,8 +217,8 @@
    "core_terms": [
     "counter-drone"
    ],
-   "score_raw": 23.7,
-   "score": 24,
+   "score_raw": 22.88,
+   "score": 23,
    "corroboration": 1,
    "also_in": [],
    "first_seen": "2026-10-02T21:20:09.327643+00:00",
@@ -87,8 +251,8 @@
    "core_terms": [
     "counter-drone"
    ],
-   "score_raw": 29.66,
-   "score": 30,
+   "score_raw": 29.16,
+   "score": 29,
    "corroboration": 1,
    "also_in": [],
    "first_seen": "2026-10-02T21:20:09.345802+00:00",
@@ -147,8 +311,8 @@
    "core_terms": [
     "counter-uas"
    ],
-   "score_raw": 18.59,
-   "score": 25,
+   "score_raw": 18.27,
+   "score": 24,
    "corroboration": 2,
    "also_in": [],
    "first_seen": "2026-10-02T16:38:12.970679+00:00",
@@ -212,8 +376,8 @@
     "c-uas",
     "counter-drone"
    ],
-   "score_raw": 37.14,
-   "score": 55,
+   "score_raw": 36.51,
+   "score": 49,
    "corroboration": 4,
    "also_in": [
     "Google News EN – C-UAS contracts",
@@ -223,8 +387,8 @@
    "ai_review": null,
    "verdict": {
     "kern": "Beschaffung & Aufträge – kein erkennbarer Bezug zu unseren Schutzobjekten; von 4 Quellen gemeldet.",
-    "bedeutung": "Vergabeunterlagen und Losschnitt ansehen, falls das Segment zu uns passt.",
-    "einstufung": "prüfen",
+    "bedeutung": "Kein Handlungsbedarf erkennbar.",
+    "einstufung": "beobachten",
     "konfidenz": "regelbasiert"
    }
   },
@@ -249,8 +413,8 @@
    "core_terms": [
     "counter-drone"
    ],
-   "score_raw": 29.6,
-   "score": 30,
+   "score_raw": 29.1,
+   "score": 29,
    "corroboration": 1,
    "also_in": [],
    "first_seen": "2026-10-02T16:38:12.953895+00:00",
@@ -297,6 +461,38 @@
    }
   },
   {
+   "id": "45e4a774e9582285",
+   "title": "Motorola Boosts Counter-Drone Security Footprint With D-Fend Buyout",
+   "summary": "Motorola Boosts Counter-Drone Security Footprint With D-Fend Buyout Zacks Investment Research",
+   "link": "https://news.google.com/rss/articles/CBMirAFBVV95cUxQcGs2VnV0Mzc5TlpqbEhUaTIyaG1RcTBmTnEycjJxR0lSRGEtOEJVLXdTQm1FbXJIV2JfWjVLaXptbVhkR0Y3anhHWUFjWHM4WXdjdVhVUFJvSUFoUEU3RnBmdzNvUENEak1ieThnTkE4VUZsQzNxd0JBVUlKZXNkN3NJV0lPbDFJelJoOWNpTmZLMC0wTEd1YkYxLXhYUFN4M0xoZlBENFRrU3Rf?oc=5",
+   "source": "Google News EN – Counter-UAS",
+   "source_weight": 0.85,
+   "published": "2026-10-02T13:33:12+00:00",
+   "category": "Sonstiges",
+   "region": "World",
+   "categories": [],
+   "vendors": [
+    "D-Fend"
+   ],
+   "business_tags": [],
+   "signals": [],
+   "core_terms": [
+    "counter-drone"
+   ],
+   "score_raw": 24.03,
+   "score": 24,
+   "corroboration": 1,
+   "also_in": [],
+   "first_seen": "2026-10-03T13:29:19.536905+00:00",
+   "ai_review": null,
+   "verdict": {
+    "kern": "Sonstiges – kein erkennbarer Bezug zu unseren Schutzobjekten; Akteur genannt: D-Fend.",
+    "bedeutung": "Kein Handlungsbedarf erkennbar.",
+    "einstufung": "beobachten",
+    "konfidenz": "regelbasiert"
+   }
+  },
+  {
    "id": "481192b44d53e999",
    "title": "Advanced Modular & Software-Defined Counter-UAS Systems",
    "summary": "Advanced Modular & Software-Defined Counter-UAS Systems Unmanned Systems Technology",
@@ -313,8 +509,8 @@
    "core_terms": [
     "counter-uas"
    ],
-   "score_raw": 18.53,
-   "score": 19,
+   "score_raw": 18.22,
+   "score": 18,
    "corroboration": 1,
    "also_in": [],
    "first_seen": "2026-10-02T16:38:12.934768+00:00",
@@ -379,7 +575,7 @@
    "core_terms": [
     "counter-drone"
    ],
-   "score_raw": 24.0,
+   "score_raw": 23.6,
    "score": 24,
    "corroboration": 1,
    "also_in": [],
@@ -409,7 +605,7 @@
    "core_terms": [
     "c-uas"
    ],
-   "score_raw": 28.29,
+   "score_raw": 27.81,
    "score": 34,
    "corroboration": 2,
    "also_in": [
@@ -441,8 +637,8 @@
    "core_terms": [
     "drohnenabwehr"
    ],
-   "score_raw": 18.46,
-   "score": 18,
+   "score_raw": 18.57,
+   "score": 19,
    "corroboration": 1,
    "also_in": [],
    "first_seen": "2026-10-02T11:06:40.409202+00:00",
@@ -471,7 +667,7 @@
    "core_terms": [
     "c-uas"
    ],
-   "score_raw": 28.23,
+   "score_raw": 27.76,
    "score": 34,
    "corroboration": 2,
    "also_in": [
@@ -505,14 +701,50 @@
    "core_terms": [
     "anti-drone"
    ],
-   "score_raw": 36.09,
-   "score": 36,
+   "score_raw": 35.48,
+   "score": 35,
    "corroboration": 1,
    "also_in": [],
    "first_seen": "2026-10-02T11:06:41.166299+00:00",
    "ai_review": null,
    "verdict": {
     "kern": "Sonstiges – ziviler Objektbezug: data cen.",
+    "bedeutung": "Kein Handlungsbedarf erkennbar.",
+    "einstufung": "beobachten",
+    "konfidenz": "regelbasiert"
+   }
+  },
+  {
+   "id": "e26d860ddd7fce99",
+   "title": "Axon Vision completes successful ForceField C-UAS live-fire demonstration for leading U.S. Defense contractor ahead of AUSA 2026",
+   "summary": "Axon Vision completes successful ForceField C-UAS live-fire demonstration for leading U.S. Defense contractor ahead of AUSA 2026 EDR Magazine",
+   "link": "https://news.google.com/rss/articles/CBMi6gFBVV95cUxPeEgwbExGaTRqUE1CZzhuNzRUdHpQU043UnlBeDZoWmJFV3pRZExNZWR6MFJJWDFON3JnSWI4ZlVHWWdHVUtoU0pMaGNEOUVtbVVMZF8weWpsUFhzS016QnNuMjJoVUhBVWkxY3EtZWE4b0tBM0Z1UkNBaUhwZmtPaFZMbDRPOUd2WFBkcEpHUzNuYjdSczBFb2dpX1VHa3B0T0ZiS2Z5RFVNb0xwaDlVbTJzS24yalBieGZxODBQMTZWbGJYYkxLWWlPZnpZUEVTaFZHMHhjVk1mS0FHRTJmanY3c1pKeUFTOHc?oc=5",
+   "source": "Google News EN – Counter-UAS",
+   "source_weight": 0.85,
+   "published": "2026-10-02T07:49:42+00:00",
+   "category": "Beschaffung & Aufträge",
+   "region": "World",
+   "categories": [
+    "Beschaffung & Aufträge"
+   ],
+   "vendors": [
+    "Axon"
+   ],
+   "business_tags": [],
+   "signals": [
+    "contract"
+   ],
+   "core_terms": [
+    "c-uas"
+   ],
+   "score_raw": 33.82,
+   "score": 34,
+   "corroboration": 1,
+   "also_in": [],
+   "first_seen": "2026-10-03T13:29:19.513164+00:00",
+   "ai_review": null,
+   "verdict": {
+    "kern": "Beschaffung & Aufträge – kein erkennbarer Bezug zu unseren Schutzobjekten; Akteur genannt: Axon.",
     "bedeutung": "Kein Handlungsbedarf erkennbar.",
     "einstufung": "beobachten",
     "konfidenz": "regelbasiert"
@@ -567,7 +799,7 @@
    "core_terms": [
     "c-uas"
    ],
-   "score_raw": 18.39,
+   "score_raw": 18.08,
    "score": 18,
    "corroboration": 1,
    "also_in": [],
@@ -601,7 +833,7 @@
    "core_terms": [
     "counter-drone"
    ],
-   "score_raw": 25.29,
+   "score_raw": 24.86,
    "score": 31,
    "corroboration": 2,
    "also_in": [
@@ -633,7 +865,7 @@
    "core_terms": [
     "drohnenabwehr"
    ],
-   "score_raw": 18.37,
+   "score_raw": 18.07,
    "score": 18,
    "corroboration": 1,
    "also_in": [],
@@ -697,7 +929,7 @@
    "core_terms": [
     "drohnenabwehr"
    ],
-   "score_raw": 18.34,
+   "score_raw": 18.03,
    "score": 18,
    "corroboration": 1,
    "also_in": [],
@@ -729,7 +961,7 @@
    "core_terms": [
     "drohnenabwehr"
    ],
-   "score_raw": 25.26,
+   "score_raw": 24.84,
    "score": 31,
    "corroboration": 2,
    "also_in": [],
@@ -759,7 +991,7 @@
    "core_terms": [
     "counter-drone"
    ],
-   "score_raw": 18.26,
+   "score_raw": 17.96,
    "score": 18,
    "corroboration": 1,
    "also_in": [],
@@ -835,6 +1067,38 @@
    }
   },
   {
+   "id": "4f18e2ab9c2ec85a",
+   "title": "FBI's counter-drone school preps law enforcement for major event safety",
+   "summary": "FBI's counter-drone school preps law enforcement for major event safety rocketcitynow.com",
+   "link": "https://news.google.com/rss/articles/CBMitAJBVV95cUxPWWRVTlE5dGw5eWZrNW1raEF0eEFsNVV4ZWxkNzNQc0wzblRLQXYybndlSUJDRmtvNm52M3dwbUx3Umo2b0JmZVJtMHIwWkdLaHhEaUpmcXlrb3dZT3NrWTd0REtHdk1mNDdHQi1zRlVDdDdjYkFlaGkwRHN1QlcyYmpGUWhGU2FZdmJ6MlpENEJseFUwc2VHZ0hHMFFWYjYtUmY4ampBOUhzZFJzdndDVUJ4d3BfanRraFhXR0tZcGUtbjNudDQzYWtCODQtamVrTXJaUGpCbFh6a193MzF4VVo2SnhDcVl1MXlhbnRtczZqRXc0R0J6RVVQZ3hMaUw5UnlRMWpudnYwNVhSalYzM01QbUsyMFluSThNaVdVbWlXWTdxYWNRcGN0ZkVpZUZBNl9wOA?oc=5",
+   "source": "Google News EN – Counter-UAS",
+   "source_weight": 0.85,
+   "published": "2026-10-01T21:43:00+00:00",
+   "category": "Sonstiges",
+   "region": "World",
+   "categories": [],
+   "vendors": [],
+   "business_tags": [
+    "major event"
+   ],
+   "signals": [],
+   "core_terms": [
+    "counter-drone"
+   ],
+   "score_raw": 27.06,
+   "score": 27,
+   "corroboration": 1,
+   "also_in": [],
+   "first_seen": "2026-10-03T13:29:19.456463+00:00",
+   "ai_review": null,
+   "verdict": {
+    "kern": "Sonstiges – ziviler Objektbezug: major event.",
+    "bedeutung": "Kein Handlungsbedarf erkennbar.",
+    "einstufung": "beobachten",
+    "konfidenz": "regelbasiert"
+   }
+  },
+  {
    "id": "fcbffe1f95e85364",
    "title": "Feature Article: Testing C-UAS with State and Local Law Enforcement",
    "summary": "Feature Article: Testing C-UAS with State and Local Law Enforcement Homeland Security (.gov)",
@@ -851,7 +1115,7 @@
    "core_terms": [
     "c-uas"
    ],
-   "score_raw": 18.37,
+   "score_raw": 17.87,
    "score": 18,
    "corroboration": 1,
    "also_in": [],
@@ -915,7 +1179,7 @@
    "core_terms": [
     "counter-uas"
    ],
-   "score_raw": 18.14,
+   "score_raw": 17.84,
    "score": 18,
    "corroboration": 1,
    "also_in": [],
@@ -947,7 +1211,7 @@
    "core_terms": [
     "counter-drone"
    ],
-   "score_raw": 24.45,
+   "score_raw": 24.04,
    "score": 30,
    "corroboration": 2,
    "also_in": [
@@ -1049,8 +1313,8 @@
    "core_terms": [
     "counter-uas"
    ],
-   "score_raw": 40.88,
-   "score": 41,
+   "score_raw": 40.21,
+   "score": 40,
    "corroboration": 1,
    "also_in": [],
    "first_seen": "2026-10-01T18:25:22.074948+00:00",
@@ -1115,7 +1379,7 @@
    "core_terms": [
     "counter-drone"
    ],
-   "score_raw": 19.16,
+   "score_raw": 18.85,
    "score": 25,
    "corroboration": 2,
    "also_in": [
@@ -1185,8 +1449,8 @@
    "core_terms": [
     "counter-uas"
    ],
-   "score_raw": 14.51,
-   "score": 15,
+   "score_raw": 14.27,
+   "score": 14,
    "corroboration": 1,
    "also_in": [],
    "first_seen": "2026-10-01T18:25:22.351402+00:00",
@@ -1221,8 +1485,8 @@
    "core_terms": [
     "counter-drone"
    ],
-   "score_raw": 43.2,
-   "score": 49,
+   "score_raw": 42.49,
+   "score": 48,
    "corroboration": 2,
    "also_in": [
     "Google News EN – Counter-UAS"
@@ -1253,7 +1517,7 @@
    "core_terms": [
     "drohnenabwehr"
    ],
-   "score_raw": 18.07,
+   "score_raw": 17.78,
    "score": 18,
    "corroboration": 1,
    "also_in": [],
@@ -1283,7 +1547,7 @@
    "core_terms": [
     "counter-uas"
    ],
-   "score_raw": 14.5,
+   "score_raw": 14.26,
    "score": 14,
    "corroboration": 1,
    "also_in": [],
@@ -1472,7 +1736,7 @@
    "core_terms": [
     "c-uas"
    ],
-   "score_raw": 26.27,
+   "score_raw": 25.84,
    "score": 32,
    "corroboration": 2,
    "also_in": [],
@@ -1636,7 +1900,7 @@
    "core_terms": [
     "drohnenabwehr"
    ],
-   "score_raw": 18.04,
+   "score_raw": 17.75,
    "score": 18,
    "corroboration": 1,
    "also_in": [],
@@ -1674,7 +1938,7 @@
     "counter-uas",
     "drone defense"
    ],
-   "score_raw": 39.36,
+   "score_raw": 38.72,
    "score": 39,
    "corroboration": 1,
    "also_in": [],
@@ -1708,7 +1972,7 @@
    "core_terms": [
     "counter-drone"
    ],
-   "score_raw": 30.43,
+   "score_raw": 29.93,
    "score": 30,
    "corroboration": 1,
    "also_in": [],
@@ -1834,8 +2098,8 @@
    "core_terms": [
     "counter-uas"
    ],
-   "score_raw": 24.53,
-   "score": 25,
+   "score_raw": 24.13,
+   "score": 24,
    "corroboration": 1,
    "also_in": [],
    "first_seen": "2026-10-01T11:37:12.500848+00:00",
@@ -1868,7 +2132,7 @@
    "core_terms": [
     "counter-drone"
    ],
-   "score_raw": 23.35,
+   "score_raw": 22.97,
    "score": 23,
    "corroboration": 1,
    "also_in": [],
@@ -1928,7 +2192,7 @@
    "core_terms": [
     "drohnenabwehr"
    ],
-   "score_raw": 17.98,
+   "score_raw": 17.68,
    "score": 18,
    "corroboration": 1,
    "also_in": [],
@@ -1958,7 +2222,7 @@
    "core_terms": [
     "counter-drone"
    ],
-   "score_raw": 17.98,
+   "score_raw": 17.68,
    "score": 24,
    "corroboration": 2,
    "also_in": [],
@@ -1991,8 +2255,8 @@
     "counter-drone",
     "drone detection"
    ],
-   "score_raw": 31.87,
-   "score": 32,
+   "score_raw": 30.48,
+   "score": 30,
    "corroboration": 1,
    "also_in": [],
    "first_seen": "2026-10-01T11:37:12.512043+00:00",
@@ -2023,7 +2287,7 @@
    "core_terms": [
     "counter-drone"
    ],
-   "score_raw": 22.01,
+   "score_raw": 21.65,
    "score": 22,
    "corroboration": 1,
    "also_in": [],
@@ -2067,38 +2331,6 @@
    }
   },
   {
-   "id": "b41c9f598022666e",
-   "title": "Neues Anti-Drohnen-System am Flughafen Köln/Bonn - Radio Bonn / Rhein-Sieg",
-   "summary": "Neues Anti-Drohnen-System am Flughafen Köln/Bonn Radio Bonn / Rhein-Sieg",
-   "link": "https://news.google.com/rss/articles/CBMikwFBVV95cUxPM21CTHQ3TEExejV6SHkxUzN1RWVWOVduZWszN0ZEcWwtRUNkdzIyYWoydlV2VGc0TXVjUDNPTHNORlM4N3JYWndTQzJaNVJjaDQ5RG1aT3ZNVDRjb1ZQR2JETjhXckZPRy1YY045WHdRdFJaT1N0N19VbG1YN2c0Wk85REpXQW1VRWFoUXhUcFRlWDQ?oc=5",
-   "source": "Google News DE – Drohnenabwehr",
-   "source_weight": 0.85,
-   "published": "2026-10-01T04:35:00+00:00",
-   "category": "Sonstiges",
-   "region": "DACH",
-   "categories": [],
-   "vendors": [],
-   "business_tags": [
-    "flughafen"
-   ],
-   "signals": [],
-   "core_terms": [
-    "anti-drohne"
-   ],
-   "score_raw": 31.59,
-   "score": 32,
-   "corroboration": 1,
-   "also_in": [],
-   "first_seen": "2026-10-01T11:37:12.290850+00:00",
-   "ai_review": null,
-   "verdict": {
-    "kern": "Sonstiges – ziviler Objektbezug: flughafen.",
-    "bedeutung": "Kein Handlungsbedarf erkennbar.",
-    "einstufung": "beobachten",
-    "konfidenz": "regelbasiert"
-   }
-  },
-  {
    "id": "7ef8304f5b372324",
    "title": "Neues Anti-Drohnen-System am Flughafen Köln/Bonn",
    "summary": "Neues Anti-Drohnen-System am Flughafen Köln/Bonn radiobonn.de",
@@ -2131,6 +2363,38 @@
    }
   },
   {
+   "id": "b41c9f598022666e",
+   "title": "Neues Anti-Drohnen-System am Flughafen Köln/Bonn - Radio Bonn / Rhein-Sieg",
+   "summary": "Neues Anti-Drohnen-System am Flughafen Köln/Bonn Radio Bonn / Rhein-Sieg",
+   "link": "https://news.google.com/rss/articles/CBMikwFBVV95cUxPM21CTHQ3TEExejV6SHkxUzN1RWVWOVduZWszN0ZEcWwtRUNkdzIyYWoydlV2VGc0TXVjUDNPTHNORlM4N3JYWndTQzJaNVJjaDQ5RG1aT3ZNVDRjb1ZQR2JETjhXckZPRy1YY045WHdRdFJaT1N0N19VbG1YN2c0Wk85REpXQW1VRWFoUXhUcFRlWDQ?oc=5",
+   "source": "Google News DE – Drohnenabwehr",
+   "source_weight": 0.85,
+   "published": "2026-10-01T04:35:00+00:00",
+   "category": "Sonstiges",
+   "region": "DACH",
+   "categories": [],
+   "vendors": [],
+   "business_tags": [
+    "flughafen"
+   ],
+   "signals": [],
+   "core_terms": [
+    "anti-drohne"
+   ],
+   "score_raw": 31.08,
+   "score": 31,
+   "corroboration": 1,
+   "also_in": [],
+   "first_seen": "2026-10-01T11:37:12.290850+00:00",
+   "ai_review": null,
+   "verdict": {
+    "kern": "Sonstiges – ziviler Objektbezug: flughafen.",
+    "bedeutung": "Kein Handlungsbedarf erkennbar.",
+    "einstufung": "beobachten",
+    "konfidenz": "regelbasiert"
+   }
+  },
+  {
    "id": "c702729309d716df",
    "title": "Does Electro Optic Systems (ASX:EOS) Gain a US Anti-Drone Edge?",
    "summary": "Does Electro Optic Systems (ASX:EOS) Gain a US Anti-Drone Edge? Kalkine Media",
@@ -2147,7 +2411,7 @@
    "core_terms": [
     "anti-drone"
    ],
-   "score_raw": 19.46,
+   "score_raw": 18.62,
    "score": 19,
    "corroboration": 1,
    "also_in": [],
@@ -2181,7 +2445,7 @@
    "core_terms": [
     "counter-drone"
    ],
-   "score_raw": 23.14,
+   "score_raw": 22.77,
    "score": 29,
    "corroboration": 2,
    "also_in": [
@@ -2243,7 +2507,7 @@
    "core_terms": [
     "drohnenabwehr"
    ],
-   "score_raw": 17.79,
+   "score_raw": 17.5,
    "score": 24,
    "corroboration": 2,
    "also_in": [],
@@ -2303,8 +2567,8 @@
    "core_terms": [
     "counter-uas"
    ],
-   "score_raw": 17.78,
-   "score": 18,
+   "score_raw": 17.49,
+   "score": 17,
    "corroboration": 1,
    "also_in": [],
    "first_seen": "2026-10-01T11:37:12.508852+00:00",
@@ -2333,8 +2597,8 @@
    "core_terms": [
     "counter-drone"
    ],
-   "score_raw": 17.77,
-   "score": 18,
+   "score_raw": 17.49,
+   "score": 17,
    "corroboration": 1,
    "also_in": [],
    "first_seen": "2026-09-30T21:25:33.102964+00:00",
@@ -2403,8 +2667,8 @@
    "core_terms": [
     "counter-drone"
    ],
-   "score_raw": 26.57,
-   "score": 27,
+   "score_raw": 26.14,
+   "score": 26,
    "corroboration": 1,
    "also_in": [],
    "first_seen": "2026-09-30T21:25:33.111288+00:00",
@@ -2469,8 +2733,8 @@
    "core_terms": [
     "c-uas"
    ],
-   "score_raw": 17.71,
-   "score": 18,
+   "score_raw": 17.43,
+   "score": 17,
    "corroboration": 1,
    "also_in": [],
    "first_seen": "2026-10-01T18:25:22.124224+00:00",
@@ -2577,8 +2841,8 @@
    "core_terms": [
     "counter-drone"
    ],
-   "score_raw": 23.85,
-   "score": 30,
+   "score_raw": 23.47,
+   "score": 29,
    "corroboration": 2,
    "also_in": [
     "Google News EN – Counter-UAS"
@@ -2656,8 +2920,8 @@
     "counter-uas",
     "drone detection"
    ],
-   "score_raw": 50.77,
-   "score": 51,
+   "score_raw": 49.96,
+   "score": 50,
    "corroboration": 3,
    "also_in": [
     "Google News EN – Counter-UAS",
@@ -2689,8 +2953,8 @@
    "core_terms": [
     "counter-drone"
    ],
-   "score_raw": 18.88,
-   "score": 19,
+   "score_raw": 18.39,
+   "score": 24,
    "corroboration": 2,
    "also_in": [
     "Google News EN – Counter-UAS"
@@ -2790,8 +3054,8 @@
    "core_terms": [
     "counter-drone"
    ],
-   "score_raw": 17.68,
-   "score": 18,
+   "score_raw": 17.4,
+   "score": 17,
    "corroboration": 1,
    "also_in": [],
    "first_seen": "2026-09-30T16:49:22.323694+00:00",
@@ -2890,7 +3154,7 @@
    "core_terms": [
     "counter-drone"
    ],
-   "score_raw": 22.92,
+   "score_raw": 22.55,
    "score": 29,
    "corroboration": 2,
    "also_in": [
@@ -2956,8 +3220,8 @@
    "core_terms": [
     "counter-uas"
    ],
-   "score_raw": 17.66,
-   "score": 18,
+   "score_raw": 17.38,
+   "score": 17,
    "corroboration": 1,
    "also_in": [],
    "first_seen": "2026-09-30T16:49:22.306588+00:00",
@@ -2986,8 +3250,8 @@
    "core_terms": [
     "counter-drone"
    ],
-   "score_raw": 17.66,
-   "score": 18,
+   "score_raw": 17.37,
+   "score": 17,
    "corroboration": 1,
    "also_in": [],
    "first_seen": "2026-09-30T21:25:33.126109+00:00",
@@ -3022,7 +3286,7 @@
    "core_terms": [
     "counter-drone"
    ],
-   "score_raw": 28.0,
+   "score_raw": 27.56,
    "score": 40,
    "corroboration": 3,
    "also_in": [
@@ -3056,7 +3320,7 @@
    "core_terms": [
     "drohnenabwehr"
    ],
-   "score_raw": 23.25,
+   "score_raw": 22.89,
    "score": 23,
    "corroboration": 1,
    "also_in": [],
@@ -3086,14 +3350,16 @@
    "core_terms": [
     "counter-drone"
    ],
-   "score_raw": 17.82,
-   "score": 18,
-   "corroboration": 1,
-   "also_in": [],
+   "score_raw": 18.38,
+   "score": 24,
+   "corroboration": 2,
+   "also_in": [
+    "Google News EN – Counter-UAS"
+   ],
    "first_seen": "2026-09-30T16:49:22.312882+00:00",
    "ai_review": null,
    "verdict": {
-    "kern": "Sonstiges – kein erkennbarer Bezug zu unseren Schutzobjekten.",
+    "kern": "Sonstiges – kein erkennbarer Bezug zu unseren Schutzobjekten; von 2 Quellen gemeldet.",
     "bedeutung": "Kein Handlungsbedarf erkennbar.",
     "einstufung": "beobachten",
     "konfidenz": "regelbasiert"
@@ -3191,8 +3457,8 @@
    "core_terms": [
     "counter-uas"
    ],
-   "score_raw": 26.95,
-   "score": 33,
+   "score_raw": 26.93,
+   "score": 27,
    "corroboration": 2,
    "also_in": [],
    "first_seen": "2026-09-30T21:25:33.171206+00:00",
@@ -3234,6 +3500,41 @@
    "ai_review": null,
    "verdict": {
     "kern": "Technologie & Produkte – kein erkennbarer Bezug zu unseren Schutzobjekten; von 3 Quellen gemeldet.",
+    "bedeutung": "Kein Handlungsbedarf erkennbar.",
+    "einstufung": "beobachten",
+    "konfidenz": "regelbasiert"
+   }
+  },
+  {
+   "id": "8633ac60a0f11aef",
+   "title": "Digital Force Technologies Awarded $500M IDIQ Contract from JIATF-401 to Deliver Advanced Counter-UAS Capabilities",
+   "summary": "Digital Force Technologies Awarded $500M IDIQ Contract from JIATF-401 to Deliver Advanced Counter-UAS Capabilities sUAS News",
+   "link": "https://news.google.com/rss/articles/CBMi4AFBVV95cUxQaGtaUC1ZcWZIWDJ6YlA2aHJKaW5tWm9STFI4NWVEcERURExZLWxlX1lzWm9nNkFzNHZPbU9fd1hEU0t0V1VlQ05Gb0RXVkV1bE1ZdjdSaS1OTWxreE1lSXpReWhoUUp2eFQtQlFuRkItTTNORW1hajFvWXpGdWtrQUZQSldrRkFYa1QzWThyREJEZXhRSEhjUzc3Vzd5dTgyYk5PTkxCTXVyeVQ2MFJ2M3BRVnZzdzBjUEY2WWFMcHlIZ2VIME80cXEzRVBXOWhsUkVyUHVxelNyTk1NWU5GNQ?oc=5",
+   "source": "Google News EN – Counter-UAS",
+   "source_weight": 0.85,
+   "published": "2026-09-30T11:59:06+00:00",
+   "category": "Beschaffung & Aufträge",
+   "region": "World",
+   "categories": [
+    "Beschaffung & Aufträge"
+   ],
+   "vendors": [],
+   "business_tags": [],
+   "signals": [
+    "awarded",
+    "contract"
+   ],
+   "core_terms": [
+    "counter-uas"
+   ],
+   "score_raw": 31.52,
+   "score": 32,
+   "corroboration": 1,
+   "also_in": [],
+   "first_seen": "2026-10-03T13:29:19.550859+00:00",
+   "ai_review": null,
+   "verdict": {
+    "kern": "Beschaffung & Aufträge – kein erkennbarer Bezug zu unseren Schutzobjekten.",
     "bedeutung": "Kein Handlungsbedarf erkennbar.",
     "einstufung": "beobachten",
     "konfidenz": "regelbasiert"
@@ -3316,36 +3617,6 @@
    }
   },
   {
-   "id": "26fec55532fd668e",
-   "title": "The President Held a Coordination Meeting with Corps, Brigade, and Battalion Commanders on the Army’s Urgent Needs and the Development of Drone and Counter-Drone Technologies — Official website of the President of Ukraine - Офіційне інтернет-представництво Президента України",
-   "summary": "The President Held a Coordination Meeting with Corps, Brigade, and Battalion Commanders on the Army’s Urgent Needs and the Development of Drone and Counter-Drone Technologies — Official website of the President of Ukraine Офіційне інтернет-представництво Президента України",
-   "link": "https://news.google.com/rss/articles/CBMipwFBVV95cUxQZmotMEtwemNXTnkyU2JNbWdPRzl1Tm9yN2lfSGV4eG85eTVwU0R3WjRfTWNFN3QzTkVpSEtBV3d3ZmVteG9OLVB3cVJEdE1lMWNUUTF3clVlRUFSdnlnenk3ZXVvb2RMTFBYeVpoY1dQRVBncGhyOXJnTXJESVV0OG5YbmZSQjFxa0NDVDFlcEFLajVXeG5BNm5KaXJLTnp4cnZLeWhMOA?oc=5",
-   "source": "Google News EN – C-UAS contracts",
-   "source_weight": 0.9,
-   "published": "2026-09-30T11:47:00+00:00",
-   "category": "Sonstiges",
-   "region": "EMEA",
-   "categories": [],
-   "vendors": [],
-   "business_tags": [],
-   "signals": [],
-   "core_terms": [
-    "counter-drone"
-   ],
-   "score_raw": 18.65,
-   "score": 19,
-   "corroboration": 1,
-   "also_in": [],
-   "first_seen": "2026-10-01T11:37:12.642420+00:00",
-   "ai_review": null,
-   "verdict": {
-    "kern": "Sonstiges – kein erkennbarer Bezug zu unseren Schutzobjekten.",
-    "bedeutung": "Kein Handlungsbedarf erkennbar.",
-    "einstufung": "beobachten",
-    "konfidenz": "regelbasiert"
-   }
-  },
-  {
    "id": "60f92a48a2aaa7e4",
    "title": "The President Held a Coordination Meeting with Corps, Brigade, and Battalion Commanders on the Army’s Urgent Needs and the Development of Drone and Counter-Drone Technologies — Official website of the President of Ukraine",
    "summary": "The President Held a Coordination Meeting with Corps, Brigade, and Battalion Commanders on the Army’s Urgent Needs and the Development of Drone and Counter-Drone Technologies — Official website of the President of Ukraine president.gov.ua",
@@ -3367,6 +3638,36 @@
    "corroboration": 1,
    "also_in": [],
    "first_seen": "2026-10-01T18:25:22.227779+00:00",
+   "ai_review": null,
+   "verdict": {
+    "kern": "Sonstiges – kein erkennbarer Bezug zu unseren Schutzobjekten.",
+    "bedeutung": "Kein Handlungsbedarf erkennbar.",
+    "einstufung": "beobachten",
+    "konfidenz": "regelbasiert"
+   }
+  },
+  {
+   "id": "26fec55532fd668e",
+   "title": "The President Held a Coordination Meeting with Corps, Brigade, and Battalion Commanders on the Army’s Urgent Needs and the Development of Drone and Counter-Drone Technologies — Official website of the President of Ukraine - Офіційне інтернет-представництво Президента України",
+   "summary": "The President Held a Coordination Meeting with Corps, Brigade, and Battalion Commanders on the Army’s Urgent Needs and the Development of Drone and Counter-Drone Technologies — Official website of the President of Ukraine Офіційне інтернет-представництво Президента України",
+   "link": "https://news.google.com/rss/articles/CBMipwFBVV95cUxQZmotMEtwemNXTnkyU2JNbWdPRzl1Tm9yN2lfSGV4eG85eTVwU0R3WjRfTWNFN3QzTkVpSEtBV3d3ZmVteG9OLVB3cVJEdE1lMWNUUTF3clVlRUFSdnlnenk3ZXVvb2RMTFBYeVpoY1dQRVBncGhyOXJnTXJESVV0OG5YbmZSQjFxa0NDVDFlcEFLajVXeG5BNm5KaXJLTnp4cnZLeWhMOA?oc=5",
+   "source": "Google News EN – C-UAS contracts",
+   "source_weight": 0.9,
+   "published": "2026-09-30T11:47:00+00:00",
+   "category": "Sonstiges",
+   "region": "EMEA",
+   "categories": [],
+   "vendors": [],
+   "business_tags": [],
+   "signals": [],
+   "core_terms": [
+    "counter-drone"
+   ],
+   "score_raw": 18.35,
+   "score": 18,
+   "corroboration": 1,
+   "also_in": [],
+   "first_seen": "2026-10-01T11:37:12.642420+00:00",
    "ai_review": null,
    "verdict": {
     "kern": "Sonstiges – kein erkennbarer Bezug zu unseren Schutzobjekten.",
@@ -3431,8 +3732,8 @@
    "core_terms": [
     "counter-drone"
    ],
-   "score_raw": 17.61,
-   "score": 18,
+   "score_raw": 17.33,
+   "score": 17,
    "corroboration": 1,
    "also_in": [],
    "first_seen": "2026-09-30T16:49:22.316045+00:00",
@@ -3497,8 +3798,8 @@
    "core_terms": [
     "drohnenabwehr"
    ],
-   "score_raw": 17.6,
-   "score": 18,
+   "score_raw": 17.32,
+   "score": 17,
    "corroboration": 1,
    "also_in": [],
    "first_seen": "2026-09-30T16:49:22.002122+00:00",
@@ -3557,8 +3858,8 @@
    "core_terms": [
     "counter-drone"
    ],
-   "score_raw": 18.61,
-   "score": 25,
+   "score_raw": 18.32,
+   "score": 24,
    "corroboration": 2,
    "also_in": [
     "Google News EN – Counter-UAS"
@@ -3619,8 +3920,8 @@
    "core_terms": [
     "drohnenabwehr"
    ],
-   "score_raw": 17.56,
-   "score": 18,
+   "score_raw": 17.28,
+   "score": 17,
    "corroboration": 2,
    "also_in": [],
    "first_seen": "2026-09-30T11:10:19.502879+00:00",
@@ -3654,18 +3955,18 @@
    "core_terms": [
     "counter-drone"
    ],
-   "score_raw": 33.79,
-   "score": 52,
-   "corroboration": 10,
+   "score_raw": 33.26,
+   "score": 51,
+   "corroboration": 12,
    "also_in": [
     "Google News EN – Counter-UAS"
    ],
    "first_seen": "2026-09-30T11:10:19.857282+00:00",
    "ai_review": null,
    "verdict": {
-    "kern": "Beschaffung & Aufträge – kein erkennbarer Bezug zu unseren Schutzobjekten; von 10 Quellen gemeldet.",
-    "bedeutung": "Vergabeunterlagen und Losschnitt ansehen, falls das Segment zu uns passt.",
-    "einstufung": "prüfen",
+    "kern": "Beschaffung & Aufträge – kein erkennbarer Bezug zu unseren Schutzobjekten; von 12 Quellen gemeldet.",
+    "bedeutung": "Kein Handlungsbedarf erkennbar.",
+    "einstufung": "beobachten",
     "konfidenz": "regelbasiert"
    }
   },
@@ -3690,8 +3991,8 @@
    "core_terms": [
     "counter-drone"
    ],
-   "score_raw": 29.6,
-   "score": 48,
+   "score_raw": 29.13,
+   "score": 47,
    "corroboration": 4,
    "also_in": [
     "Google News EN – Counter-UAS"
@@ -3724,7 +4025,7 @@
    "core_terms": [
     "counter-drone"
    ],
-   "score_raw": 23.91,
+   "score_raw": 23.54,
    "score": 36,
    "corroboration": 3,
    "also_in": [
@@ -3790,8 +4091,8 @@
    "core_terms": [
     "counter-drone"
    ],
-   "score_raw": 27.88,
-   "score": 34,
+   "score_raw": 27.44,
+   "score": 33,
    "corroboration": 3,
    "also_in": [],
    "first_seen": "2026-10-01T18:25:22.163677+00:00",
@@ -3852,8 +4153,8 @@
    "core_terms": [
     "counter-drone"
    ],
-   "score_raw": 18.35,
-   "score": 24,
+   "score_raw": 17.0,
+   "score": 17,
    "corroboration": 2,
    "also_in": [],
    "first_seen": "2026-09-30T11:10:19.728968+00:00",
@@ -3912,7 +4213,7 @@
    "core_terms": [
     "drohnenabwehr"
    ],
-   "score_raw": 17.45,
+   "score_raw": 17.18,
    "score": 17,
    "corroboration": 1,
    "also_in": [],
@@ -3983,8 +4284,8 @@
    "core_terms": [
     "counter-drone"
    ],
-   "score_raw": 51.71,
-   "score": 52,
+   "score_raw": 50.9,
+   "score": 51,
    "corroboration": 2,
    "also_in": [
     "Google News EN – Counter-UAS"
@@ -3993,8 +4294,8 @@
    "ai_review": null,
    "verdict": {
     "kern": "Beschaffung & Aufträge – kein erkennbarer Bezug zu unseren Schutzobjekten; Akteur genannt: DroneShield; von 2 Quellen gemeldet.",
-    "bedeutung": "Vergabeunterlagen und Losschnitt ansehen, falls das Segment zu uns passt.",
-    "einstufung": "prüfen",
+    "bedeutung": "Kein Handlungsbedarf erkennbar.",
+    "einstufung": "beobachten",
     "konfidenz": "regelbasiert"
    }
   },
@@ -4019,7 +4320,7 @@
    "core_terms": [
     "counter-drone"
    ],
-   "score_raw": 23.22,
+   "score_raw": 22.86,
    "score": 35,
    "corroboration": 3,
    "also_in": [
@@ -4091,7 +4392,7 @@
    "core_terms": [
     "counter-drone"
    ],
-   "score_raw": 21.93,
+   "score_raw": 21.58,
    "score": 22,
    "corroboration": 1,
    "also_in": [],
@@ -4261,8 +4562,8 @@
    "core_terms": [
     "counter drone"
    ],
-   "score_raw": 22.59,
-   "score": 23,
+   "score_raw": 22.14,
+   "score": 22,
    "corroboration": 1,
    "also_in": [],
    "first_seen": "2026-09-29T22:14:53.182952+00:00",
@@ -4291,7 +4592,7 @@
    "core_terms": [
     "counter-drone"
    ],
-   "score_raw": 17.3,
+   "score_raw": 17.03,
    "score": 23,
    "corroboration": 2,
    "also_in": [],
@@ -4449,8 +4750,8 @@
    "core_terms": [
     "drohnenabwehr"
    ],
-   "score_raw": 17.72,
-   "score": 18,
+   "score_raw": 16.99,
+   "score": 17,
    "corroboration": 1,
    "also_in": [],
    "first_seen": "2026-09-29T18:06:11.557374+00:00",
@@ -4641,7 +4942,7 @@
    "core_terms": [
     "drohnenabwehr"
    ],
-   "score_raw": 22.24,
+   "score_raw": 21.9,
    "score": 22,
    "corroboration": 1,
    "also_in": [],
@@ -4748,8 +5049,8 @@
     "counter-drone",
     "drone defense"
    ],
-   "score_raw": 28.77,
-   "score": 29,
+   "score_raw": 27.58,
+   "score": 28,
    "corroboration": 1,
    "also_in": [],
    "first_seen": "2026-09-29T18:06:11.861048+00:00",
@@ -4808,7 +5109,7 @@
    "core_terms": [
     "counter-drone"
    ],
-   "score_raw": 17.29,
+   "score_raw": 16.95,
    "score": 17,
    "corroboration": 2,
    "also_in": [],
@@ -4838,7 +5139,7 @@
    "core_terms": [
     "counter-drone"
    ],
-   "score_raw": 18.22,
+   "score_raw": 17.94,
    "score": 24,
    "corroboration": 2,
    "also_in": [
@@ -4874,7 +5175,7 @@
    "core_terms": [
     "counter-drone"
    ],
-   "score_raw": 29.03,
+   "score_raw": 28.58,
    "score": 41,
    "corroboration": 3,
    "also_in": [
@@ -4906,7 +5207,7 @@
    "core_terms": [
     "c-uas"
    ],
-   "score_raw": 17.37,
+   "score_raw": 16.93,
    "score": 17,
    "corroboration": 1,
    "also_in": [],
@@ -5090,7 +5391,7 @@
    "core_terms": [
     "drohnendetektion"
    ],
-   "score_raw": 17.25,
+   "score_raw": 16.91,
    "score": 17,
    "corroboration": 1,
    "also_in": [],
@@ -5258,8 +5559,8 @@
    "core_terms": [
     "counter-drone"
    ],
-   "score_raw": 28.92,
-   "score": 29,
+   "score_raw": 28.48,
+   "score": 28,
    "corroboration": 2,
    "also_in": [
     "Google News EN – Counter-UAS"
@@ -5294,8 +5595,8 @@
    "core_terms": [
     "counter-drone"
    ],
-   "score_raw": 31.39,
-   "score": 37,
+   "score_raw": 28.44,
+   "score": 28,
    "corroboration": 2,
    "also_in": [
     "Google News EN – Counter-UAS"
@@ -5491,7 +5792,7 @@
    "core_terms": [
     "counter-drone"
    ],
-   "score_raw": 21.33,
+   "score_raw": 21.02,
    "score": 21,
    "corroboration": 1,
    "also_in": [],
@@ -5661,8 +5962,8 @@
    "core_terms": [
     "drohnenabwehr"
    ],
-   "score_raw": 22.51,
-   "score": 29,
+   "score_raw": 22.18,
+   "score": 28,
    "corroboration": 2,
    "also_in": [
     "Google News DE – Drohnenabwehr"
@@ -5694,7 +5995,7 @@
     "counter-drone",
     "drone defense"
    ],
-   "score_raw": 22.97,
+   "score_raw": 22.63,
    "score": 23,
    "corroboration": 1,
    "also_in": [],
@@ -5833,7 +6134,7 @@
    "core_terms": [
     "counter-uas"
    ],
-   "score_raw": 16.83,
+   "score_raw": 16.58,
    "score": 17,
    "corroboration": 1,
    "also_in": [],
@@ -6031,7 +6332,7 @@
    "core_terms": [
     "counter-uas"
    ],
-   "score_raw": 16.81,
+   "score_raw": 16.56,
    "score": 17,
    "corroboration": 1,
    "also_in": [],
@@ -6061,7 +6362,7 @@
    "core_terms": [
     "drohnenabwehr"
    ],
-   "score_raw": 16.8,
+   "score_raw": 16.55,
    "score": 23,
    "corroboration": 2,
    "also_in": [],
@@ -6269,7 +6570,7 @@
    "core_terms": [
     "counter-drone"
    ],
-   "score_raw": 23.06,
+   "score_raw": 22.72,
    "score": 23,
    "corroboration": 2,
    "also_in": [
@@ -6301,7 +6602,7 @@
    "core_terms": [
     "drohnenabwehr"
    ],
-   "score_raw": 16.76,
+   "score_raw": 16.51,
    "score": 17,
    "corroboration": 1,
    "also_in": [],
@@ -6470,8 +6771,8 @@
    "core_terms": [
     "drohnenabwehr"
    ],
-   "score_raw": 16.68,
-   "score": 17,
+   "score_raw": 16.44,
+   "score": 16,
    "corroboration": 1,
    "also_in": [],
    "first_seen": "2026-09-28T11:41:32.544978+00:00",
@@ -6696,7 +6997,7 @@
    "core_terms": [
     "counter-drone"
    ],
-   "score_raw": 27.18,
+   "score_raw": 26.8,
    "score": 27,
    "corroboration": 2,
    "also_in": [
@@ -6914,7 +7215,7 @@
    "core_terms": [
     "drohnenabwehr"
    ],
-   "score_raw": 15.84,
+   "score_raw": 15.63,
    "score": 16,
    "corroboration": 1,
    "also_in": [],
@@ -6944,7 +7245,7 @@
    "core_terms": [
     "counter-drone"
    ],
-   "score_raw": 15.83,
+   "score_raw": 15.62,
    "score": 16,
    "corroboration": 1,
    "also_in": [],
@@ -7075,7 +7376,7 @@
    "core_terms": [
     "counter-drone"
    ],
-   "score_raw": 15.79,
+   "score_raw": 15.58,
    "score": 16,
    "corroboration": 1,
    "also_in": [],
@@ -7477,8 +7778,8 @@
    "core_terms": [
     "counter-uas"
    ],
-   "score_raw": 15.82,
-   "score": 16,
+   "score_raw": 15.48,
+   "score": 15,
    "corroboration": 1,
    "also_in": [],
    "first_seen": "2026-09-28T19:40:38.204685+00:00",
@@ -7511,7 +7812,7 @@
    "core_terms": [
     "drohnenabwehr"
    ],
-   "score_raw": 20.96,
+   "score_raw": 20.69,
    "score": 39,
    "corroboration": 12,
    "also_in": [
@@ -7641,8 +7942,8 @@
    "core_terms": [
     "drohnenabwehr"
    ],
-   "score_raw": 15.52,
-   "score": 16,
+   "score_raw": 15.32,
+   "score": 15,
    "corroboration": 1,
    "also_in": [],
    "first_seen": "2026-09-24T19:09:54.315766+00:00",
@@ -8246,7 +8547,7 @@
    "core_terms": [
     "drohnenabwehr"
    ],
-   "score_raw": 15.43,
+   "score_raw": 15.24,
    "score": 15,
    "corroboration": 1,
    "also_in": [],
@@ -8314,6 +8615,38 @@
    "ai_review": null,
    "verdict": {
     "kern": "Sonstiges – kein erkennbarer Bezug zu unseren Schutzobjekten; von 3 Quellen gemeldet.",
+    "bedeutung": "Kein Handlungsbedarf erkennbar.",
+    "einstufung": "beobachten",
+    "konfidenz": "regelbasiert"
+   }
+  },
+  {
+   "id": "ac98983908b6f151",
+   "title": "Flughafen Berlin: Hintergründe zu Drohnenalarm bleiben unklar",
+   "summary": "Flughafen Berlin: Hintergründe zu Drohnenalarm bleiben unklar STERN.de",
+   "link": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxOb3dfeUN6OC1jVnNKeFBuT3hkRzN3V01Gb21ZT0huaEsxSHhFaHBwcU11Vl9CeVR6MF8waWpJZC13aXVKNk9JQUQzb1NhcktwdGZtTlFuUGowOXNWYjVweGtsdkkzcHlPX3BEV1R6UHlHSGNrZGQzSUZxcEFOVnZRd1lTQndXUmJEd1hYOW8tdlduRHFWWDhLa2ZLY0ttWDBzTkhqQk1uTjdVanZwRElnVndkdjRMdHZN?oc=5",
+   "source": "Google News DE – Drohnensichtung KRITIS",
+   "source_weight": 0.85,
+   "published": "2026-09-24T07:00:00+00:00",
+   "category": "Sonstiges",
+   "region": "DACH",
+   "categories": [],
+   "vendors": [],
+   "business_tags": [
+    "flughafen"
+   ],
+   "signals": [],
+   "core_terms": [
+    "drohnenalarm"
+   ],
+   "score_raw": 26.83,
+   "score": 27,
+   "corroboration": 1,
+   "also_in": [],
+   "first_seen": "2026-10-03T13:29:19.256610+00:00",
+   "ai_review": null,
+   "verdict": {
+    "kern": "Sonstiges – ziviler Objektbezug: flughafen.",
     "bedeutung": "Kein Handlungsbedarf erkennbar.",
     "einstufung": "beobachten",
     "konfidenz": "regelbasiert"
@@ -8616,7 +8949,7 @@
    "core_terms": [
     "drohnenalarm"
    ],
-   "score_raw": 26.94,
+   "score_raw": 26.6,
    "score": 39,
    "corroboration": 3,
    "also_in": [],
@@ -8648,8 +8981,8 @@
    "core_terms": [
     "drohnensichtung"
    ],
-   "score_raw": 26.66,
-   "score": 33,
+   "score_raw": 26.34,
+   "score": 38,
    "corroboration": 3,
    "also_in": [],
    "first_seen": "2026-09-24T10:00:51.511949+00:00",
@@ -8678,7 +9011,7 @@
    "core_terms": [
     "drohnenalarm"
    ],
-   "score_raw": 15.37,
+   "score_raw": 15.18,
    "score": 15,
    "corroboration": 1,
    "also_in": [],
@@ -8814,7 +9147,7 @@
    "core_terms": [
     "drohnensichtung"
    ],
-   "score_raw": 26.92,
+   "score_raw": 26.59,
    "score": 27,
    "corroboration": 1,
    "also_in": [],
@@ -9099,7 +9432,7 @@
    "core_terms": [
     "counter-drone"
    ],
-   "score_raw": 15.12,
+   "score_raw": 14.93,
    "score": 15,
    "corroboration": 1,
    "also_in": [],
@@ -9163,7 +9496,7 @@
    "core_terms": [
     "drohnenabwehr"
    ],
-   "score_raw": 15.22,
+   "score_raw": 15.03,
    "score": 15,
    "corroboration": 2,
    "also_in": [
@@ -9356,7 +9689,7 @@
    "core_terms": [
     "drohnenalarm"
    ],
-   "score_raw": 26.19,
+   "score_raw": 25.88,
    "score": 32,
    "corroboration": 2,
    "also_in": [],
@@ -9454,8 +9787,8 @@
    "core_terms": [
     "counter-drone"
    ],
-   "score_raw": 25.51,
-   "score": 26,
+   "score_raw": 25.2,
+   "score": 25,
    "corroboration": 2,
    "also_in": [
     "Google News EN – Counter-UAS"
@@ -9971,7 +10304,7 @@
    "core_terms": [
     "drohnenabwehr"
    ],
-   "score_raw": 14.85,
+   "score_raw": 14.67,
    "score": 15,
    "corroboration": 1,
    "also_in": [],
@@ -10741,7 +11074,7 @@
    "core_terms": [
     "drohnenabwehr"
    ],
-   "score_raw": 15.45,
+   "score_raw": 15.28,
    "score": 15,
    "corroboration": 2,
    "also_in": [
@@ -11326,7 +11659,7 @@
    "core_terms": [
     "anti-drohne"
    ],
-   "score_raw": 15.12,
+   "score_raw": 14.93,
    "score": 15,
    "corroboration": 1,
    "also_in": [],
@@ -11454,7 +11787,7 @@
    "core_terms": [
     "drohnensichtung"
    ],
-   "score_raw": 24.91,
+   "score_raw": 24.65,
    "score": 25,
    "corroboration": 1,
    "also_in": [],
@@ -12092,8 +12425,8 @@
    "core_terms": [
     "c-uas"
    ],
-   "score_raw": 22.55,
-   "score": 23,
+   "score_raw": 21.94,
+   "score": 22,
    "corroboration": 1,
    "also_in": [],
    "first_seen": "2026-09-30T21:25:33.234570+00:00",
@@ -12586,7 +12919,7 @@
     "counter-drone",
     "interceptor drone"
    ],
-   "score_raw": 38.01,
+   "score_raw": 37.65,
    "score": 38,
    "corroboration": 1,
    "also_in": [],
@@ -12762,8 +13095,8 @@
    "core_terms": [
     "drohnenabwehr"
    ],
-   "score_raw": 14.51,
-   "score": 15,
+   "score_raw": 14.37,
+   "score": 14,
    "corroboration": 2,
    "also_in": [
     "Google News DE – Drohnenabwehr"
@@ -13463,7 +13796,7 @@
    "core_terms": [
     "counter-uas"
    ],
-   "score_raw": 13.36,
+   "score_raw": 13.21,
    "score": 13,
    "corroboration": 1,
    "also_in": [],
@@ -13581,40 +13914,6 @@
    }
   },
   {
-   "id": "0814b6fa49272363",
-   "title": "MSPO: Hanwha präsentiert Fahrzeuge mit Drohnenabwehr-Laser - soldat-und-technik.de",
-   "summary": "MSPO: Hanwha präsentiert Fahrzeuge mit Drohnenabwehr-Laser soldat-und-technik.de",
-   "link": "https://news.google.com/rss/articles/CBMifkFVX3lxTE9Nd0xOVEtUS2xlOTFvUUxCaTZoRVpQR1ZPc0NPNnpucVJzelg5Sjd4eWpMSGc0ajlYNFlZWElKSDJWckZMa0ktTWw2ZE5KeW1VY1BFVGFLQ3J2WlhSMjBTdlN4eklEZElreHNSZEU5enJlN3NQWUJ5b0F2NHhuZw?oc=5",
-   "source": "Google News DE – Drohnenabwehr",
-   "source_weight": 0.85,
-   "published": "2026-09-16T08:50:53+00:00",
-   "category": "Technologie & Produkte",
-   "region": "DACH",
-   "categories": [
-    "Technologie & Produkte"
-   ],
-   "vendors": [],
-   "business_tags": [],
-   "signals": [
-    "laser"
-   ],
-   "core_terms": [
-    "drohnenabwehr"
-   ],
-   "score_raw": 23.08,
-   "score": 23,
-   "corroboration": 1,
-   "also_in": [],
-   "first_seen": "2026-09-18T09:46:12.143244+00:00",
-   "ai_review": null,
-   "verdict": {
-    "kern": "Technologie & Produkte – kein erkennbarer Bezug zu unseren Schutzobjekten.",
-    "bedeutung": "Kein Handlungsbedarf erkennbar.",
-    "einstufung": "beobachten",
-    "konfidenz": "regelbasiert"
-   }
-  },
-  {
    "id": "6f583295f995ee6c",
    "title": "MSPO: Hanwha präsentiert Fahrzeuge mit Drohnenabwehr-Laser",
    "summary": "MSPO: Hanwha präsentiert Fahrzeuge mit Drohnenabwehr-Laser Soldat & Technik",
@@ -13640,6 +13939,40 @@
    "corroboration": 1,
    "also_in": [],
    "first_seen": "2026-09-16T14:59:01.678533+00:00",
+   "ai_review": null,
+   "verdict": {
+    "kern": "Technologie & Produkte – kein erkennbarer Bezug zu unseren Schutzobjekten.",
+    "bedeutung": "Kein Handlungsbedarf erkennbar.",
+    "einstufung": "beobachten",
+    "konfidenz": "regelbasiert"
+   }
+  },
+  {
+   "id": "0814b6fa49272363",
+   "title": "MSPO: Hanwha präsentiert Fahrzeuge mit Drohnenabwehr-Laser - soldat-und-technik.de",
+   "summary": "MSPO: Hanwha präsentiert Fahrzeuge mit Drohnenabwehr-Laser soldat-und-technik.de",
+   "link": "https://news.google.com/rss/articles/CBMifkFVX3lxTE9Nd0xOVEtUS2xlOTFvUUxCaTZoRVpQR1ZPc0NPNnpucVJzelg5Sjd4eWpMSGc0ajlYNFlZWElKSDJWckZMa0ktTWw2ZE5KeW1VY1BFVGFLQ3J2WlhSMjBTdlN4eklEZElreHNSZEU5enJlN3NQWUJ5b0F2NHhuZw?oc=5",
+   "source": "Google News DE – Drohnenabwehr",
+   "source_weight": 0.85,
+   "published": "2026-09-16T08:50:53+00:00",
+   "category": "Technologie & Produkte",
+   "region": "DACH",
+   "categories": [
+    "Technologie & Produkte"
+   ],
+   "vendors": [],
+   "business_tags": [],
+   "signals": [
+    "laser"
+   ],
+   "core_terms": [
+    "drohnenabwehr"
+   ],
+   "score_raw": 17.39,
+   "score": 17,
+   "corroboration": 1,
+   "also_in": [],
+   "first_seen": "2026-09-18T09:46:12.143244+00:00",
    "ai_review": null,
    "verdict": {
     "kern": "Technologie & Produkte – kein erkennbarer Bezug zu unseren Schutzobjekten.",
@@ -13797,8 +14130,8 @@
    "core_terms": [
     "drohnenabwehr"
    ],
-   "score_raw": 13.51,
-   "score": 14,
+   "score_raw": 13.39,
+   "score": 13,
    "corroboration": 1,
    "also_in": [],
    "first_seen": "2026-09-16T09:57:23.408838+00:00",
@@ -13863,8 +14196,8 @@
    "core_terms": [
     "counter-drone"
    ],
-   "score_raw": 13.51,
-   "score": 14,
+   "score_raw": 13.39,
+   "score": 13,
    "corroboration": 1,
    "also_in": [],
    "first_seen": "2026-09-18T18:28:48.441677+00:00",
@@ -13893,8 +14226,8 @@
    "core_terms": [
     "drohnenabwehr"
    ],
-   "score_raw": 13.51,
-   "score": 14,
+   "score_raw": 13.39,
+   "score": 13,
    "corroboration": 1,
    "also_in": [],
    "first_seen": "2026-09-26T13:11:34.612074+00:00",
@@ -14052,7 +14385,7 @@
    "core_terms": [
     "counter-drone"
    ],
-   "score_raw": 13.36,
+   "score_raw": 13.21,
    "score": 13,
    "corroboration": 1,
    "also_in": [],
@@ -14362,8 +14695,8 @@
    "core_terms": [
     "drohnenabwehr"
    ],
-   "score_raw": 15.94,
-   "score": 16,
+   "score_raw": 13.21,
+   "score": 13,
    "corroboration": 1,
    "also_in": [],
    "first_seen": "2026-09-19T12:33:06.305678+00:00",
@@ -16389,8 +16722,8 @@
    "core_terms": [
     "drohnenabwehr"
    ],
-   "score_raw": 24.58,
-   "score": 25,
+   "score_raw": 24.38,
+   "score": 24,
    "corroboration": 1,
    "also_in": [],
    "first_seen": "2026-09-13T13:20:35.596395+00:00",
@@ -16457,7 +16790,7 @@
    "core_terms": [
     "counter-drone"
    ],
-   "score_raw": 17.98,
+   "score_raw": 17.74,
    "score": 18,
    "corroboration": 2,
    "also_in": [
@@ -16883,7 +17216,7 @@
    "core_terms": [
     "drohnenabwehr"
    ],
-   "score_raw": 35.03,
+   "score_raw": 34.77,
    "score": 35,
    "corroboration": 1,
    "also_in": [],
@@ -17850,8 +18183,8 @@
    "core_terms": [
     "abwehr von drohnen"
    ],
-   "score_raw": 12.57,
-   "score": 13,
+   "score_raw": 12.48,
+   "score": 12,
    "corroboration": 1,
    "also_in": [],
    "first_seen": "2026-09-10T18:28:17.240230+00:00",
@@ -17915,8 +18248,8 @@
    "core_terms": [
     "drohnenabwehr"
    ],
-   "score_raw": 12.57,
-   "score": 13,
+   "score_raw": 12.48,
+   "score": 12,
    "corroboration": 1,
    "also_in": [],
    "first_seen": "2026-09-10T14:26:24.706402+00:00",
@@ -18560,7 +18893,7 @@
     "counter-drone",
     "drone defense"
    ],
-   "score_raw": 16.96,
+   "score_raw": 16.85,
    "score": 17,
    "corroboration": 1,
    "also_in": [],
@@ -18728,7 +19061,7 @@
    "core_terms": [
     "drohnenabwehr"
    ],
-   "score_raw": 23.76,
+   "score_raw": 23.6,
    "score": 24,
    "corroboration": 1,
    "also_in": [],
@@ -18736,6 +19069,40 @@
    "ai_review": null,
    "verdict": {
     "kern": "Sonstiges – ziviler Objektbezug: kritis.",
+    "bedeutung": "Kein Handlungsbedarf erkennbar.",
+    "einstufung": "beobachten",
+    "konfidenz": "regelbasiert"
+   }
+  },
+  {
+   "id": "ea6fd0d8df4dc888",
+   "title": "AeroVironment Secures First International LOCUST Counter-Drone System Order Worth More Than $50 Million",
+   "summary": "AeroVironment Secures First International LOCUST Counter-Drone System Order Worth More Than $50 Million Yahoo Finance",
+   "link": "https://news.google.com/rss/articles/CBMirgFBVV95cUxOZ291Y2lkYVhDSmMteThDeFZZYVVlZ2dwOVQ1amZOMjlHZml3SjA4U1VuM1NnTURWZ0xpTlBmOC0wS0JmeFR6all4cFExZ0dISjF3V3Mwd1BVem91cjRYNUVhR09RSXFwVXhZVWQ0bFJnT3pKUGs3UlQwT1VXV2VYTDVpS3gxQzV1N0hTYm1LYXFFQUFsR0taTk9VN0xjWEZCM2xubTJ2VFhWN2lkSGc?oc=5",
+   "source": "Google News EN – C-UAS contracts",
+   "source_weight": 0.9,
+   "published": "2026-09-10T07:00:00+00:00",
+   "category": "Beschaffung & Aufträge",
+   "region": "World",
+   "categories": [
+    "Beschaffung & Aufträge"
+   ],
+   "vendors": [],
+   "business_tags": [],
+   "signals": [
+    "order"
+   ],
+   "core_terms": [
+    "counter-drone"
+   ],
+   "score_raw": 21.06,
+   "score": 21,
+   "corroboration": 1,
+   "also_in": [],
+   "first_seen": "2026-10-03T13:29:19.672236+00:00",
+   "ai_review": null,
+   "verdict": {
+    "kern": "Beschaffung & Aufträge – kein erkennbarer Bezug zu unseren Schutzobjekten.",
     "bedeutung": "Kein Handlungsbedarf erkennbar.",
     "einstufung": "beobachten",
     "konfidenz": "regelbasiert"
@@ -19300,7 +19667,7 @@
    "core_terms": [
     "drohnenabwehr"
    ],
-   "score_raw": 16.69,
+   "score_raw": 16.58,
    "score": 23,
    "corroboration": 2,
    "also_in": [
@@ -20217,8 +20584,8 @@
    "core_terms": [
     "counter-drone"
    ],
-   "score_raw": 14.16,
-   "score": 14,
+   "score_raw": 12.96,
+   "score": 13,
    "corroboration": 2,
    "also_in": [
     "Google News EN – Counter-UAS"
@@ -20317,8 +20684,8 @@
    "core_terms": [
     "counter-drone"
    ],
-   "score_raw": 24.67,
-   "score": 25,
+   "score_raw": 24.46,
+   "score": 24,
    "corroboration": 6,
    "also_in": [
     "Google News EN – Counter-UAS"
@@ -20355,7 +20722,7 @@
    "core_terms": [
     "counter-drone"
    ],
-   "score_raw": 24.34,
+   "score_raw": 24.19,
    "score": 24,
    "corroboration": 2,
    "also_in": [
@@ -20784,7 +21151,7 @@
    "core_terms": [
     "counter-drone"
    ],
-   "score_raw": 20.78,
+   "score_raw": 20.65,
    "score": 21,
    "corroboration": 2,
    "also_in": [
@@ -22006,7 +22373,7 @@
    "core_terms": [
     "drohnenabwehr"
    ],
-   "score_raw": 12.32,
+   "score_raw": 12.24,
    "score": 12,
    "corroboration": 1,
    "also_in": [],
@@ -22938,7 +23305,7 @@
    "core_terms": [
     "drohnenabwehr"
    ],
-   "score_raw": 19.64,
+   "score_raw": 19.52,
    "score": 26,
    "corroboration": 2,
    "also_in": [
@@ -23221,7 +23588,7 @@
    "core_terms": [
     "drohnenabwehr"
    ],
-   "score_raw": 12.1,
+   "score_raw": 12.03,
    "score": 12,
    "corroboration": 1,
    "also_in": [],
@@ -23251,7 +23618,7 @@
    "core_terms": [
     "drohnenabwehr"
    ],
-   "score_raw": 12.1,
+   "score_raw": 12.03,
    "score": 18,
    "corroboration": 3,
    "also_in": [],
@@ -23351,7 +23718,7 @@
    "core_terms": [
     "drohnenabwehr"
    ],
-   "score_raw": 25.84,
+   "score_raw": 25.69,
    "score": 32,
    "corroboration": 3,
    "also_in": [],
@@ -24082,7 +24449,7 @@
    "core_terms": [
     "drohnenabwehr"
    ],
-   "score_raw": 12.6,
+   "score_raw": 12.53,
    "score": 13,
    "corroboration": 2,
    "also_in": [
@@ -24544,7 +24911,7 @@
    "core_terms": [
     "drohnenabwehr"
    ],
-   "score_raw": 11.9,
+   "score_raw": 11.84,
    "score": 12,
    "corroboration": 1,
    "also_in": [],
@@ -25750,7 +26117,7 @@
    "core_terms": [
     "drohnenabwehr"
    ],
-   "score_raw": 11.81,
+   "score_raw": 11.75,
    "score": 12,
    "corroboration": 1,
    "also_in": [],
@@ -26273,7 +26640,7 @@
    "core_terms": [
     "counter-drone"
    ],
-   "score_raw": 23.3,
+   "score_raw": 23.12,
    "score": 23,
    "corroboration": 3,
    "also_in": [],
@@ -28071,7 +28438,7 @@
    "core_terms": [
     "counter-drone"
    ],
-   "score_raw": 14.74,
+   "score_raw": 14.69,
    "score": 15,
    "corroboration": 2,
    "also_in": [
@@ -28759,7 +29126,7 @@
    "core_terms": [
     "drohnenabwehr"
    ],
-   "score_raw": 11.36,
+   "score_raw": 11.32,
    "score": 11,
    "corroboration": 1,
    "also_in": [],
@@ -29036,7 +29403,7 @@
    "core_terms": [
     "drohnenabwehr"
    ],
-   "score_raw": 11.97,
+   "score_raw": 11.92,
    "score": 18,
    "corroboration": 2,
    "also_in": [
@@ -29301,7 +29668,7 @@
    "core_terms": [
     "counter-drone"
    ],
-   "score_raw": 18.97,
+   "score_raw": 18.91,
    "score": 19,
    "corroboration": 2,
    "also_in": [],
@@ -29873,7 +30240,7 @@
    "core_terms": [
     "counter-drone"
    ],
-   "score_raw": 22.7,
+   "score_raw": 22.64,
    "score": 23,
    "corroboration": 2,
    "also_in": [
@@ -30477,7 +30844,7 @@
    "core_terms": [
     "drohnenabwehr"
    ],
-   "score_raw": 14.71,
+   "score_raw": 14.67,
    "score": 27,
    "corroboration": 4,
    "also_in": [
@@ -30660,7 +31027,7 @@
    "core_terms": [
     "counter-drone"
    ],
-   "score_raw": 11.65,
+   "score_raw": 11.62,
    "score": 12,
    "corroboration": 2,
    "also_in": [
@@ -30692,7 +31059,7 @@
    "core_terms": [
     "drohnendetektion"
    ],
-   "score_raw": 11.0,
+   "score_raw": 10.98,
    "score": 11,
    "corroboration": 1,
    "also_in": [],
@@ -31030,7 +31397,7 @@
    "core_terms": [
     "counter-drone"
    ],
-   "score_raw": 18.5,
+   "score_raw": 18.46,
    "score": 18,
    "corroboration": 1,
    "also_in": [],
@@ -31097,7 +31464,7 @@
    "core_terms": [
     "drohnenabwehr"
    ],
-   "score_raw": 15.36,
+   "score_raw": 15.33,
    "score": 15,
    "corroboration": 1,
    "also_in": [],
@@ -31158,7 +31525,7 @@
    "core_terms": [
     "drohnenabwehr"
    ],
-   "score_raw": 11.61,
+   "score_raw": 11.58,
    "score": 12,
    "corroboration": 1,
    "also_in": [],
@@ -31188,7 +31555,7 @@
    "core_terms": [
     "drohnenabwehr"
    ],
-   "score_raw": 11.61,
+   "score_raw": 11.58,
    "score": 12,
    "corroboration": 1,
    "also_in": [],
@@ -31217,7 +31584,7 @@
    "core_terms": [
     "drohnenabwehr"
    ],
-   "score_raw": 10.96,
+   "score_raw": 10.93,
    "score": 11,
    "corroboration": 1,
    "also_in": [],
@@ -31247,7 +31614,7 @@
    "core_terms": [
     "counter-drone"
    ],
-   "score_raw": 11.59,
+   "score_raw": 11.56,
    "score": 12,
    "corroboration": 1,
    "also_in": [],
@@ -31716,7 +32083,7 @@
    "core_terms": [
     "drohnenabwehr"
    ],
-   "score_raw": 11.53,
+   "score_raw": 11.51,
    "score": 18,
    "corroboration": 2,
    "also_in": [
@@ -31748,7 +32115,7 @@
    "core_terms": [
     "drohnenabwehr"
    ],
-   "score_raw": 11.53,
+   "score_raw": 11.51,
    "score": 18,
    "corroboration": 2,
    "also_in": [
@@ -31780,7 +32147,7 @@
    "core_terms": [
     "drohnenabwehr"
    ],
-   "score_raw": 10.89,
+   "score_raw": 10.87,
    "score": 17,
    "corroboration": 3,
    "also_in": [],
@@ -31811,7 +32178,7 @@
    "core_terms": [
     "drohnenabwehr"
    ],
-   "score_raw": 11.43,
+   "score_raw": 10.87,
    "score": 17,
    "corroboration": 3,
    "also_in": [],
@@ -32274,7 +32641,7 @@
    "core_terms": [
     "drohnenabwehr"
    ],
-   "score_raw": 10.89,
+   "score_raw": 10.87,
    "score": 11,
    "corroboration": 1,
    "also_in": [],
@@ -32345,8 +32712,8 @@
    "core_terms": [
     "drohnenabwehr"
    ],
-   "score_raw": 22.89,
-   "score": 23,
+   "score_raw": 21.69,
+   "score": 22,
    "corroboration": 1,
    "also_in": [],
    "first_seen": "2026-09-08T09:41:20.539961+00:00",
@@ -32592,7 +32959,7 @@
    "core_terms": [
     "drohnenabwehr"
    ],
-   "score_raw": 11.46,
+   "score_raw": 11.44,
    "score": 11,
    "corroboration": 2,
    "also_in": [],
@@ -32657,7 +33024,7 @@
    "core_terms": [
     "drohnenabwehr"
    ],
-   "score_raw": 16.1,
+   "score_raw": 16.07,
    "score": 16,
    "corroboration": 2,
    "also_in": [
@@ -32719,7 +33086,7 @@
    "core_terms": [
     "drohnenabwehr"
    ],
-   "score_raw": 11.43,
+   "score_raw": 11.41,
    "score": 11,
    "corroboration": 3,
    "also_in": [
@@ -32906,7 +33273,7 @@
    "core_terms": [
     "drohnenabwehr"
    ],
-   "score_raw": 11.4,
+   "score_raw": 11.38,
    "score": 11,
    "corroboration": 1,
    "also_in": [],
@@ -32936,7 +33303,7 @@
    "core_terms": [
     "drohnenabwehr"
    ],
-   "score_raw": 10.76,
+   "score_raw": 10.75,
    "score": 11,
    "corroboration": 2,
    "also_in": [
@@ -33067,7 +33434,7 @@
    "core_terms": [
     "drohnenabwehr"
    ],
-   "score_raw": 25.84,
+   "score_raw": 25.8,
    "score": 26,
    "corroboration": 2,
    "also_in": [
@@ -33165,7 +33532,7 @@
    "core_terms": [
     "drohnenabwehr"
    ],
-   "score_raw": 11.37,
+   "score_raw": 11.35,
    "score": 23,
    "corroboration": 3,
    "also_in": [
@@ -33199,7 +33566,7 @@
    "core_terms": [
     "drohnensichtung"
    ],
-   "score_raw": 18.94,
+   "score_raw": 18.91,
    "score": 19,
    "corroboration": 1,
    "also_in": [],
@@ -33231,7 +33598,7 @@
    "core_terms": [
     "drohnensichtung"
    ],
-   "score_raw": 18.94,
+   "score_raw": 18.91,
    "score": 19,
    "corroboration": 1,
    "also_in": [],
@@ -33263,7 +33630,7 @@
    "core_terms": [
     "drohnenabwehr"
    ],
-   "score_raw": 18.94,
+   "score_raw": 18.91,
    "score": 19,
    "corroboration": 1,
    "also_in": [],
@@ -33365,7 +33732,7 @@
    "core_terms": [
     "drohnenabwehr"
    ],
-   "score_raw": 15.61,
+   "score_raw": 15.58,
    "score": 16,
    "corroboration": 1,
    "also_in": [],
@@ -33523,7 +33890,7 @@
    "core_terms": [
     "drohnenabwehr"
    ],
-   "score_raw": 10.74,
+   "score_raw": 10.72,
    "score": 11,
    "corroboration": 1,
    "also_in": [],
@@ -33584,7 +33951,7 @@
    "core_terms": [
     "counter drone"
    ],
-   "score_raw": 11.36,
+   "score_raw": 11.34,
    "score": 11,
    "corroboration": 2,
    "also_in": [
@@ -33719,7 +34086,7 @@
    "core_terms": [
     "drohnensichtung"
    ],
-   "score_raw": 22.89,
+   "score_raw": 22.85,
    "score": 29,
    "corroboration": 4,
    "also_in": [],
@@ -33750,7 +34117,7 @@
    "core_terms": [
     "drohnensichtung"
    ],
-   "score_raw": 11.34,
+   "score_raw": 11.33,
    "score": 23,
    "corroboration": 3,
    "also_in": [
@@ -33878,7 +34245,7 @@
    "core_terms": [
     "counter-drone"
    ],
-   "score_raw": 11.34,
+   "score_raw": 11.33,
    "score": 11,
    "corroboration": 2,
    "also_in": [
@@ -33980,7 +34347,7 @@
    "core_terms": [
     "drohnenabwehr"
    ],
-   "score_raw": 11.32,
+   "score_raw": 11.3,
    "score": 11,
    "corroboration": 2,
    "also_in": [
@@ -34050,8 +34417,8 @@
    "core_terms": [
     "drohnensichtung"
    ],
-   "score_raw": 18.85,
-   "score": 31,
+   "score_raw": 18.82,
+   "score": 25,
    "corroboration": 3,
    "also_in": [],
    "first_seen": "2026-09-04T12:48:30.337932+00:00",
@@ -34087,8 +34454,8 @@
    "core_terms": [
     "drohnenabwehr"
    ],
-   "score_raw": 23.54,
-   "score": 24,
+   "score_raw": 22.98,
+   "score": 23,
    "corroboration": 1,
    "also_in": [],
    "first_seen": "2026-09-22T09:58:25.466635+00:00",
@@ -34188,7 +34555,7 @@
    "core_terms": [
     "drohnenabwehr"
    ],
-   "score_raw": 14.29,
+   "score_raw": 14.26,
    "score": 14,
    "corroboration": 2,
    "also_in": [],
@@ -34355,7 +34722,7 @@
    "core_terms": [
     "drohnenabwehr"
    ],
-   "score_raw": 22.57,
+   "score_raw": 22.54,
    "score": 41,
    "corroboration": 4,
    "also_in": [
@@ -34406,42 +34773,6 @@
    "region": "DACH"
   },
   {
-   "id": "cf97b511cc90d5bc",
-   "title": "Drohnenabwehr an Flughäfen: Ministerpräsident Günther für Einsatz der Bundeswehr",
-   "summary": "Drohnenabwehr an Flughäfen: Ministerpräsident Günther für Einsatz der Bundeswehr STERN.de",
-   "link": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxPNnRwNjlFLUNWOE1fU3J6WnljekFnNHhOc0J3c2FuSng0ZHhJUElWUFRmZVA3RGpnSkxTOEJMenlNNWhsbXNFRkJrUmxiVWFQZU43OVRuMFRDb3RPNzBaVUlKMmdkSmRvcFBXTFdOc0kxWXM5V0V0c0RRNWhza3lPY0VwcDJIeWZkOTZDOFlkNFZJRGZsOEFVaFFhcnEycUhzQzZOVlE4VzYxMEJ6Nzc2Q21LQmYxbWtPUVJjZFhRX2tYUQ?oc=5",
-   "source": "Google News DE – Beschaffung/Recht",
-   "source_weight": 0.9,
-   "published": "2026-08-10T07:00:00+00:00",
-   "category": "Programme & Verbände",
-   "categories": [
-    "Programme & Verbände"
-   ],
-   "vendors": [],
-   "business_tags": [],
-   "signals": [
-    "bundeswehr"
-   ],
-   "core_terms": [
-    "drohnenabwehr"
-   ],
-   "score_raw": 14.25,
-   "score": 32,
-   "corroboration": 13,
-   "also_in": [
-    "Google News DE – Drohnenabwehr"
-   ],
-   "first_seen": "2026-09-04T12:48:30.389924+00:00",
-   "ai_review": null,
-   "verdict": {
-    "kern": "Programme & Verbände – kein erkennbarer Bezug zu unseren Schutzobjekten; von 13 Quellen gemeldet.",
-    "bedeutung": "Kein Handlungsbedarf erkennbar.",
-    "einstufung": "beobachten",
-    "konfidenz": "regelbasiert"
-   },
-   "region": "DACH"
-  },
-  {
    "id": "eafc62eb18d32669",
    "title": "Bundespolizei stockt Drohnenabwehr nach Vorfall in Leipzig auf",
    "summary": "Bundespolizei stockt Drohnenabwehr nach Vorfall in Leipzig auf Berliner Zeitung",
@@ -34463,7 +34794,7 @@
    "core_terms": [
     "drohnenabwehr"
    ],
-   "score_raw": 22.57,
+   "score_raw": 22.54,
    "score": 29,
    "corroboration": 6,
    "also_in": [
@@ -34514,6 +34845,78 @@
     "einstufung": "beobachten",
     "konfidenz": "regelbasiert"
    }
+  },
+  {
+   "id": "cf97b511cc90d5bc",
+   "title": "Drohnenabwehr an Flughäfen: Ministerpräsident Günther für Einsatz der Bundeswehr",
+   "summary": "Drohnenabwehr an Flughäfen: Ministerpräsident Günther für Einsatz der Bundeswehr STERN.de",
+   "link": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxPNnRwNjlFLUNWOE1fU3J6WnljekFnNHhOc0J3c2FuSng0ZHhJUElWUFRmZVA3RGpnSkxTOEJMenlNNWhsbXNFRkJrUmxiVWFQZU43OVRuMFRDb3RPNzBaVUlKMmdkSmRvcFBXTFdOc0kxWXM5V0V0c0RRNWhza3lPY0VwcDJIeWZkOTZDOFlkNFZJRGZsOEFVaFFhcnEycUhzQzZOVlE4VzYxMEJ6Nzc2Q21LQmYxbWtPUVJjZFhRX2tYUQ?oc=5",
+   "source": "Google News DE – Beschaffung/Recht",
+   "source_weight": 0.9,
+   "published": "2026-08-10T07:00:00+00:00",
+   "category": "Programme & Verbände",
+   "categories": [
+    "Programme & Verbände"
+   ],
+   "vendors": [],
+   "business_tags": [],
+   "signals": [
+    "bundeswehr"
+   ],
+   "core_terms": [
+    "drohnenabwehr"
+   ],
+   "score_raw": 14.24,
+   "score": 26,
+   "corroboration": 13,
+   "also_in": [
+    "Google News DE – Drohnenabwehr"
+   ],
+   "first_seen": "2026-09-04T12:48:30.389924+00:00",
+   "ai_review": null,
+   "verdict": {
+    "kern": "Programme & Verbände – kein erkennbarer Bezug zu unseren Schutzobjekten; von 13 Quellen gemeldet.",
+    "bedeutung": "Kein Handlungsbedarf erkennbar.",
+    "einstufung": "beobachten",
+    "konfidenz": "regelbasiert"
+   },
+   "region": "DACH"
+  },
+  {
+   "id": "a0c34dfa792a0311",
+   "title": "Regierung baut Drohnenabwehr an Flughäfen aus - Absage an Bundeswehr-Einsatz",
+   "summary": "Regierung baut Drohnenabwehr an Flughäfen aus - Absage an Bundeswehr-Einsatz STERN.de",
+   "link": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxOM0xMcS1LSWZ4TXM2YlY5Y1RkWF9HaHhFT012WlZVYmNhbXE0TEotMTk5UmhERnBXZmR2bjRGczd5bU4yN0FZeDZQSm1XU2JQVnpoT0Fsd2NHTUM1cHJpT29TZEk2MFdMZ1J0VkJtMlRGS3NCX0lVY0JURloxdVpfRzRIamE4d0F6WmpFTFdFMjNhT2ZrZjZzT1NWOHhaUDhILVRxMDFWb3l6SFBMejdJQ3ZueDhkUGJH?oc=5",
+   "source": "Google News DE – Beschaffung/Recht",
+   "source_weight": 0.9,
+   "published": "2026-08-10T07:00:00+00:00",
+   "category": "Programme & Verbände",
+   "categories": [
+    "Programme & Verbände"
+   ],
+   "vendors": [],
+   "business_tags": [],
+   "signals": [
+    "bundeswehr"
+   ],
+   "core_terms": [
+    "drohnenabwehr"
+   ],
+   "score_raw": 14.24,
+   "score": 26,
+   "corroboration": 3,
+   "also_in": [
+    "Google News DE – Drohnenabwehr"
+   ],
+   "first_seen": "2026-09-04T12:48:30.384039+00:00",
+   "ai_review": null,
+   "verdict": {
+    "kern": "Programme & Verbände – kein erkennbarer Bezug zu unseren Schutzobjekten; von 3 Quellen gemeldet.",
+    "bedeutung": "Kein Handlungsbedarf erkennbar.",
+    "einstufung": "beobachten",
+    "konfidenz": "regelbasiert"
+   },
+   "region": "DACH"
   },
   {
    "id": "87209b8e2d912af3",
@@ -34677,7 +35080,7 @@
    "core_terms": [
     "drohnenabwehr"
    ],
-   "score_raw": 14.25,
+   "score_raw": 14.24,
    "score": 20,
    "corroboration": 5,
    "also_in": [
@@ -34687,42 +35090,6 @@
    "ai_review": null,
    "verdict": {
     "kern": "Programme & Verbände – kein erkennbarer Bezug zu unseren Schutzobjekten; von 5 Quellen gemeldet.",
-    "bedeutung": "Kein Handlungsbedarf erkennbar.",
-    "einstufung": "beobachten",
-    "konfidenz": "regelbasiert"
-   },
-   "region": "DACH"
-  },
-  {
-   "id": "a0c34dfa792a0311",
-   "title": "Regierung baut Drohnenabwehr an Flughäfen aus - Absage an Bundeswehr-Einsatz",
-   "summary": "Regierung baut Drohnenabwehr an Flughäfen aus - Absage an Bundeswehr-Einsatz STERN.de",
-   "link": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxOM0xMcS1LSWZ4TXM2YlY5Y1RkWF9HaHhFT012WlZVYmNhbXE0TEotMTk5UmhERnBXZmR2bjRGczd5bU4yN0FZeDZQSm1XU2JQVnpoT0Fsd2NHTUM1cHJpT29TZEk2MFdMZ1J0VkJtMlRGS3NCX0lVY0JURloxdVpfRzRIamE4d0F6WmpFTFdFMjNhT2ZrZjZzT1NWOHhaUDhILVRxMDFWb3l6SFBMejdJQ3ZueDhkUGJH?oc=5",
-   "source": "Google News DE – Beschaffung/Recht",
-   "source_weight": 0.9,
-   "published": "2026-08-10T07:00:00+00:00",
-   "category": "Programme & Verbände",
-   "categories": [
-    "Programme & Verbände"
-   ],
-   "vendors": [],
-   "business_tags": [],
-   "signals": [
-    "bundeswehr"
-   ],
-   "core_terms": [
-    "drohnenabwehr"
-   ],
-   "score_raw": 14.25,
-   "score": 20,
-   "corroboration": 3,
-   "also_in": [
-    "Google News DE – Drohnenabwehr"
-   ],
-   "first_seen": "2026-09-04T12:48:30.384039+00:00",
-   "ai_review": null,
-   "verdict": {
-    "kern": "Programme & Verbände – kein erkennbarer Bezug zu unseren Schutzobjekten; von 3 Quellen gemeldet.",
     "bedeutung": "Kein Handlungsbedarf erkennbar.",
     "einstufung": "beobachten",
     "konfidenz": "regelbasiert"
@@ -34749,7 +35116,7 @@
    "core_terms": [
     "drohnenabwehr"
    ],
-   "score_raw": 14.25,
+   "score_raw": 14.24,
    "score": 20,
    "corroboration": 2,
    "also_in": [
@@ -34815,7 +35182,7 @@
    "core_terms": [
     "drohnenabwehr"
    ],
-   "score_raw": 11.29,
+   "score_raw": 11.28,
    "score": 17,
    "corroboration": 3,
    "also_in": [
@@ -34852,7 +35219,7 @@
    "core_terms": [
     "counter-uas"
    ],
-   "score_raw": 16.43,
+   "score_raw": 16.4,
    "score": 16,
    "corroboration": 2,
    "also_in": [
@@ -35027,7 +35394,7 @@
    "core_terms": [
     "drohnenabwehr"
    ],
-   "score_raw": 14.25,
+   "score_raw": 14.24,
    "score": 14,
    "corroboration": 1,
    "also_in": [],
@@ -35061,7 +35428,7 @@
    "core_terms": [
     "drohnenabwehr"
    ],
-   "score_raw": 14.25,
+   "score_raw": 14.24,
    "score": 14,
    "corroboration": 2,
    "also_in": [
@@ -35097,7 +35464,7 @@
    "core_terms": [
     "drohnenabwehr"
    ],
-   "score_raw": 14.25,
+   "score_raw": 14.24,
    "score": 14,
    "corroboration": 1,
    "also_in": [],
@@ -35131,7 +35498,7 @@
    "core_terms": [
     "drohnenabwehr"
    ],
-   "score_raw": 14.25,
+   "score_raw": 14.24,
    "score": 14,
    "corroboration": 1,
    "also_in": [],
@@ -35165,7 +35532,7 @@
    "core_terms": [
     "drohnenabwehr"
    ],
-   "score_raw": 14.25,
+   "score_raw": 14.24,
    "score": 14,
    "corroboration": 1,
    "also_in": [],
@@ -35199,7 +35566,7 @@
    "core_terms": [
     "drohnenabwehr"
    ],
-   "score_raw": 14.25,
+   "score_raw": 14.24,
    "score": 14,
    "corroboration": 1,
    "also_in": [],
@@ -35233,7 +35600,7 @@
    "core_terms": [
     "drohnenabwehr"
    ],
-   "score_raw": 14.25,
+   "score_raw": 14.24,
    "score": 14,
    "corroboration": 1,
    "also_in": [],
@@ -35297,7 +35664,7 @@
    "core_terms": [
     "counter drone"
    ],
-   "score_raw": 12.92,
+   "score_raw": 12.84,
    "score": 13,
    "corroboration": 2,
    "also_in": [
@@ -35480,7 +35847,7 @@
    "core_terms": [
     "drohnenabwehr"
    ],
-   "score_raw": 11.29,
+   "score_raw": 11.28,
    "score": 11,
    "corroboration": 2,
    "also_in": [],
@@ -35509,7 +35876,7 @@
    "core_terms": [
     "drohnenabwehr"
    ],
-   "score_raw": 10.67,
+   "score_raw": 10.65,
    "score": 11,
    "corroboration": 1,
    "also_in": [],
@@ -35543,7 +35910,7 @@
    "core_terms": [
     "anti-drohne"
    ],
-   "score_raw": 14.23,
+   "score_raw": 14.21,
    "score": 14,
    "corroboration": 1,
    "also_in": [],
@@ -35573,7 +35940,7 @@
    "core_terms": [
     "drohnenabwehr"
    ],
-   "score_raw": 11.27,
+   "score_raw": 11.26,
    "score": 11,
    "corroboration": 1,
    "also_in": [],
@@ -35609,7 +35976,7 @@
    "core_terms": [
     "drohnenabwehr"
    ],
-   "score_raw": 22.79,
+   "score_raw": 22.76,
    "score": 29,
    "corroboration": 2,
    "also_in": [],
@@ -35813,7 +36180,7 @@
    "core_terms": [
     "drohnenabwehr"
    ],
-   "score_raw": 14.2,
+   "score_raw": 14.18,
    "score": 14,
    "corroboration": 1,
    "also_in": [],
@@ -35879,7 +36246,7 @@
    "core_terms": [
     "drohnenabwehr"
    ],
-   "score_raw": 21.23,
+   "score_raw": 21.21,
    "score": 27,
    "corroboration": 3,
    "also_in": [
@@ -35944,7 +36311,7 @@
    "core_terms": [
     "drohnenabwehr"
    ],
-   "score_raw": 11.23,
+   "score_raw": 11.22,
    "score": 23,
    "corroboration": 3,
    "also_in": [
@@ -35977,7 +36344,7 @@
    "core_terms": [
     "drohnenschutz"
    ],
-   "score_raw": 19.8,
+   "score_raw": 19.78,
    "score": 20,
    "corroboration": 1,
    "also_in": [],
@@ -36071,13 +36438,45 @@
    "core_terms": [
     "drohnenabwehr"
    ],
-   "score_raw": 11.23,
+   "score_raw": 11.22,
    "score": 17,
    "corroboration": 2,
    "also_in": [
     "Google News DE – Drohnenabwehr"
    ],
    "first_seen": "2026-09-04T12:48:30.414483+00:00",
+   "ai_review": null,
+   "verdict": {
+    "kern": "Sonstiges – kein erkennbarer Bezug zu unseren Schutzobjekten; von 2 Quellen gemeldet.",
+    "bedeutung": "Kein Handlungsbedarf erkennbar.",
+    "einstufung": "beobachten",
+    "konfidenz": "regelbasiert"
+   },
+   "region": "DACH"
+  },
+  {
+   "id": "352cb593362e83f9",
+   "title": "Röwekamp: Innenministerium muss zentral für Drohnenabwehr zuständig sein",
+   "summary": "Röwekamp: Innenministerium muss zentral für Drohnenabwehr zuständig sein STERN.de",
+   "link": "https://news.google.com/rss/articles/CBMitgFBVV95cUxOYnVtQjZ5dWY4Vi03cDZyN2dyak1WVmJ4bFY4OXp5anFrSHBCdDRtSWp4b1diLTBzWjlZZGFxbzRBc0M3SlFtVGh4YzRPdGtqWDRYZW1SaU16M3pxQ0pZQkhBX0pHY0tfMzlZUkhvNmxiWUZLMVFWZVRXSnlUTzJWSlhSbE5sc0VNLVdUNWpXYlBpS3FTNG4wblFXdlNvUXZjeS14UGNqeTBEcnZYejdFWFZ1T28tUQ?oc=5",
+   "source": "Google News DE – Beschaffung/Recht",
+   "source_weight": 0.9,
+   "published": "2026-08-07T07:00:00+00:00",
+   "category": "Sonstiges",
+   "categories": [],
+   "vendors": [],
+   "business_tags": [],
+   "signals": [],
+   "core_terms": [
+    "drohnenabwehr"
+   ],
+   "score_raw": 11.22,
+   "score": 17,
+   "corroboration": 2,
+   "also_in": [
+    "Google News DE – Drohnenabwehr"
+   ],
+   "first_seen": "2026-09-04T12:48:30.415558+00:00",
    "ai_review": null,
    "verdict": {
     "kern": "Sonstiges – kein erkennbarer Bezug zu unseren Schutzobjekten; von 2 Quellen gemeldet.",
@@ -36142,7 +36541,7 @@
    "core_terms": [
     "drohnenabwehr"
    ],
-   "score_raw": 14.17,
+   "score_raw": 14.16,
    "score": 14,
    "corroboration": 1,
    "also_in": [],
@@ -36186,38 +36585,6 @@
    "region": "DACH"
   },
   {
-   "id": "352cb593362e83f9",
-   "title": "Röwekamp: Innenministerium muss zentral für Drohnenabwehr zuständig sein",
-   "summary": "Röwekamp: Innenministerium muss zentral für Drohnenabwehr zuständig sein STERN.de",
-   "link": "https://news.google.com/rss/articles/CBMitgFBVV95cUxOYnVtQjZ5dWY4Vi03cDZyN2dyak1WVmJ4bFY4OXp5anFrSHBCdDRtSWp4b1diLTBzWjlZZGFxbzRBc0M3SlFtVGh4YzRPdGtqWDRYZW1SaU16M3pxQ0pZQkhBX0pHY0tfMzlZUkhvNmxiWUZLMVFWZVRXSnlUTzJWSlhSbE5sc0VNLVdUNWpXYlBpS3FTNG4wblFXdlNvUXZjeS14UGNqeTBEcnZYejdFWFZ1T28tUQ?oc=5",
-   "source": "Google News DE – Beschaffung/Recht",
-   "source_weight": 0.9,
-   "published": "2026-08-07T07:00:00+00:00",
-   "category": "Sonstiges",
-   "categories": [],
-   "vendors": [],
-   "business_tags": [],
-   "signals": [],
-   "core_terms": [
-    "drohnenabwehr"
-   ],
-   "score_raw": 11.23,
-   "score": 11,
-   "corroboration": 2,
-   "also_in": [
-    "Google News DE – Drohnenabwehr"
-   ],
-   "first_seen": "2026-09-04T12:48:30.415558+00:00",
-   "ai_review": null,
-   "verdict": {
-    "kern": "Sonstiges – kein erkennbarer Bezug zu unseren Schutzobjekten; von 2 Quellen gemeldet.",
-    "bedeutung": "Kein Handlungsbedarf erkennbar.",
-    "einstufung": "beobachten",
-    "konfidenz": "regelbasiert"
-   },
-   "region": "DACH"
-  },
-  {
    "id": "e4fc97cca7305d02",
    "title": "Drohnenabwehr: Deutschlands löchriger Schutzschirm könnte katastrophale Folgen haben - Meinung - SZ.de",
    "summary": "Drohnenabwehr: Deutschlands löchriger Schutzschirm könnte katastrophale Folgen haben - Meinung - SZ.de SZ.de",
@@ -36233,7 +36600,7 @@
    "core_terms": [
     "drohnenabwehr"
    ],
-   "score_raw": 11.23,
+   "score_raw": 11.22,
    "score": 11,
    "corroboration": 1,
    "also_in": [],
@@ -36264,7 +36631,7 @@
    "core_terms": [
     "drohnenabwehr"
    ],
-   "score_raw": 10.61,
+   "score_raw": 10.59,
    "score": 11,
    "corroboration": 1,
    "also_in": [],
@@ -36294,7 +36661,7 @@
    "core_terms": [
     "drohnenabwehr"
    ],
-   "score_raw": 10.61,
+   "score_raw": 10.59,
    "score": 11,
    "corroboration": 1,
    "also_in": [],
@@ -36324,7 +36691,7 @@
    "core_terms": [
     "drohnenabwehr"
    ],
-   "score_raw": 10.61,
+   "score_raw": 10.59,
    "score": 11,
    "corroboration": 1,
    "also_in": [],
@@ -36586,7 +36953,7 @@
    "core_terms": [
     "drohnenabwehr"
    ],
-   "score_raw": 19.77,
+   "score_raw": 19.75,
    "score": 20,
    "corroboration": 1,
    "also_in": [],
@@ -36618,7 +36985,7 @@
    "core_terms": [
     "drohnensichtung"
    ],
-   "score_raw": 18.67,
+   "score_raw": 18.65,
    "score": 19,
    "corroboration": 2,
    "also_in": [],
@@ -36651,7 +37018,7 @@
    "core_terms": [
     "counter-uas"
    ],
-   "score_raw": 17.86,
+   "score_raw": 17.85,
    "score": 18,
    "corroboration": 3,
    "also_in": [
@@ -36687,7 +37054,7 @@
    "core_terms": [
     "counter-drone"
    ],
-   "score_raw": 17.9,
+   "score_raw": 17.85,
    "score": 18,
    "corroboration": 1,
    "also_in": [],
@@ -36811,7 +37178,7 @@
    "core_terms": [
     "drohnenabwehr"
    ],
-   "score_raw": 11.21,
+   "score_raw": 11.2,
    "score": 11,
    "corroboration": 1,
    "also_in": [],
@@ -36842,7 +37209,7 @@
    "core_terms": [
     "drohnenabwehr"
    ],
-   "score_raw": 11.21,
+   "score_raw": 11.2,
    "score": 11,
    "corroboration": 1,
    "also_in": [],
@@ -36872,7 +37239,7 @@
    "core_terms": [
     "drohnenabwehr"
    ],
-   "score_raw": 11.21,
+   "score_raw": 11.2,
    "score": 11,
    "corroboration": 1,
    "also_in": [],
@@ -36902,7 +37269,7 @@
    "core_terms": [
     "drohnenabwehr"
    ],
-   "score_raw": 10.59,
+   "score_raw": 10.58,
    "score": 11,
    "corroboration": 1,
    "also_in": [],
@@ -36931,7 +37298,7 @@
    "core_terms": [
     "drohnenabwehr"
    ],
-   "score_raw": 10.59,
+   "score_raw": 10.58,
    "score": 11,
    "corroboration": 2,
    "also_in": [
@@ -36964,7 +37331,7 @@
    "core_terms": [
     "drohnenabwehr"
    ],
-   "score_raw": 10.59,
+   "score_raw": 10.58,
    "score": 11,
    "corroboration": 1,
    "also_in": [],
@@ -36997,7 +37364,7 @@
    "core_terms": [
     "drone detection"
    ],
-   "score_raw": 17.87,
+   "score_raw": 17.82,
    "score": 18,
    "corroboration": 1,
    "also_in": [],
@@ -37099,7 +37466,7 @@
    "core_terms": [
     "drohnenabwehr"
    ],
-   "score_raw": 15.36,
+   "score_raw": 15.35,
    "score": 15,
    "corroboration": 1,
    "also_in": [],
@@ -37134,7 +37501,7 @@
    "core_terms": [
     "counter-drone"
    ],
-   "score_raw": 15.26,
+   "score_raw": 15.25,
    "score": 15,
    "corroboration": 1,
    "also_in": [],
@@ -37194,7 +37561,7 @@
    "core_terms": [
     "drohnenabwehr"
    ],
-   "score_raw": 11.19,
+   "score_raw": 11.18,
    "score": 11,
    "corroboration": 2,
    "also_in": [
@@ -37226,7 +37593,7 @@
    "core_terms": [
     "counter-drone"
    ],
-   "score_raw": 11.2,
+   "score_raw": 11.18,
    "score": 11,
    "corroboration": 1,
    "also_in": [],
@@ -37257,7 +37624,7 @@
    "core_terms": [
     "counter-drone"
    ],
-   "score_raw": 11.19,
+   "score_raw": 11.18,
    "score": 11,
    "corroboration": 1,
    "also_in": [],
@@ -37566,7 +37933,7 @@
    "core_terms": [
     "counter-drone"
    ],
-   "score_raw": 11.17,
+   "score_raw": 11.16,
    "score": 11,
    "corroboration": 1,
    "also_in": [],
@@ -37596,7 +37963,7 @@
    "core_terms": [
     "counter-drone"
    ],
-   "score_raw": 11.18,
+   "score_raw": 11.17,
    "score": 11,
    "corroboration": 1,
    "also_in": [],
@@ -37757,7 +38124,7 @@
    "core_terms": [
     "c-uas"
    ],
-   "score_raw": 11.16,
+   "score_raw": 11.15,
    "score": 11,
    "corroboration": 2,
    "also_in": [
@@ -37893,7 +38260,7 @@
    "core_terms": [
     "counter-drone"
    ],
-   "score_raw": 24.67,
+   "score_raw": 24.65,
    "score": 31,
    "corroboration": 4,
    "also_in": [
@@ -37960,7 +38327,7 @@
    "core_terms": [
     "counter-drone"
    ],
-   "score_raw": 11.12,
+   "score_raw": 11.11,
    "score": 11,
    "corroboration": 1,
    "also_in": [],
@@ -38062,7 +38429,7 @@
    "core_terms": [
     "counter-drone"
    ],
-   "score_raw": 24.64,
+   "score_raw": 24.63,
    "score": 25,
    "corroboration": 1,
    "also_in": [],
@@ -38097,7 +38464,7 @@
    "core_terms": [
     "c-uas"
    ],
-   "score_raw": 20.2,
+   "score_raw": 20.17,
    "score": 20,
    "corroboration": 1,
    "also_in": [],
@@ -38571,7 +38938,7 @@
    "core_terms": [
     "drohnenabwehr"
    ],
-   "score_raw": 16.78,
+   "score_raw": 16.77,
    "score": 17,
    "corroboration": 2,
    "also_in": [
@@ -38697,7 +39064,7 @@
    "core_terms": [
     "drohnenabwehr"
    ],
-   "score_raw": 20.85,
+   "score_raw": 20.84,
    "score": 21,
    "corroboration": 1,
    "also_in": [],
@@ -38981,8 +39348,8 @@
    "core_terms": [
     "counter-drone"
    ],
-   "score_raw": 17.5,
-   "score": 30,
+   "score_raw": 17.49,
+   "score": 29,
    "corroboration": 3,
    "also_in": [],
    "first_seen": "2026-09-04T12:48:30.614469+00:00",
@@ -39506,7 +39873,7 @@
     "counter-drone",
     "drone defense"
    ],
-   "score_raw": 21.44,
+   "score_raw": 21.43,
    "score": 21,
    "corroboration": 2,
    "also_in": [],
@@ -39704,7 +40071,7 @@
    "core_terms": [
     "counter-drone"
    ],
-   "score_raw": 13.82,
+   "score_raw": 13.81,
    "score": 14,
    "corroboration": 2,
    "also_in": [
@@ -39948,7 +40315,7 @@
     "counter-drone"
    ],
    "score_raw": 17.42,
-   "score": 17,
+   "score": 23,
    "corroboration": 2,
    "also_in": [],
    "first_seen": "2026-09-25T10:11:53.662697+00:00",
@@ -40116,7 +40483,7 @@
    "core_terms": [
     "drohnenabwehr"
    ],
-   "score_raw": 13.8,
+   "score_raw": 13.79,
    "score": 14,
    "corroboration": 2,
    "also_in": [],
@@ -40371,7 +40738,7 @@
     "counter-drone"
    ],
    "score_raw": 24.62,
-   "score": 31,
+   "score": 25,
    "corroboration": 2,
    "also_in": [],
    "first_seen": "2026-09-04T12:48:30.622448+00:00",
@@ -41053,36 +41420,6 @@
     "konfidenz": "regelbasiert"
    },
    "region": "EMEA"
-  },
-  {
-   "id": "e1072023018b7ed8",
-   "title": "Beretta zeigt Achtlings-Schrotflintenturm zur Drohnenabwehr",
-   "summary": "Beretta zeigt Achtlings-Schrotflintenturm zur Drohnenabwehr Soldat & Technik",
-   "link": "https://news.google.com/rss/articles/CBMif0FVX3lxTE9neWxaMVdaS0RLam9jNUVkYmlpUkM2ek5FUXVCWGRLOEtLTkdFM09jOFF6UDMxd3RqSXZVMTlSTVpNNXpQVk9HM25rdEF3eFFGV2kyTzVRVGlEX3dYUjFpck9zZEFEeGdRUGpTSGJNSHZiZEtmcEc0dkdRNG50LVE?oc=5",
-   "source": "Google News DE – Drohnenabwehr",
-   "source_weight": 0.85,
-   "published": "2026-06-05T07:00:00+00:00",
-   "category": "Sonstiges",
-   "region": "DACH",
-   "categories": [],
-   "vendors": [],
-   "business_tags": [],
-   "signals": [],
-   "core_terms": [
-    "drohnenabwehr"
-   ],
-   "score_raw": 10.32,
-   "score": 10,
-   "corroboration": 1,
-   "also_in": [],
-   "first_seen": "2026-09-07T10:18:10.370199+00:00",
-   "ai_review": null,
-   "verdict": {
-    "kern": "Sonstiges – kein erkennbarer Bezug zu unseren Schutzobjekten.",
-    "bedeutung": "Kein Handlungsbedarf erkennbar.",
-    "einstufung": "beobachten",
-    "konfidenz": "regelbasiert"
-   }
   }
  ],
  "runs": [
@@ -41505,9 +41842,14 @@
    "at": "2026-10-02T21:20:03.874237+00:00",
    "found": 262,
    "new": 6
+  },
+  {
+   "at": "2026-10-03T13:28:39.077449+00:00",
+   "found": 270,
+   "new": 11
   }
  ],
- "generated": "2026-10-02T21:20:03.874237+00:00",
+ "generated": "2026-10-03T13:28:39.077449+00:00",
  "problems": [
   [
    "The Defense Post",
@@ -41531,7 +41873,7 @@
   ],
   [
    "BMI Pressemitteilungen",
-   "nicht lesbar (SAXParseException)"
+   "nicht lesbar (URLError)"
   ],
   [
    "EU Kommission – Home Affairs",
@@ -41539,7 +41881,7 @@
   ],
   [
    "TED – EU-Ausschreibungen C-UAS",
-   "keine Einträge"
+   "nicht lesbar (SAXParseException)"
   ],
   [
    "service.bund.de – Ausschreibungen",
