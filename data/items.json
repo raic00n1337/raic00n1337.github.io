@@ -1,6 +1,264 @@
 {
  "items": [
   {
+   "id": "5bd857aed971076e",
+   "title": "Russland droht japanischem Drohnenhersteller Terra Drone mit Angriffen",
+   "summary": "Weil seine ukrainische Tochtergesellschaft Abfangdrohnen an die Streitkräfte liefert, ist das japanische Unternehmen Terra Drone ins Visier Moskaus geraten. Russland droht offen mit Angriffen auf Produktionsstätten in der Ukraine. Firmenchef Toru Tokushige lässt sich davon nicht abschrecken – und warnt zugleich vor einer gefährlichen Schwachstelle der japanischen Verteidigungsindustrie. Die Drohun",
+   "link": "https://militaeraktuell.at/russland-droht-japan-hersteller-terra-drone/",
+   "source": "Militär Aktuell",
+   "source_weight": 1.0,
+   "published": "2026-11-09T22:24:13+00:00",
+   "category": "Technologie & Produkte",
+   "region": "EMEA",
+   "categories": [
+    "Technologie & Produkte"
+   ],
+   "vendors": [],
+   "business_tags": [],
+   "signals": [
+    "produkt"
+   ],
+   "core_terms": [
+    "abfangdrohne"
+   ],
+   "score_raw": 18.32,
+   "score": 18,
+   "corroboration": 1,
+   "also_in": [],
+   "first_seen": "2026-11-09T23:26:42.407397+00:00",
+   "ai_review": null,
+   "verdict": {
+    "kern": "Technologie & Produkte – kein erkennbarer Bezug zu unseren Schutzobjekten.",
+    "bedeutung": "Kein Handlungsbedarf erkennbar.",
+    "einstufung": "beobachten",
+    "konfidenz": "regelbasiert"
+   }
+  },
+  {
+   "id": "3a1d78b6da6a22f3",
+   "title": "TYTAN Technologies und KNDS Deutschland zeigen Drohnenabwehr-Variante des Dingo 2",
+   "summary": "Das Münchner Technologieunternehmen TYTAN Technologies zeigte heute im Zuge der Eröffnung des neuen Produktionsstandorts in München-Aubing eine zusammen mit KNDS Deutschland entwickelte Drohnenabwehr-Variante des gepanzerten 4×4-Fahrzeugs Dingo 2. Das Unternehmen gibt an, dass der nun eröffnete Standort „die größte Serienfertigung autonomer Abfangdrohnen Westeuropas mit einer Kapazität von bis zu ",
+   "link": "https://www.hartpunkt.de/tytan-technologies-und-knds-deutschland-zeigen-drohnenabwehr-variante-des-dingo-2/",
+   "source": "hartpunkt",
+   "source_weight": 1.2,
+   "published": "2026-11-09T18:45:21+00:00",
+   "category": "Technologie & Produkte",
+   "region": "DACH",
+   "categories": [
+    "Technologie & Produkte"
+   ],
+   "vendors": [
+    "TYTAN"
+   ],
+   "business_tags": [],
+   "signals": [
+    "produkt"
+   ],
+   "core_terms": [
+    "abfangdrohne",
+    "drohnenabwehr"
+   ],
+   "score_raw": 46.97,
+   "score": 47,
+   "corroboration": 1,
+   "also_in": [],
+   "first_seen": "2026-11-09T23:26:42.392378+00:00",
+   "ai_review": null,
+   "verdict": {
+    "kern": "Technologie & Produkte – kein erkennbarer Bezug zu unseren Schutzobjekten; Akteur genannt: TYTAN.",
+    "bedeutung": "Kein Handlungsbedarf erkennbar.",
+    "einstufung": "beobachten",
+    "konfidenz": "regelbasiert"
+   }
+  },
+  {
+   "id": "5f3f7fc0075479c5",
+   "title": "Federal Agreement Could Cut Counter-Drone Reviews to 24 Hours",
+   "summary": "New interagency agreement establishes a common safety review process, potentially allowing faster deployment of previously evaluated counter-UAS systems Five federal departments announced a new agreement on November 9 to speed the evaluation and deployment of counter-drone technology while protecting civilian aviation. The agreement involves the Departments of Transportation, War, Homeland Securit",
+   "link": "https://dronelife.com/2026/11/09/federal-agreement-counter-uas-deployment/",
+   "source": "DroneLife",
+   "source_weight": 1.0,
+   "published": "2026-11-09T18:24:12+00:00",
+   "category": "Sonstiges",
+   "region": "World",
+   "categories": [],
+   "vendors": [],
+   "business_tags": [],
+   "signals": [],
+   "core_terms": [
+    "counter-drone",
+    "counter-uas"
+   ],
+   "score_raw": 28.84,
+   "score": 29,
+   "corroboration": 1,
+   "also_in": [],
+   "first_seen": "2026-11-09T23:26:42.357482+00:00",
+   "ai_review": null,
+   "verdict": {
+    "kern": "Sonstiges – kein erkennbarer Bezug zu unseren Schutzobjekten.",
+    "bedeutung": "Kein Handlungsbedarf erkennbar.",
+    "einstufung": "beobachten",
+    "konfidenz": "regelbasiert"
+   }
+  },
+  {
+   "id": "abbef00d3b3e5a41",
+   "title": "FEMA Urges State and Local Agencies to Act on Counter-Drone Readiness",
+   "summary": "At the Drone Security and SLTT Grant Forum, FEMA Administrator Cameron Hamilton emphasized federal funding, local preparedness, and the need to address emerging drone threats. Federal Emergency Management Agency (FEMA) Administrator Cameron Hamilton urged state and local agencies to strengthen their counter-drone capabilities during remarks at the Drone Security and SLTT Grant Forum on November [&",
+   "link": "https://dronelife.com/2026/11/09/fema-counter-drone-grants-local-readiness/",
+   "source": "DroneLife",
+   "source_weight": 1.0,
+   "published": "2026-11-09T18:02:16+00:00",
+   "category": "Sonstiges",
+   "region": "World",
+   "categories": [],
+   "vendors": [],
+   "business_tags": [],
+   "signals": [],
+   "core_terms": [
+    "counter-drone"
+   ],
+   "score_raw": 21.87,
+   "score": 22,
+   "corroboration": 1,
+   "also_in": [],
+   "first_seen": "2026-11-09T23:26:42.363785+00:00",
+   "ai_review": null,
+   "verdict": {
+    "kern": "Sonstiges – kein erkennbarer Bezug zu unseren Schutzobjekten.",
+    "bedeutung": "Kein Handlungsbedarf erkennbar.",
+    "einstufung": "beobachten",
+    "konfidenz": "regelbasiert"
+   }
+  },
+  {
+   "id": "b7e6313dd5e561d2",
+   "title": "TYTAN eröffnet Fertigung für 3.000 Abfangdrohnen in Bayern",
+   "summary": "TYTAN Technologies hat eine neue Fertigungsstätte für autonome Abfangdrohnen in München-Aubing eröffnet. Dort sollen künftig bis zu 3.000 Drohnen pro &#8230; mehr...",
+   "link": "https://esut.de/2026/11/meldungen/76701/tytan-3-000-abfangdrohnen-bayern/",
+   "source": "ESUT",
+   "source_weight": 1.2,
+   "published": "2026-11-09T17:41:35+00:00",
+   "category": "Sonstiges",
+   "region": "DACH",
+   "categories": [],
+   "vendors": [
+    "TYTAN"
+   ],
+   "business_tags": [],
+   "signals": [],
+   "core_terms": [
+    "abfangdrohne"
+   ],
+   "score_raw": 34.59,
+   "score": 35,
+   "corroboration": 1,
+   "also_in": [],
+   "first_seen": "2026-11-09T23:26:42.399201+00:00",
+   "ai_review": null,
+   "verdict": {
+    "kern": "Sonstiges – kein erkennbarer Bezug zu unseren Schutzobjekten; Akteur genannt: TYTAN.",
+    "bedeutung": "Kein Handlungsbedarf erkennbar.",
+    "einstufung": "beobachten",
+    "konfidenz": "regelbasiert"
+   }
+  },
+  {
+   "id": "7836580072ceb599",
+   "title": "DHS Secretary Markwayne Mullin Calls for More Affordable, Effective Counter-Drone Technology",
+   "summary": "Speaking at the Drone Security and SLTT Grant Forum, Mullin urged industry to rethink current systems and expand protection beyond military and federal facilities. Department of Homeland Security Secretary Markwayne Mullin called for a new approach to counter-drone security during remarks at the Drone Security Industry and SLTT Grant Forum on November 9 at MGM [&#8230;] The post DHS Secretary Mark",
+   "link": "https://dronelife.com/2026/11/09/mullin-affordable-counter-drone-technology/",
+   "source": "DroneLife",
+   "source_weight": 1.0,
+   "published": "2026-11-09T16:13:16+00:00",
+   "category": "Sonstiges",
+   "region": "World",
+   "categories": [],
+   "vendors": [],
+   "business_tags": [],
+   "signals": [],
+   "core_terms": [
+    "counter-drone"
+   ],
+   "score_raw": 21.83,
+   "score": 22,
+   "corroboration": 1,
+   "also_in": [],
+   "first_seen": "2026-11-09T23:26:42.370175+00:00",
+   "ai_review": null,
+   "verdict": {
+    "kern": "Sonstiges – kein erkennbarer Bezug zu unseren Schutzobjekten.",
+    "bedeutung": "Kein Handlungsbedarf erkennbar.",
+    "einstufung": "beobachten",
+    "konfidenz": "regelbasiert"
+   }
+  },
+  {
+   "id": "3b7e2faede7d0268",
+   "title": "US announces expanded interagency programme to coordinate C-UAS efforts and evaluate technologies",
+   "summary": "The US Department of Transportation (DOT), Department of Defense, Department of Homeland Security, Department of Energy and Department of Justice have announced an expanded interagency The post US announces expanded interagency programme to coordinate C-UAS efforts and evaluate technologies first appeared on Unmanned airspace .",
+   "link": "https://www.unmannedairspace.info/counter-uas-systems-and-policies/us-announces-expanded-interagency-programme-to-coordinate-c-uas-efforts-and-evaluate-technologies/",
+   "source": "Unmanned Airspace",
+   "source_weight": 1.3,
+   "published": "2026-11-09T15:39:16+00:00",
+   "category": "Programme & Verbände",
+   "region": "World",
+   "categories": [
+    "Programme & Verbände"
+   ],
+   "vendors": [],
+   "business_tags": [],
+   "signals": [
+    "programm"
+   ],
+   "core_terms": [
+    "c-uas"
+   ],
+   "score_raw": 35.8,
+   "score": 36,
+   "corroboration": 1,
+   "also_in": [],
+   "first_seen": "2026-11-09T23:26:42.340501+00:00",
+   "ai_review": null,
+   "verdict": {
+    "kern": "Programme & Verbände – kein erkennbarer Bezug zu unseren Schutzobjekten.",
+    "bedeutung": "Kein Handlungsbedarf erkennbar.",
+    "einstufung": "beobachten",
+    "konfidenz": "regelbasiert"
+   }
+  },
+  {
+   "id": "a1a7b095836096a6",
+   "title": "US Air Force sucht Drohnenschutznetze für F-35 Abstellplätze",
+   "summary": "Die US Air Force will Abwehrnetze gegen kleine unbemannte Luftfahrzeuge der Gruppe 1 (unter 10 Kilogramm) an bestehenden Sonnenschutzstrukturen errichten lassen. Standort ist die Tyndall Air Force Base in Florida, ein Stützpunkt mit Lockheed Martin F-35 Lightning II Kampfflugzeugen. Gefordert werden UV- und feuchtigkeitsbeständige Polyester oder Nylon-Netze mit einer Zugfestigkeit von mindestens 9",
+   "link": "https://militaeraktuell.at/us-air-force-drohnenschutz-f-35-abstellplaetze/",
+   "source": "Militär Aktuell",
+   "source_weight": 1.0,
+   "published": "2026-11-09T13:55:09+00:00",
+   "category": "Sonstiges",
+   "region": "DACH",
+   "categories": [],
+   "vendors": [],
+   "business_tags": [],
+   "signals": [],
+   "core_terms": [
+    "drohnenschutz"
+   ],
+   "score_raw": 21.78,
+   "score": 22,
+   "corroboration": 1,
+   "also_in": [],
+   "first_seen": "2026-11-09T23:26:42.415439+00:00",
+   "ai_review": null,
+   "verdict": {
+    "kern": "Sonstiges – kein erkennbarer Bezug zu unseren Schutzobjekten.",
+    "bedeutung": "Kein Handlungsbedarf erkennbar.",
+    "einstufung": "beobachten",
+    "konfidenz": "regelbasiert"
+   }
+  },
+  {
    "id": "4890b5400760ccaf",
    "title": "Electro Optic Systems Aktie: Drohnenabwehr-Auftrag treibt Kurs",
    "summary": "Electro Optic Systems Aktie: Drohnenabwehr-Auftrag treibt Kurs Börse Express",
@@ -55,7 +313,7 @@
    "core_terms": [
     "c-uas"
    ],
-   "score_raw": 30.32,
+   "score_raw": 30.01,
    "score": 30,
    "corroboration": 1,
    "also_in": [],
@@ -89,8 +347,8 @@
    "core_terms": [
     "c-uas"
    ],
-   "score_raw": 37.06,
-   "score": 49,
+   "score_raw": 36.68,
+   "score": 37,
    "corroboration": 3,
    "also_in": [
     "Google News EN – Counter-UAS"
@@ -1336,8 +1594,8 @@
     "counter-drone",
     "counter-uas"
    ],
-   "score_raw": 44.14,
-   "score": 56,
+   "score_raw": 43.73,
+   "score": 44,
    "corroboration": 3,
    "also_in": [
     "Google News EN – C-UAS contracts",
@@ -1347,8 +1605,8 @@
    "ai_review": null,
    "verdict": {
     "kern": "Beschaffung & Aufträge – kein erkennbarer Bezug zu unseren Schutzobjekten; von 3 Quellen gemeldet.",
-    "bedeutung": "Vergabeunterlagen und Losschnitt ansehen, falls das Segment zu uns passt.",
-    "einstufung": "prüfen",
+    "bedeutung": "Kein Handlungsbedarf erkennbar.",
+    "einstufung": "beobachten",
     "konfidenz": "regelbasiert"
    }
   },
@@ -77543,10 +77801,39 @@
    "at": "2026-11-09T13:53:57.025758+00:00",
    "found": 109,
    "new": 22
+  },
+  {
+   "at": "2026-11-09T23:25:55.154955+00:00",
+   "found": 11,
+   "new": 8
   }
  ],
- "generated": "2026-11-09T13:53:57.025758+00:00",
+ "generated": "2026-11-09T23:25:55.154955+00:00",
  "problems": [
+  [
+   "Google News DE – Drohnenabwehr",
+   "nicht lesbar (SAXParseException)"
+  ],
+  [
+   "Google News DE – Drohnensichtung KRITIS",
+   "nicht lesbar (SAXParseException)"
+  ],
+  [
+   "Google News DE – Beschaffung/Recht",
+   "nicht lesbar (SAXParseException)"
+  ],
+  [
+   "Google News EN – Counter-UAS",
+   "nicht lesbar (SAXParseException)"
+  ],
+  [
+   "Google News EN – C-UAS contracts",
+   "nicht lesbar (SAXParseException)"
+  ],
+  [
+   "Google News EN – Airport drone disruption",
+   "nicht lesbar (SAXParseException)"
+  ],
   [
    "The Defense Post",
    "nicht lesbar (SAXParseException)"
