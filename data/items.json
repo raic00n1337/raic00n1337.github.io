@@ -1,6 +1,136 @@
 {
  "items": [
   {
+   "id": "adb2ee19752f1bb7",
+   "title": "US Army tests AI-enabled 3D-printed C-UAS with Republic of Korea",
+   "summary": "The US Army&#8217;s 532nd Military Intelligence Battalion &#8216;Black Horse,&#8217; 501st Military Intelligence Brigade has been working in the Republic of Korea to identify and test The post US Army tests AI-enabled 3D-printed C-UAS with Republic of Korea first appeared on Unmanned airspace .",
+   "link": "https://www.unmannedairspace.info/counter-uas-systems-and-policies/us-army-tests-ai-enabled-3d-printed-c-uas-with-republic-of-korea/",
+   "source": "Unmanned Airspace",
+   "source_weight": 1.3,
+   "published": "2026-11-14T14:00:59+00:00",
+   "category": "Sonstiges",
+   "region": "World",
+   "categories": [],
+   "vendors": [],
+   "business_tags": [],
+   "signals": [],
+   "core_terms": [
+    "c-uas"
+   ],
+   "score_raw": 28.56,
+   "score": 29,
+   "corroboration": 1,
+   "also_in": [],
+   "first_seen": "2026-11-14T15:10:23.348878+00:00",
+   "ai_review": null,
+   "verdict": {
+    "kern": "Sonstiges – kein erkennbarer Bezug zu unseren Schutzobjekten.",
+    "bedeutung": "Kein Handlungsbedarf erkennbar.",
+    "einstufung": "beobachten",
+    "konfidenz": "regelbasiert"
+   }
+  },
+  {
+   "id": "8f79da21c33a5586",
+   "title": "European Union “to provide C-UAS support to Nigeria”",
+   "summary": "Nigeria will receive counter-uncrewed aerial systems capabilities as part of a EUR 20 million defence support package from the European Union, according to various Nigerian The post European Union “to provide C-UAS support to Nigeria” first appeared on Unmanned airspace .",
+   "link": "https://www.unmannedairspace.info/counter-uas-systems-and-policies/european-union-to-provide-c-uas-support-to-nigeria/",
+   "source": "Unmanned Airspace",
+   "source_weight": 1.3,
+   "published": "2026-11-14T13:42:17+00:00",
+   "category": "Sonstiges",
+   "region": "EMEA",
+   "categories": [],
+   "vendors": [],
+   "business_tags": [],
+   "signals": [],
+   "core_terms": [
+    "c-uas"
+   ],
+   "score_raw": 28.55,
+   "score": 29,
+   "corroboration": 1,
+   "also_in": [],
+   "first_seen": "2026-11-14T15:10:23.351251+00:00",
+   "ai_review": null,
+   "verdict": {
+    "kern": "Sonstiges – kein erkennbarer Bezug zu unseren Schutzobjekten.",
+    "bedeutung": "Kein Handlungsbedarf erkennbar.",
+    "einstufung": "beobachten",
+    "konfidenz": "regelbasiert"
+   }
+  },
+  {
+   "id": "fcef81b6318bb3fc",
+   "title": "US Army issues solicitation for C-UAS interceptor",
+   "summary": "The United States Army has issued a solicitation for a man-packable, kinetic counter-uncrewed aerial system interceptor intended for close-range defence against first-person-view and multirotor-class targets. The post US Army issues solicitation for C-UAS interceptor first appeared on Unmanned airspace .",
+   "link": "https://www.unmannedairspace.info/counter-uas-systems-tenders/us-army-issues-solicitation-for-c-uas-interceptor/",
+   "source": "Unmanned Airspace",
+   "source_weight": 1.3,
+   "published": "2026-11-14T13:17:27+00:00",
+   "category": "Technologie & Produkte",
+   "region": "World",
+   "categories": [
+    "Technologie & Produkte"
+   ],
+   "vendors": [],
+   "business_tags": [],
+   "signals": [
+    "interceptor"
+   ],
+   "core_terms": [
+    "c-uas"
+   ],
+   "score_raw": 37.08,
+   "score": 37,
+   "corroboration": 1,
+   "also_in": [],
+   "first_seen": "2026-11-14T15:10:23.353687+00:00",
+   "ai_review": null,
+   "verdict": {
+    "kern": "Technologie & Produkte – kein erkennbarer Bezug zu unseren Schutzobjekten.",
+    "bedeutung": "Kein Handlungsbedarf erkennbar.",
+    "einstufung": "beobachten",
+    "konfidenz": "regelbasiert"
+   }
+  },
+  {
+   "id": "12876d5309f9793e",
+   "title": "Inleap Photonics: Mit Laserstrahlen gegen Drohnen",
+   "summary": "Die Bundeswehr und das Start-up Inleap Photonics haben auf einem zivilen Flugplatz einen Laser zur Abwehr von Drohnen präsentiert. Der &#8230; mehr...",
+   "link": "https://esut.de/2026/11/fachbeitraege/76247/inleap-photonics-laser-drohnen/",
+   "source": "ESUT",
+   "source_weight": 1.2,
+   "published": "2026-11-14T12:36:49+00:00",
+   "category": "Technologie & Produkte",
+   "region": "DACH",
+   "categories": [
+    "Technologie & Produkte",
+    "Programme & Verbände"
+   ],
+   "vendors": [],
+   "business_tags": [],
+   "signals": [
+    "bundeswehr",
+    "laser"
+   ],
+   "core_terms": [
+    "abwehr von drohnen"
+   ],
+   "score_raw": 38.64,
+   "score": 39,
+   "corroboration": 1,
+   "also_in": [],
+   "first_seen": "2026-11-14T15:10:23.389384+00:00",
+   "ai_review": null,
+   "verdict": {
+    "kern": "Technologie & Produkte – kein erkennbarer Bezug zu unseren Schutzobjekten.",
+    "bedeutung": "Kein Handlungsbedarf erkennbar.",
+    "einstufung": "beobachten",
+    "konfidenz": "regelbasiert"
+   }
+  },
+  {
    "id": "ed33a61cc52d919d",
    "title": "Beretta's New Counter-Drone System Packs Eight Benelli M4 Shotguns Onto A Remote Turret",
    "summary": "Beretta's New Counter-Drone System Packs Eight Benelli M4 Shotguns Onto A Remote Turret TWZ",
@@ -48,8 +178,8 @@
     "counter-drone",
     "drone defense"
    ],
-   "score_raw": 34.46,
-   "score": 40,
+   "score_raw": 33.77,
+   "score": 34,
    "corroboration": 2,
    "also_in": [
     "Google News EN – Counter-UAS"
@@ -80,7 +210,7 @@
    "core_terms": [
     "counter-drone"
    ],
-   "score_raw": 14.95,
+   "score_raw": 14.65,
    "score": 15,
    "corroboration": 1,
    "also_in": [],
@@ -118,8 +248,8 @@
    "core_terms": [
     "counter-drone"
    ],
-   "score_raw": 39.22,
-   "score": 39,
+   "score_raw": 38.44,
+   "score": 38,
    "corroboration": 1,
    "also_in": [],
    "first_seen": "2026-11-13T20:28:56.956866+00:00",
@@ -153,8 +283,8 @@
    "core_terms": [
     "drone detection"
    ],
-   "score_raw": 41.36,
-   "score": 47,
+   "score_raw": 40.54,
+   "score": 41,
    "corroboration": 2,
    "also_in": [
     "Google News EN – Counter-UAS"
@@ -283,8 +413,8 @@
    "core_terms": [
     "c-uas"
    ],
-   "score_raw": 45.13,
-   "score": 51,
+   "score_raw": 44.25,
+   "score": 44,
    "corroboration": 2,
    "also_in": [
     "Google News EN – Counter-UAS"
@@ -425,8 +555,8 @@
    "core_terms": [
     "drohnenabwehr"
    ],
-   "score_raw": 40.84,
-   "score": 41,
+   "score_raw": 40.04,
+   "score": 40,
    "corroboration": 1,
    "also_in": [],
    "first_seen": "2026-11-13T13:06:08.878326+00:00",
@@ -676,8 +806,8 @@
    "core_terms": [
     "counter-uas"
    ],
-   "score_raw": 63.75,
-   "score": 70,
+   "score_raw": 62.53,
+   "score": 63,
    "corroboration": 2,
    "also_in": [
     "Google News EN – Counter-UAS"
@@ -853,8 +983,8 @@
     "counter-drone",
     "counter-uas"
    ],
-   "score_raw": 34.97,
-   "score": 41,
+   "score_raw": 34.31,
+   "score": 34,
    "corroboration": 2,
    "also_in": [
     "Google News EN – Counter-UAS"
@@ -891,8 +1021,8 @@
     "abfangdrohne",
     "drohnenabwehr"
    ],
-   "score_raw": 44.53,
-   "score": 51,
+   "score_raw": 43.69,
+   "score": 44,
    "corroboration": 2,
    "also_in": [
     "Google News DE – Drohnenabwehr"
@@ -81644,40 +81774,6 @@
     "konfidenz": "regelbasiert"
    },
    "region": "World"
-  },
-  {
-   "id": "477877b1631e0479",
-   "title": "Bundeswehr in Berlin und Brandenburg: Heimatschutz bereitet sich auf Drohnenabwehr vor",
-   "summary": "Bundeswehr in Berlin und Brandenburg: Heimatschutz bereitet sich auf Drohnenabwehr vor MOZ.de",
-   "link": "https://news.google.com/rss/articles/CBMi2gFBVV95cUxOZGUzWkd6OHk5UDYtY2tyYmc4WUtYdU52anRnczNIYm9TUHlWZnFFYzJsbWtOTzV0TzhsbGZTNWc5YVVSR1R5bXRNT0xWRnAxVGMwT3U5Wkx4eUctRHVINUNSWmdQbk9WTktpTGNxT1lNclh4WWQzRWtGZjRlN2loZGtOelhWampJM1RnVXcyMU50bGdheUlMd013bl9YTlNWZ3dUZG5aaVhTOXNFcVlVU0ZQbFhyaXpVdE0wWDl1RGJzLUpRWDJVeG9vNDg3LVRjcXdMYnlCNWZFQQ?oc=5",
-   "source": "Google News DE – Beschaffung/Recht",
-   "source_weight": 0.9,
-   "published": "2026-07-17T07:00:00+00:00",
-   "category": "Programme & Verbände",
-   "region": "DACH",
-   "categories": [
-    "Programme & Verbände"
-   ],
-   "vendors": [],
-   "business_tags": [],
-   "signals": [
-    "bundeswehr"
-   ],
-   "core_terms": [
-    "drohnenabwehr"
-   ],
-   "score_raw": 13.96,
-   "score": 14,
-   "corroboration": 1,
-   "also_in": [],
-   "first_seen": "2026-09-23T19:03:36.560118+00:00",
-   "ai_review": null,
-   "verdict": {
-    "kern": "Programme & Verbände – kein erkennbarer Bezug zu unseren Schutzobjekten.",
-    "bedeutung": "Kein Handlungsbedarf erkennbar.",
-    "einstufung": "beobachten",
-    "konfidenz": "regelbasiert"
-   }
   }
  ],
  "runs": [
@@ -82570,10 +82666,39 @@
    "at": "2026-11-13T20:28:49.783634+00:00",
    "found": 130,
    "new": 9
+  },
+  {
+   "at": "2026-11-14T15:10:10.086656+00:00",
+   "found": 13,
+   "new": 4
   }
  ],
- "generated": "2026-11-13T20:28:49.783634+00:00",
+ "generated": "2026-11-14T15:10:10.086656+00:00",
  "problems": [
+  [
+   "Google News DE – Drohnenabwehr",
+   "nicht lesbar (SAXParseException)"
+  ],
+  [
+   "Google News DE – Drohnensichtung KRITIS",
+   "nicht lesbar (SAXParseException)"
+  ],
+  [
+   "Google News DE – Beschaffung/Recht",
+   "nicht lesbar (SAXParseException)"
+  ],
+  [
+   "Google News EN – Counter-UAS",
+   "nicht lesbar (SAXParseException)"
+  ],
+  [
+   "Google News EN – C-UAS contracts",
+   "nicht lesbar (SAXParseException)"
+  ],
+  [
+   "Google News EN – Airport drone disruption",
+   "nicht lesbar (SAXParseException)"
+  ],
   [
    "The Defense Post",
    "nicht lesbar (SAXParseException)"
